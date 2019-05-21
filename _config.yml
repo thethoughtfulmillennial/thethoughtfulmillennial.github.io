@@ -13,7 +13,7 @@ description: "Xcent is a Responsive One Page Personal Template for creative peop
 
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl: 
+baseurl:  "/testpage"
 
 sass:
   sass_dir: _sass
