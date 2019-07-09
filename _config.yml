@@ -33,3 +33,8 @@ facebook_username: "yongt9412"
 instagram_username: "bolivianwanderer"
 pinterest_username: "username"
 linkedin_username: "username"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name

@@ -61,123 +61,38 @@ layout: default
 
 	<!-- Portfolio start -->
 
-	<section id="portfolio" class="module">
+	<section id="portfolio" class="module blog module-gray">
+		<div class="container">
+			<div class="module-header">
+				<h2 class="module-title">My projects
+					<span>Projects</span>
+				</h2>
+				<div class="module-line"></div>
+			</div>
+		</div>
+		<ul class="list-items-container">
+			{% for project in site.projects limit:3 %}
+			<li class="list-item" data-groups="all slideshow">
+				<figure>
+					<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
+					<figcaption>
+						<a href="{{site.baseurl}}{{project.url}}"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">{{project.title}}</h3>
+							<div class="portfolio-item-desc">{{project.category}}</div>
+						</div>
+					</figcaption>
+				</figure>
+			</li>
+			{% endfor %}
+		</ul>
 		<div class="container">
 			<div class="row">
-
-				<div class="module-header">
-					<h2 class="module-title">
-						My works
-						<span>Portfolio</span>
-					</h2>
-					<div class="module-line"></div>
-				</div>
-
-			</div><!-- .row -->
-
-			<!-- Portfolio Filter start-->
-
-			<div class="row">
-
 				<div class="col-sm-12">
-
-					<ul id="filter">
-						<li class="active" data-group="all">All</li>
-						<li data-group="slideshow">Slideshow</li>
-						<li data-group="video">Video</li>
-						<li data-group="image">Image</li>
-					</ul>
-
+					<a class="blog-viewMore" href="{{site.baseurl}}project.html">VIEW MORE</a>
 				</div>
-
 			</div><!-- .row -->
-
-			<!-- Portfolio Filter end -->
-
-		</div><!-- .contaier -->
-
-		<ul class="list-items-container">
-
-			<li class="list-item" data-groups="all slideshow">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p1-1.jpg" alt="p1">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Slideshow</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all video">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p2-2.jpg" alt="p2">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Video</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all image">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p3-3.jpg" alt="p3">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all slideshow">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p4-4.jpg" alt="p4">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Slideshow</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all video">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p5-5.jpg" alt="p5">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Video</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all image">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p6-6.jpg" alt="p6">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-		</ul><!-- .projects-container -->
-
+		</div><!-- .container -->
 	</section>
 
 	<!-- Portfolio end -->
@@ -189,8 +104,8 @@ layout: default
 
 			<div class="module-header wow fadeInUp">
 				<h2 class="module-title">
-					My Services
-					<span>Services</span>
+					My Skills
+					<span>Skills</span>
 				</h2>
 				<div class="module-line"></div>
 			</div>
