@@ -3,7 +3,6 @@ layout: post
 title: "A good year as Drupal contributor"
 date: 2017-09-25
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-banner_preview: blog1.jpg
 banner_image: year_as_contributor_1.png
 category: Coding
 tags: [contrib, drupal]

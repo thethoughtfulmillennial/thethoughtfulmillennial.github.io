@@ -3,7 +3,6 @@ layout: post
 title: "OpenCalais and semantic tags"
 date: 2017-07-04
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-banner_preview: blog1.jpg
 banner_image: opencalais_1.jpg
 category: Coding
 tags: [contrib, drupal, module]

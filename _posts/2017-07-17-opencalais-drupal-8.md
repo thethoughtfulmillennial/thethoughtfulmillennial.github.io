@@ -3,7 +3,6 @@ layout: post
 title: "OpenCalais and Drupal 8"
 date: 2017-07-17
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-banner_preview: blog1.jpg
 banner_image: oc_d8_banner.jpeg
 category: Coding
 tags: [contrib, drupal, module]
