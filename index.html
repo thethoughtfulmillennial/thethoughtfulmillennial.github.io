@@ -2,403 +2,286 @@
 layout: default
 ---
 
-	<!-- Home start -->
+<!-- Home start -->
 
-	<section id="home" class="module-image js-height-full">
+<section id="home" class="module-image js-height-full">
 
-		<div class="intro">
-			<div class="hello">Hello, my name is John and</div>
-			<h1>I am a Social Entrepreneur</h1>
-			<div class="who-creates">creating digital solutions for a sustainable future</div>
-		</div>
+	<div class="intro">
+		<div class="hello">Hello, my name is John and</div>
+		<h1>I am a Social Entrepreneur</h1>
+		<div class="who-creates">creating digital solutions for a sustainable future</div>
+	</div>
 
-		<div class="mouse-icon">
-			<div class="wheel"></div>
-		</div>
+	<div class="mouse-icon">
+		<div class="wheel"></div>
+	</div>
 
-	</section>
+</section>
 
-	<!-- Home end -->
+<!-- Home end -->
 
-	<!-- Navigation start -->
+<!-- Navigation start -->
 
-    <header class="header">
+<header class="header">
 
-        <nav class="navbar navbar-custom">
+	<nav class="navbar navbar-custom">
 
-            <div class="container">
-
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-					<a class="navbar-brand" href="/index.html">
-						<img class="logo--small" src="/assets/images/icon-simple.svg">
-					</a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="custom-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">home</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <li><a href="#services">Service</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div><!-- .container -->
-
-        </nav>
-
-    </header>
-
-    <!-- Navigation end -->
-
-	<!-- Portfolio start -->
-
-	<section id="portfolio" class="module blog">
 		<div class="container">
-			<div class="module-header">
-				<h2 class="module-title">My projects
-					<span>Projects</span>
-				</h2>
-				<div class="module-line"></div>
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html">
+					<img class="logo--small" src="/assets/images/icon-simple.svg">
+				</a>
 			</div>
+
+			<div class="collapse navbar-collapse" id="custom-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">home</a></li>
+					<li><a href="#portfolio">Works</a></li>
+					<li><a href="#services">Service</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+
+		</div><!-- .container -->
+
+	</nav>
+
+</header>
+
+<!-- Navigation end -->
+
+<!-- Portfolio start -->
+
+<section id="portfolio" class="module module-gray blog">
+	<div class="container">
+		<div class="module-header">
+			<h2 class="module-title">My projects
+				<span>Projects</span>
+			</h2>
+			<div class="module-line"></div>
 		</div>
-		<ul class="list-items-container">
-			{% for project in site.projects limit:3 %}
-			<li class="list-item" data-groups="all slideshow">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
-					<figcaption>
-						<a href="{{site.baseurl}}{{project.url}}"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">{{project.title}}</h3>
-							<div class="portfolio-item-desc">{{project.category}}</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-			{% endfor %}
-		</ul>
-		<div class="container">
+	</div>
+	<ul class="list-items-container">
+		{% for project in site.projects limit:3 %}
+		<li class="list-item" data-groups="all slideshow">
+			<figure>
+				<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
+				<figcaption>
+					<a href="{{site.baseurl}}{{project.url}}"></a>
+					<div class="caption-inner">
+						<h3 class="portfolio-item-title">{{project.title}}</h3>
+						<div class="portfolio-item-desc">{{project.category}}</div>
+					</div>
+				</figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<a class="blog-viewMore" href="{{site.baseurl}}projects.html">VIEW MORE</a>
+			</div>
+		</div><!-- .row -->
+	</div><!-- .container -->
+</section>
+
+<!-- Portfolio end -->
+
+<!-- About start -->
+
+<section id="about">
+
+	<div class="row position-relative margin-0">
+
+		<div class="col-xs-12 col-md-6 side-image"></div>
+
+		<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+
 			<div class="row">
+
 				<div class="col-sm-12">
-					<a class="blog-viewMore" href="{{site.baseurl}}projects.html">VIEW MORE</a>
+
+					<div class="module-header wow fadeInUp">
+						<h2 class="module-title">
+							About me
+							<span>About</span>
+						</h2>
+						<div class="module-line"></div>
+					</div>
+
 				</div>
+
 			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Portfolio end -->
-
-	<!-- Services start -->
-
-	<section id="services" class="module module-gray">
-		<div class="container">
-
-			<div class="module-header wow fadeInUp">
-				<h2 class="module-title">
-					My Skills
-					<span>Skills</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
 
 			<div class="row">
-
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp">
-						<div class="iconbox-icon">
-							<i class="fas fa-code"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Development</h3>
-							<div class="iconbox-desc">
-								From PHP and Drupal to Python or C#. Eager to learn new tools and willing to do the hard work. The cleaner the code the better. 
-							</div>
-						</div>
-					</div>
+				<div class="col-md-6 col-sm-6">
+					<h3 class="title"> My reason</h3>
+					<p>Once you realize how hurt you are, you can find reasons to fight. Injustice with the isolated is what makes me believe
+						that we need to work for a more cohesive society. 
+					</p>
 				</div>
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp">
-						<div class="iconbox-icon">
-							<i class="fas fa-desktop"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Mobile development</h3>
-							<div class="iconbox-desc">
-								Native apps and cross platform frameworks. Once there is a reason to use one, there will be code to be written.
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp" data-wow-delay=".2s">
-						<div class="iconbox-icon">
-							<i class="fab fa-palette"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">UX/UI Design</h3>
-							<div class="iconbox-desc">
-								Clean code, cleaner interface. The way how users interact with software is crucial. Figma and SVG design is part of my skills.
-							</div>
-						</div>
-					</div>
-				</div>
+				<div class="col-md-6 col-sm-6">
+					<h3 class="">My skills</h3>
 
-				<div class="col-sm-4">
+					<p>This is what I know:</p>
 
-					<div class="iconbox wow fadeInUp" data-wow-delay=".4s">
-						<div class="iconbox-icon">
-							<i class="far fa-comments"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Story-telling</h3>
-							<div class="iconbox-desc">
-								Stories with a clear explanation resemble the all feelings. I create short stories for videogames and clips. 
-							</div>
+					<!--progress bar start-->
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+							aria-valuemax="100" style="width: 85%">
+							<div class="skills-info">Web development <span>85%</span></div>
 						</div>
 					</div>
 
-				</div>
-
-				<div class="col-sm-4">
-
-					<div class="iconbox wow fadeInUp" data-wow-delay=".6s">
-						<div class="iconbox-icon">
-							<i class="fas fa-palette"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Design</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+							aria-valuemax="100" style="width: 85%">
+							<div class="skills-info">Mobile Development <span>85%</span></div>
 						</div>
 					</div>
+
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+							aria-valuemax="100" style="width: 75%">
+							<div class="skills-info">UX/UI Design <span>75%</span></div>
+						</div>
+					</div>
+
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100" style="width: 70%">
+							<div class="skills-info">Story-telling <span>70%</span></div>
+						</div>
+					</div>
+
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100" style="width: 70%">
+							<div class="skills-info">Drawing <span>70%</span></div>
+						</div>
+					</div>
+
+					<div class="progress mild-progress-style">
+						<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+							aria-valuemax="100" style="width: 65%">
+							<div class="skills-info">Music <span>65%</span></div>
+						</div>
+					</div>
+					<!--progress bar end-->
 
 				</div>
+			</div>
+			<div class="col-sm-12">
+				<a class="blog-viewMore" href="#">Download Resume</a>
+			</div>
 
-				<div class="col-sm-4">
+		</div><!-- col-xs-12 -->
 
-					<div class="iconbox wow fadeInUp" data-wow-delay=".8s">
-						<div class="iconbox-icon">
-							<i class="fas fa-rocket"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
+	</div><!-- .row -->
+</section>
+
+<!-- About end -->
+
+<!-- Blog start -->
+
+<section id="blog" class="module blog module-gray">
+	<div class="container">
+
+		<div class="module-header">
+			<h2 class="module-title">Blog
+				<span>Articles</span>
+			</h2>
+			<div class="module-line"></div>
+		</div>
+
+		<div class="row">
+
+			{% for post in site.posts limit:3 %}
+			<div class="col-sm-4">
+				<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
+					<div class="blogList-img">
+						{% if post.banner_image %}
+						<img src="{{ "assets/images/post/" | append: post.banner_image | prepend: site.baseurl }}"
+							alt="Blog Desc">
+						{% endif %}
+						{% if post.category %}
+						<span>{{post.category}}</span>
+						{% endif %}
 					</div>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Services end -->
-
-	<!-- About start -->
-
-	<section id="about">
-
-		<div class="row position-relative margin-0">
-
-			<div class="col-xs-12 col-md-6 side-image"></div>
-
-			<div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
-
-				<div class="row">
-
-					<div class="col-sm-12">
-
-						<div class="module-header wow fadeInUp">
-							<h2 class="module-title">
-								About me
-								<span>About</span>
-							</h2>
-							<div class="module-line"></div>
-						</div>
-
+					<div class="blogList-desc">
+						<h3>{{post.title}}</h3>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua Ut enim...</div>
 					</div>
+				</a>
+			</div>
+			{% endfor %}
 
-				</div><!-- .row -->
-
-				<div class="row">
-
-					<div class="col-sm-6">
-
-						<div class="iconboxleft wow fadeInUp">
-							<div class="iconboxleft-icon">
-								<i class="fas fa-globe"></i>
-							</div>
-							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Entrepreneur</h3>
-								<div class="iconboxleft-desc">
-									I have been working the last two years for solutions adressing education problems. I create Hubbing.net as a result of my efforts.
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-sm-6">
-
-						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
-							<div class="iconboxleft-icon">
-								<i class="fas fa-camera-retro"></i>
-							</div>
-							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Traveler</h3>
-								<div class="iconboxleft-desc">
-									I travel around the world as a way of seeking inner peace. I have been in over 15 countries and more to come soon.
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- .row -->
-
-				<div class="row">
-
-					<div class="col-sm-6">
-
-						<div class="iconboxleft wow fadeInUp">
-							<div class="iconboxleft-icon">
-								<i class="fas fa-paint-brush"></i>
-							</div>
-							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Artist</h3>
-								<div class="iconboxleft-desc">
-									I write poetry on my spare time but I am certainly in love with art. I represent my thoughts with drawings too.
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-sm-6">
-
-						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
-							<div class="iconboxleft-icon">
-								<i class="fas fa-book"></i>
-							</div>
-							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Learner</h3>
-								<div class="iconboxleft-desc">
-									My guide in life. Life is only once and the more you know the more you understand our place in the universe.
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- .row -->
-
-			</div><!-- col-xs-12 -->
+			<div class="col-sm-12">
+				<a class="blog-viewMore" href="{{site.baseurl}}blog.html">VIEW MORE</a>
+			</div>
 
 		</div><!-- .row -->
-	</section>
+	</div><!-- .container -->
+</section>
 
-	<!-- About end -->
+<!-- Blog end -->
 
-	<!-- Blog start -->
+<!-- Contact start -->
 
-	<section id="blog" class="module blog module-gray">
-		<div class="container">
+<section id="contact" class="module">
+	<div class="container">
 
-			<div class="module-header">
-				<h2 class="module-title">Blog
-					<span>Articles</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
+		<div class="module-header">
+			<h2 class="module-title">Contact
+				<span>Contact</span>
+			</h2>
+			<div class="module-line"></div>
+		</div>
 
-			<div class="row">
-
-            	{% for post in site.posts limit:3 %}
-					<div class="col-sm-4">
-						<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-							<div class="blogList-img">
-								{% if post.banner_image %}
-									<img src="{{ "assets/images/post/" | append: post.banner_image | prepend: site.baseurl }}" alt="Blog Desc">
-								{% endif %}
-								{% if post.category %}
-								<span>{{post.category}}</span>
-								{% endif %}
-							</div>
-							<div class="blogList-desc">
-								<h3>{{post.title}}</h3>
-								<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...</div>
-							</div>
-						</a>
-					</div>
-				{% endfor %}
-
-				<div class="col-sm-12">
-					<a class="blog-viewMore" href="{{site.baseurl}}blog.html">VIEW MORE</a>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="col-sm-3 module-header">
+					<a href="https://www.facebook.com/{{ site.facebook_username }}">
+						<div class="module-icon">
+							<i class="fab fa-facebook-f"></i>
+						</div>
+					</a>
 				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Blog end -->
-
-	<!-- Contact start -->
-
-	<section id="contact" class="module">
-		<div class="container">
-
-			<div class="module-header">
-				<h2 class="module-title">Contact
-					<span>Contact</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
-	
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="col-sm-3 module-header">
-						<a href="https://www.facebook.com/{{ site.facebook_username }}">
-							<div class="module-icon">
-								<i class="fab fa-facebook-f"></i>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-3 module-header">
-						<a href="https://www.twitter.com/{{ site.twitter_username }}">
-							<div class="module-icon">
-								<i class="fab fa-twitter"></i>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-3 module-header">
-						<a href="https://www.instagram.com/{{ site.instagram_username }}">
-							<div class="module-icon">
-								<i class="fab fa-instagram"></i>
-							</div>
-						</a>
-					</div>
-					<div class="col-sm-3 module-header">
-						<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-							<div class="module-icon">
-								<i class="fab fa-linkedin-in"></i>
-							</div>
-						</a>
-					</div>
+				<div class="col-sm-3 module-header">
+					<a href="https://www.twitter.com/{{ site.twitter_username }}">
+						<div class="module-icon">
+							<i class="fab fa-twitter"></i>
+						</div>
+					</a>
 				</div>
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+				<div class="col-sm-3 module-header">
+					<a href="https://www.instagram.com/{{ site.instagram_username }}">
+						<div class="module-icon">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3 module-header">
+					<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+						<div class="module-icon">
+							<i class="fab fa-linkedin-in"></i>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div><!-- .row -->
+	</div><!-- .container -->
+</section>
 
-	<!-- Contact end -->
+<!-- Contact end -->
