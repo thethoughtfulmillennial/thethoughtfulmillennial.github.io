@@ -43,10 +43,9 @@ layout: default
 
 			<div class="collapse navbar-collapse" id="custom-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home">home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Works</a></li>
-					<li><a href="#skill">Skills</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#skills">Skills</a></li>
 					<li><a href="#blog">Blog</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -77,9 +76,9 @@ layout: default
 
 			<div class="col-sm-8 col-sm-offset-2">
 				<p>
-					<p>I am passionate about Sustainable Development 
-						and Music. Facilitator and builder on various projects on industry. Mental health 
-						and Gender Equality advocate. Good communicator and planner with a strong logical judgement, 
+					<p>I am passionate about Sustainable Development
+						and Music. Facilitator and builder on various projects on industry. Mental health
+						and Gender Equality advocate. Good communicator and planner with a strong logical judgement,
 						with experience at different international events and programs.</p>
 				</p>
 			</div>
@@ -102,7 +101,8 @@ layout: default
 		</div>
 	</div>
 	<ul class="list-items-container">
-		{% for project in site.projects limit:3 %}
+		{% assign ordered_projects = site.projects | sort:"order" %
+		{% for project in ordered_projects limit:3 %}
 		<li class="list-item" data-groups="all slideshow">
 			<figure>
 				<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
@@ -303,7 +303,7 @@ layout: default
 
 		<div class="module-header">
 			<h2 class="module-title">Contact
-				<span>Contact</span>
+				<span>Get in touch!</span>
 			</h2>
 			<div class="module-line"></div>
 		</div>
