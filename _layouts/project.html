@@ -10,7 +10,7 @@ layout: default
 	<div class="container">
 		<div class="blog-detail-banner wow fadeIn">
 			{% if page.banner_image %}
-				<img src="/assets/images/post/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+				<img src="/assets/images/project/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% endif %}
 		</div>
 		<div class="blog-detail-contents wow fadeInUp">
@@ -47,27 +47,6 @@ layout: default
 								{% endif %}
 							</ul>
 						</div>
-					</div>
-				</div>
-				<div class="blog-detail-sib">
-					<div class="row">
-						{% if page.previous.url %}
-						<div class="col-md-6">
-							<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
-								<span>Previous</span>
-								<p>{{page.previous.title}}</p>
-							</a>
-						</div>
-						{% endif %}
-
-						{% if page.next.url %}
-						<div class="col-md-6">
-							<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
-								<span>Next</span>
-								<p>{{page.next.title}}</p>
-							</a>
-						</div>
-						{% endif %}
 					</div>
 				</div>
 			</div>
