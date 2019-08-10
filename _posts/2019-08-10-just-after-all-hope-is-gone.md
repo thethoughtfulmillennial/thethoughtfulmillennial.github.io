@@ -2,7 +2,7 @@
 layout: post
 title: "Just after all hope is gone"
 date: 2019-08-10
-description: "Depression, such a complex word that explains certain times in life. When I first read about YSI Global"
+description: "Depression, such a complex word that explains certain times in life. When I first read about YSI Global I was not sure what to do with..."
 banner_image: after_all_hope.jpg
 category: Entrepreneurship
 tags: [ysi, mental health, entrepreneurship]
