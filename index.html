@@ -101,7 +101,7 @@ layout: default
 		</div>
 	</div>
 	<ul class="list-items-container">
-		{% assign ordered_projects = site.projects | sort:"order" %
+		{% assign ordered_projects = site.projects | sort:"order" %}
 		{% for project in ordered_projects limit:3 %}
 		<li class="list-item" data-groups="all slideshow">
 			<figure>
