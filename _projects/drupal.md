@@ -2,9 +2,24 @@
 layout: project
 title: "Drupal"
 date: 2017-05-22
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: drupal.png
 category: Coding
 order: 1
 ---
 Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.
+
+I started my journey with Drupal in 2015 when I was accepted for an internship at MD Systems through IAESTE Bolivia. Thanks to that I was able to be the top 15th contributor of Drupal in the world in 2017. Thanks to MD Systems I was able to work on the following projects around the Drupal ecosystem.
+
+## Paragraphs
+Paragraphs is one of the most used Drupal modules at the moment. It allows users to add a replacement for the Body field (where the user usually adds the conent of a page) with a dynamic field where the user can add different types of Paragraphs with differente fields and configuration.
+Around my work with Paragraphs I was lucky to implement:
+1. The behavior plugin system [See more](https://www.drupal.org/project/paragraphs/issues/2828506).
+    - Allows the user to create custom plugins that can alter the behavior and display of Paragraphs when being rendered.
+    - Enables perspective tabs over the Paragraphs field to display the Entity field or the Plugin config.
+    - Allows to set specific configuration per Paragraph type.
+2. The paragraph summary [See more](https://www.drupal.org/project/paragraphs/issues/3012053)
+    - Create a visual difference between the plugins config and the Paragraphs fields.
+    - Is updated dinamically and display icons for better overview.
+3. "Add before" button [See more](https://www.drupal.org/project/paragraphs/issues/2946514)
+    - Much work with automated testing following the Drupal testing framework.
+    - Working with JS for adding the button and its behavior.
