@@ -12,8 +12,8 @@ layout: default
 
 			<div class="module-header">
 				<h2 class="module-title">
-					Projects
-					<span>My Projects</span>
+					My projects
+					<span>Projects</span>
 				</h2>
 				<div class="module-line"></div>
 			</div>
@@ -29,8 +29,8 @@ layout: default
 				<ul id="filter">
 					<li class="active" data-group="all">All</li>
 					{% assign categories = site.projects | map: 'category' | uniq %}
-						{% for category in categories %}
-						<li data-group="{{ category }}">{{ category }}</li>
+					{% for category in categories %}
+					<li data-group="{{ category }}">{{ category }}</li>
 					{% endfor %}
 				</ul>
 
@@ -41,13 +41,14 @@ layout: default
 		<!-- Blog Filter end -->
 
 		<ul class="list-items-container blog-wrapper">
-
-			{% for project in site.projects %}
+			{% assign ordered_projects = site.projects | sort:"order" %}
+			{% for project in ordered_projects %}
 
 			<li class="list-item" data-groups="all {{ project.category }}">
 				<a href="{{site.baseurl}}{{project.url}}" class="blogList wow fadeInUp">
 					<div class="blogList-img">
-						<img src="{{ "/assets/images/project/" | append: game.banner_preview | prepend: site.baseurl }}" alt="Blog Desc">
+						<img src="{{ "/assets/images/project/" | append: project.banner_image | prepend: site.baseurl }}"
+							alt="Blog Desc">
 						<span>{{ project.category }}</span>
 					</div>
 					<div class="blogList-desc">
