@@ -43,7 +43,7 @@ layout: default
 		<ul class="list-items-container blog-wrapper">
 			{% assign ordered_projects = site.projects | sort:"order" %}
 			{% for project in ordered_projects %}
-			<li class="list-item" data-groups="all slideshow">
+			<li class="list-item" data-groups="all {{ project.category }}">
 				<figure>
 					<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
 					<figcaption>
