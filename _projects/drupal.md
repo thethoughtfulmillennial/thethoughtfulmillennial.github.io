@@ -3,7 +3,7 @@ layout: project
 title: "Drupal"
 date: 2017-05-22
 banner_image: drupal.png
-category: Coding
+category: Software
 order: 1
 ---
 Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.

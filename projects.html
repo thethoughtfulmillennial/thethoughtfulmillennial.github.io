@@ -43,23 +43,19 @@ layout: default
 		<ul class="list-items-container blog-wrapper">
 			{% assign ordered_projects = site.projects | sort:"order" %}
 			{% for project in ordered_projects %}
-
-			<li class="list-item" data-groups="all {{ project.category }}">
-				<a href="{{site.baseurl}}{{project.url}}" class="blogList wow fadeInUp">
-					<div class="blogList-img">
-						<img src="{{ "/assets/images/project/" | append: project.banner_image | prepend: site.baseurl }}"
-							alt="Blog Desc">
-						<span>{{ project.category }}</span>
-					</div>
-					<div class="blogList-desc">
-						<h3>{{ project.title }}</h3>
-						<div>{{ project.description }}</div>
-					</div>
-				</a>
+			<li class="list-item" data-groups="all slideshow">
+				<figure>
+					<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
+					<figcaption>
+						<a href="{{site.baseurl}}{{project.url}}"></a>
+						<div class="caption-inner">
+							<h3 class="portfolio-item-title">{{project.title}}</h3>
+							<div class="portfolio-item-desc">{{project.category}}</div>
+						</div>
+					</figcaption>
+				</figure>
 			</li>
-
 			{% endfor %}
-
 
 		</ul><!-- .projects-container -->
 	</div><!-- .contaier -->
