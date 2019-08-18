@@ -127,20 +127,12 @@ if($('.youtube-bg').length == 1) {
 }
 
 /* ---------------------------------------------- /*
-* Collapse menu when selecting or pressing outside
+* Collapse menu when selecting
 /* ---------------------------------------------- */
 
-	$(".navbar").click(function () {
-		var navBar = $(".navbar .navbar-collapse");
-		if (navBar.hasClass("in")) {
-			navBar.removeClass("in");
-		}
-		if (navBar.attr( 'aria-expanded') === 'true') {
-            $(this).attr( 'aria-expanded', 'false');
-        } else {
-            $(this).attr( 'aria-expanded', 'true');
-        }
-	});
+$('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
 
 })(jQuery);
 
