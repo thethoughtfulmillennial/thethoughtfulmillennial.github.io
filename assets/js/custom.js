@@ -126,5 +126,19 @@ if($('.youtube-bg').length == 1) {
 	$(".youtube-bg").mb_YTPlayer();
 }
 
+/* ---------------------------------------------- /*
+* Collapse menu when selecting or pressing outside
+/* ---------------------------------------------- */
+
+	$(".navbar").click(function () {
+		navBar = $(".navbar .navbar-collapse");
+		navBar.toggleClass("in");
+		if (navBar.attr( 'aria-expanded') === 'true') {
+            $(this).attr( 'aria-expanded', 'false');
+        } else {
+            $(this).attr( 'aria-expanded', 'true');
+        }
+	});
 
 })(jQuery);
+
