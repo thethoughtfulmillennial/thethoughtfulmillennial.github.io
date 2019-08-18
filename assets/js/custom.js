@@ -127,7 +127,7 @@ if($('.youtube-bg').length == 1) {
 }
 
 /* ---------------------------------------------- /*
-* Collapse menu when selecting
+* Collapse menu when selecting an option
 /* ---------------------------------------------- */
 
 $('.navbar-collapse a').click(function(){
