@@ -131,8 +131,10 @@ if($('.youtube-bg').length == 1) {
 /* ---------------------------------------------- */
 
 	$(".navbar").click(function () {
-		navBar = $(".navbar .navbar-collapse");
-		navBar.toggleClass("in");
+		var navBar = $(".navbar .navbar-collapse");
+		if (navBar.hasClass("in")) {
+			navBar.removeClass("in");
+		}
 		if (navBar.attr( 'aria-expanded') === 'true') {
             $(this).attr( 'aria-expanded', 'false');
         } else {
