@@ -9,9 +9,10 @@ tags: [Bolivia, awareness]
 ---
 
 For international donations, please go to www.waterthruskin.com/aid-bolivia
+
 For spreading awareness use #SOSBolivia
 
-Dear Bolivia
+---
 
 Dear Bolivia you are on fire. I am afraid of losing you and have no words to describe my anger.
 
@@ -30,5 +31,8 @@ I hope the best for you and I am sure that one day, these useless politicians wi
 Yours,
 John
 
+---
+
 For international donations, please go to www.waterthruskin.com/aid-bolivia
+
 For spreading awareness use #SOSBolivia
