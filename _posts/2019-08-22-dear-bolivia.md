@@ -8,7 +8,7 @@ category: Thoughts
 tags: [Bolivia, awareness]
 ---
 
-For international donations, please go to www.waterthruskin.com/aid-bolivia
+For international donations, please go [here](https://www.waterthruskin.com/aid-bolivia)
 
 For spreading awareness use #SOSBolivia
 
@@ -29,10 +29,11 @@ And now, your people are fighting back. Countless hours of work for saving your 
 I hope the best for you and I am sure that one day, these useless politicians will be gone and our world will be a better place. I will do my best for you.
 
 Yours,
+
 John
 
 ---
 
-For international donations, please go to www.waterthruskin.com/aid-bolivia
+For international donations, please go [here](https://www.waterthruskin.com/aid-bolivia)
 
 For spreading awareness use #SOSBolivia
