@@ -40,7 +40,7 @@ layout: default
 
 		<!-- Blog Filter end -->
 
-		<ul class="list-items-container blog-wrapper">
+		<ul class="list-items-container images-loaded shuffle">
 			{% assign ordered_projects = site.projects | sort:"order" %}
 			{% for project in ordered_projects %}
 			<li class="list-item" data-groups="all {{ project.category }}">
