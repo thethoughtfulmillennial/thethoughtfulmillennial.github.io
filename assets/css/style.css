@@ -1070,7 +1070,7 @@ figure {
 }
 
 .side-image-text {
-	background: #fff;
+	background-color: #2C2F36;
 	padding: 100px 60px 50px;
 }
 
@@ -1151,13 +1151,12 @@ figure {
 }
 
 .blogList {
-	background: #fff none repeat scroll 0 0;
     position: relative;
     max-width: 340px;
     margin: 30px auto;
     box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
     display: block;
-    color: #5b5963 !important;
+    color: #C9D3E7;
     transition: all 0.3s ease 0s;
     position: relative;
     font-size: inherit;
@@ -1182,7 +1181,7 @@ figure {
     position: absolute;
     right: 10px;
     bottom: 10px;
-    background: #fff;
+    background: #101010;
     padding: 3px 10px;
     border-radius: 3px;
     box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
@@ -1192,7 +1191,6 @@ figure {
 }
 
 .blogList:hover {
-	margin-top: 25px;
 }
 
 .blogList:hover .blogList-img span {
@@ -1415,47 +1413,45 @@ figure {
 *  10. Footer
 /* ---------------------------------------------- */
 
-#footer {
-	text-align: center;
-	padding: 40px 0;
-	color: #FFF;
-	background: #333
+.footer {
+	padding: 50px 0;
+    margin-top: 30px;
+    background: #101010;
 }
 
-.copyright {
-	margin: 0;
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #3E4250;
 }
 
-.social-links {
-	list-style: none;
-	padding: 0;
-	margin: 0 0 20px;
+.footer-top .logo-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #C9D3E7;
 }
 
-.social-links li {
-	display: inline-block;
-	margin: 5px;
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.social-links a {
-	width: 36px;
-	height: 36px;
-	display: block;
-	line-height: 37px;
-	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .8);
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	font-size: 14px;
-	color: rgba(255, 255, 255, .8);
+.footer-bottom .copyright {
+    margin-right: 60px;
 }
 
-.social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .5);
+.list-reset {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 
 /* ---------------------------------------------- /*
 *  11. Scroll to top
