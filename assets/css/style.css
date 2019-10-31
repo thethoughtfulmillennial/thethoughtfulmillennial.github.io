@@ -1157,7 +1157,8 @@ figure {
     margin: 30px auto;
     box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
     display: block;
-    color: #C9D3E7;
+	color: #C9D3E7;
+	background-color: #232427;
     transition: all 0.3s ease 0s;
     position: relative;
     font-size: inherit;
