@@ -7,13 +7,13 @@ layout: default
 <!-- Blog Detail Start -->
 
 <section class="blog-detail">
-	<div>
-		<div class="blog-detail-banner wow fadeIn container">
+	<div class="container">
+		<div class="blog-detail-banner wow fadeIn row">
 			{% if page.banner_image %}
 				<img src="/assets/images/project/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
 			{% endif %}
 		</div>
-		<div class="blog-detail-contents wow fadeInUp container">
+		<div class="blog-detail-contents wow fadeInUp row">
 			<h2>{{page.title}}</h2>
 			<div class="blog-detail-about clearfix">
 				<div class="media pull-left">

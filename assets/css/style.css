@@ -1419,7 +1419,6 @@ figure {
 
 .footer {
 	padding: 50px 0;
-    margin-top: 30px;
     background: #101010;
 }
 
@@ -1684,8 +1683,8 @@ figure {
 	}
 
 	.blog-detail-contents {
-		margin: 0;
-		padding: 30px 0;
+		margin: -15px;
+		padding: 30px 15px;
 	}
 }
 
