@@ -8,4 +8,6 @@ category: Community
 order: 4
 ---
 
-{% include youtube_player.html id='rj74f3SGkJg&list=PLBV9IH04mdphWUrvY_JGnr44bveSV2S4j' %}
+While working with TEDxUCB I had the awesome opportunity to expand my artistic interests. I was able to have filming sessions with each one of our speakers to make an introductory video for them.
+
+{% include youtube_player.html id='rj74f3SGkJg' %}
