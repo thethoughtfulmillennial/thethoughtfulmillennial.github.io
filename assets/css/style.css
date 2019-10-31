@@ -780,8 +780,9 @@ textarea.form-control {
 	background: #f5f5f5;
 }
 
-.navbar-custom .navbar-toggle .icon-bar {
-	background: #5b5963;
+.navbar-custom .navbar-toggle {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
@@ -1188,6 +1189,10 @@ figure {
     color: #429f98;
     transition: all 0.5s ease 0s;
     text-transform: capitalize;
+}
+
+.blogList:hover {
+	color: #C9D3E7;
 }
 
 .blogList:hover h3 {
