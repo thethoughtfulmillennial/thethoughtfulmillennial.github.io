@@ -800,7 +800,7 @@ textarea.form-control {
 }
 
 #filter li {
-	background: #f5f5f5;
+	background: #232427;
 	display: inline-block;
 	font: 400 13px/1.2 'Nunito', sans-serif;
 	text-transform: uppercase;
@@ -1455,6 +1455,10 @@ figure {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.footer-bottom .footer-social {
+    align-self: flex-start;
 }
 
 .footer-bottom .footer-social ul li {
