@@ -1190,7 +1190,8 @@ figure {
     text-transform: capitalize;
 }
 
-.blogList:hover {
+.blogList:hover h3 {
+	color: #37c8ab;
 }
 
 .blogList:hover .blogList-img span {
@@ -1449,6 +1450,15 @@ figure {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.footer-bottom .footer-social ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footer-bottom .footer-social ul li:first-child {
+    margin-left: 0;
 }
 
 /* ---------------------------------------------- /*
