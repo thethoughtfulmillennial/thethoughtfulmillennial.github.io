@@ -10,7 +10,9 @@ Drupal is an open source CMS with great standard features, great flexibility, am
 
 I started my journey with Drupal in 2015 when I was accepted for an internship at MD Systems through IAESTE Bolivia. Thanks to that I was able to be the top 15th contributor of Drupal in the world in 2017. Thanks to MD Systems I was able to work on the following projects around the Drupal ecosystem.
 
-## Paragraphs
+## Contribution
+
+### Paragraphs
 Paragraphs is one of the most used Drupal modules at the moment. It allows users to add a replacement for the Body field (where the user usually adds the conent of a page) with a dynamic field where the user can add different types of Paragraphs with differente fields and configuration.
 Around my work with Paragraphs I was lucky to implement:
 1. The behavior plugin system [See more](https://www.drupal.org/project/paragraphs/issues/2828506).
@@ -23,3 +25,19 @@ Around my work with Paragraphs I was lucky to implement:
 3. "Add before" button [See more](https://www.drupal.org/project/paragraphs/issues/2946514)
     - Much work with automated testing following the Drupal testing framework.
     - Working with JS for adding the button and its behavior.
+
+### Diff
+
+### Entity Reference Revisions
+
+### Talks
+Here you can find some of the talks I've given in various Drupal events.
+
+2019, Drupal Mountain Camp - Davos, Switzerland
+{% include youtube_player.html id='bivxAHMKKf8' %}
+
+2018, Drupal Europe - Darmstadt, Germany
+{% include youtube_player.html id='tn2SxXpQvGc' %}
+
+2016, Drupal Dev Days - Milan, Italy
+{% include youtube_player.html id='mAn_YFb98pE' %}

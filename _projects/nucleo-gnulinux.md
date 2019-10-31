@@ -7,4 +7,6 @@ banner_image: nucleognulinux.png
 category: Software
 order: 5
 ---
-Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.
+The study group Nucleo GNU/Linux was created by students of the Mayor de San Andres University. It serves the community as an introduction to Free Software to the students of the same university. The group is actively working with established professionals to give talks, workshops and competences, all around Free Software. The group is run by students and has all its material for free.
+
+I joined the study group back in 2016 when a group of students asked me if I wanted to join them. Since then I was in charge of giving talks, organise events and work with the community to engage more students.

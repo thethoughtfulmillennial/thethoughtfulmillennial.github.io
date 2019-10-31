@@ -7,8 +7,15 @@ banner_image: quanticwarp.png
 category: Videogames
 order: 3
 ---
-Quantic Warp is a game studio from Bolivia.
+Qunatic Warp is a videogame studio based in Bolivia. It is formed by a wide variety of experts on different fields such as Game Design, Development, 3D Modelling, Music Composition and Project Management. It started as a group of young people who was motivated enough to believe on creating meaningful games that can create an impact on the audience.
 
-Some friends and I started during 2019 to develop videogames for fun. We realised some time ago that our team had all the elements to be more serious about it.
+Since June 2019 I started working with them as a Project Manager, being in charge of the Development methodlogy and being the contact with people outside the team.
 
-I joined in the project after it was initially created and now I have the tasks of the administration of the team.
+### ExpoBix
+The last videogame we are working on is called Puma Punku and while working on it we had the luck to win the award for Best Audio at Expobix 2019. For the competition, organised by the Bolivian Video Game Association, we created the first version of this game  in about 13 days. As we tried our best to create the best experience, we relied on our individual talents to finish the game on time. Thankfully, our efforts were good enough to win that prize.
+
+Below you can check the Intro and Gameplay of the first version of the videogame.
+
+{% include youtube_player.html id='Q0FAjEPbjN4' %}
+
+{% include youtube_player.html id='wgYLffCHwdI' %}

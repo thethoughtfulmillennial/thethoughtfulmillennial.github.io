@@ -7,4 +7,6 @@ banner_image: iaestebolivia.png
 category: Community
 order: 6
 ---
-Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.
+Since 1948 IAESTE has been providing young science and engineering students from around the world with paid, course related work experience. Similarly, IAESTE has been a source of high quality trainees for companies and institutions in more than 80 countries worldwide.
+
+Since January 2018, I volunteer to the organization as the Commitee Leader of my city, La Paz in Bolivia. I am in charge of giving talks about the program to all local universitites, guide foreign students when they arrive my country and support applicants when needed.
