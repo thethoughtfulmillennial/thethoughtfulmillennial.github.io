@@ -7,4 +7,5 @@ banner_image: tedxucb.png
 category: Community
 order: 4
 ---
-Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.
+
+{% include youtube_player.html id='rj74f3SGkJg&list=PLBV9IH04mdphWUrvY_JGnr44bveSV2S4j' %}
