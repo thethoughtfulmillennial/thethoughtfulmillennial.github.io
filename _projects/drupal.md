@@ -27,17 +27,18 @@ Around my work with Paragraphs I was lucky to implement:
     - Working with JS for adding the button and its behavior.
 
 ### Diff
+Diff displays the differences between revisions comparing the changes inline and github like. In this module, I fixed lots of bugs, changed the settings management from being field storage based to entity field based, added a new way for displaying changes named as the “Visual Inline” layout, added image display on revision comparison, added a new changes summary on the revisions listing view and make each layout a plugin so it can be extended.
 
-### Entity Reference Revisions
-
-### Talks
+## Talks
 Here you can find some of the talks I've given in various Drupal events.
 
 2019, Drupal Mountain Camp - Davos, Switzerland
 {% include youtube_player.html id='bivxAHMKKf8' %}
 
+
 2018, Drupal Europe - Darmstadt, Germany
 {% include youtube_player.html id='tn2SxXpQvGc' %}
+
 
 2016, Drupal Dev Days - Milan, Italy
 {% include youtube_player.html id='mAn_YFb98pE' %}

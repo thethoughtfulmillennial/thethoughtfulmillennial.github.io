@@ -58,13 +58,12 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: #C9D3E7;
 }
 
 a:focus {
 	color: white;
 	text-decoration: none;
-	border: 1px solid #37c8ab;
 }
 
 /*** Transition elements ***/
