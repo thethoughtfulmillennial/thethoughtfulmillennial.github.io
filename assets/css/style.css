@@ -58,7 +58,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #C9D3E7;
+	color: white;
 }
 
 a:focus {
@@ -755,7 +755,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #5b5963;
+	color: #C9D3E7;
 }
 
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav > li.active a {
