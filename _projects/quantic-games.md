@@ -1,13 +1,13 @@
 ---
 layout: project
-title: "Quantic Warp"
+title: "Quantic Games"
 date: 2017-05-22
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-banner_image: quanticwarp.png
+banner_image: quanticgames.png
 category: Videogames
 order: 3
 ---
-Quantic Warp is a videogame studio based in Bolivia. It is formed by a wide variety of experts on different fields such as Game Design, Development, 3D Modelling, Music Composition and Project Management. It started as a group of young people who was motivated enough to believe on creating meaningful games that can create an impact on the audience.
+Quantic Games is a videogame studio based in Bolivia. It is formed by a wide variety of experts on different fields such as Game Design, Development, 3D Modelling, Music Composition and Project Management. It started as a group of young people who was motivated enough to believe on creating meaningful games that can create an impact on the audience.
 
 Since June 2019 I started working with them as a Project Manager, being in charge of the Development methodlogy and being the contact with people outside the team.
 
