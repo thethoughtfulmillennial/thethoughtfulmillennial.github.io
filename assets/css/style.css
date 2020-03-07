@@ -1740,3 +1740,16 @@ figure {
 	}
 
 }
+
+.hero-header {
+	background-color: #5b5963;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	padding: 0;
+	position: relative;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
