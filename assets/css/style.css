@@ -508,16 +508,6 @@ textarea.form-control {
 /* ---------------------------------------------- /*
 *   2. Home
 /* ---------------------------------------------- */
-
-#home {
-	padding: 0;
-	position: relative;
-	-webkit-background-size: cover !important;
-	   -moz-background-size: cover !important;
-	     -o-background-size: cover !important;
-	        background-size: cover !important;
-}
-
 #home:after {
 	content: "";
 	position: absolute;
@@ -1734,4 +1724,46 @@ figure {
 		letter-spacing: 3px;
 	}
 
+}
+
+.home--header {
+    background: url(../images/home2.jpg);
+    background-color: #5b5963;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about--header {
+    background: url(../images/header__about.jpg);
+    background-color: #5b5963;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.projects--header {
+    background: url(../images/header__about.jpg);
+    background-color: #5b5963;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 0;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
