@@ -2,7 +2,7 @@
 layout: post
 title: "OpenCalais and semantic tags"
 date: 2017-07-04
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+description: "The more content is created, the harder is to tag them all. Whenever an user needs to tag some kind of content the big and important..."
 banner_image: opencalais_1.jpg
 category: Coding
 tags: [contrib, drupal, module]
