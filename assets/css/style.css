@@ -38,7 +38,7 @@
 /* ---------------------------------------------- */
 
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
 
 body {
@@ -101,7 +101,7 @@ a,
 /*** Typography ***/
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 45px/1.2 'Noto Serif', serif;
+	font: 700 45px/1.2 'Source Serif Pro', serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
