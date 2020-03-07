@@ -510,7 +510,6 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url("../images/home2.jpg");
 	background-color: #5b5963;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -1744,8 +1743,8 @@ figure {
 .hero-header {
 	padding: 0;
 	position: relative;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-	     -o-background-size: cover;
-	        background-size: cover;
+	-webkit-background-size: cover !important;
+	   -moz-background-size: cover !important;
+	     -o-background-size: cover !important;
+	        background-size: cover !important;
 }
