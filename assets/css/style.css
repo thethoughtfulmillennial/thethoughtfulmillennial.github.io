@@ -1159,12 +1159,10 @@ figure {
 
 .blogList {
     position: relative;
-    max-width: 340px;
+    max-width: 300px;
     margin: 30px auto;
-    box-shadow: -6px 10px 40px rgba(0,0,0,0.06);
     display: block;
 	color: #C9D3E7;
-	background-color: #232427;
     transition: all 0.3s ease 0s;
     position: relative;
     font-size: inherit;
@@ -1180,7 +1178,7 @@ figure {
 }
 
 .blogList-img img, .blog-wrapper.list-items-container .list-item img {
-    height: 240px;
+    height: 350px;
     width: 100%;
     object-fit: cover;
 }
