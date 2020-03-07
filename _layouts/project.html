@@ -14,18 +14,9 @@ layout: default
 			{% endif %}
 		</div>
 		<div class="blog-detail-contents wow fadeInUp container">
-			<h1>{{page.title}}</h1>
+			<h1 class="text-center">{{page.title}}</h1>
 			<div class="blog-detail-about clearfix">
-				<div class="media pull-left">
-					<div class="media-left">
-						<img src="/assets/images/avatar.jpg" class="media-object" alt="avatar">
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">{{site.author_name}}</h4>
-						<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-					</div>
-				</div>
-				<div class="blog-detail-category pull-right">
+				<div class="blog-detail-category pull-left">
 					{{ page.category }}
 				</div>
 			</div>
