@@ -38,7 +38,7 @@
 /* ---------------------------------------------- */
 
 
-@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
 
 body {
@@ -101,7 +101,7 @@ a,
 /*** Typography ***/
 
 h1, h2, h3, h4, h5, h6 {
-	font: 500 45px/1.2 'Source Serif Pro', serif;
+	font: 500 45px/1.2 'Libre Caslon Text', serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -1739,11 +1739,4 @@ figure {
 		font-size: 34px;
 		letter-spacing: 3px;
 	}
-
-	h2 {
-		font-size: 24px;
-		margin: 0 0 30px;
-		letter-spacing: 3px;
-	}
-
 }
