@@ -1159,7 +1159,7 @@ figure {
 
 .blogList {
     position: relative;
-    max-width: 300px;
+    max-width: 340px;
     margin: 30px auto;
     display: block;
 	color: #C9D3E7;
@@ -1167,6 +1167,7 @@ figure {
     position: relative;
     font-size: inherit;
     text-indent: 0;
+	text-align: center;
 }
 
 .blogList-desc {
@@ -1178,7 +1179,7 @@ figure {
 }
 
 .blogList-img img, .blog-wrapper.list-items-container .list-item img {
-    height: 350px;
+    height: 410px;
     width: 100%;
     object-fit: cover;
 }
