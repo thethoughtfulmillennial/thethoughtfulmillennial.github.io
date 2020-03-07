@@ -101,7 +101,7 @@ a,
 /*** Typography ***/
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 45px/1.2 'Source Serif Pro', serif;
+	font: 500 45px/1.2 'Source Serif Pro', serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -476,7 +476,7 @@ textarea.form-control {
 	top: -40px;
 	z-index: 0;
 	opacity: 0.05;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .callout {
@@ -808,7 +808,7 @@ textarea.form-control {
 #filter li {
 	background: #232427;
 	display: inline-block;
-	font: 400 13px/1.2 'Nunito', sans-serif;
+	font: 400 13px/1.2 'Lato', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -1220,7 +1220,7 @@ figure {
 
 .blog-viewMore {
     display: block;
-    font: 400 13px/1.2 'Nunito', sans-serif;
+    font: 400 13px/1.2 'Lato', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
