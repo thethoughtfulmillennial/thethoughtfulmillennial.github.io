@@ -159,7 +159,7 @@ layout: default
 							<div class="container">
 								<div class="intro">
 									<div class="row row-resume">
-										<div class="col-md-6 fadeY fadeY-1">
+										<div class="col-md-6">
 											<h2 class="resume-header title">Education</h2>
 											<div class="col-resume">
 												<div class="resume-content">
@@ -186,7 +186,7 @@ layout: default
 												</div>
 											</div>
 										</div>
-										<div class="col-md-6 pt-md-5 mt-md-5 fadeY fadeY-2">
+										<div class="col-md-6 pt-md-5 mt-md-5">
 											<h2 class="resume-header title">Experience</h2>
 											<div class="col-resume">
 												<div class="resume-content">
@@ -306,14 +306,14 @@ layout: default
 					<div class="boxed boxed-inner">
 						<div class="boxed">
 							<div class="container">
-								<div class="intro">
+								<div class="">
 									<div class="row">
 										<div class="col-md-12">
 											{% assign ordered_projects = site.projects | sort:"order" %}
 											{% for project in ordered_projects %}
 											<div class="project-row">
 												<a class="active" href="{{site.baseurl}}{{post.url}}">
-													<span class="project-number">01</span>
+													<span class="project-number">{{ forloop.index }}</span>
 													<h2 class="project-title">{{ project.title }}</h2>
 													<div class="project-category">{{ project.category }}</div>
 												</a>
