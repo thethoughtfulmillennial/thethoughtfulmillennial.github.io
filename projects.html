@@ -8,72 +8,74 @@ layout: default
 
 <!-- Hero start -->
 
-<section id="home" class="module-image js-height-full projects--header">
-	<div class="intro">
-		<h1>What I've done</h1>
-		<div class="who-creates">My projects</div>
+<div data-anchor="page1" class="pp-scrollable text-white section section-1">
+	<div class="scroll-wrap">
+		<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
+		<div class="scrollable-content">
+			<div class="vertical-centred v2">
+				<div class="boxed boxed-inner">
+					<div class="boxed">
+						<div class="container">
+							<div class="intro">
+								<div class="project-detail-row">
+									<a class="" href="project-detail.html">
+										<span class="project-number">01</span>
+										<h2 class="project-title">My projects</h2>
+										<div class="project-category">Illustration</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="mouse-icon">
-		<div class="wheel"></div>
-	</div>
-</section>
+</div>
 
 <!-- Hero end -->
 
-<section id="blog-page" class="module">
-	<div class="container">
-		<div class="row">
-
-			<div class="module-header">
-				<h2 class="module-title">
-					My projects
-					<span>Projects</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter start-->
-
-		<div class="row">
-
-			<div class="col-sm-12">
-
-				<ul id="filter">
-					<li class="active" data-group="all">All</li>
-					{% assign categories = site.projects | map: 'category' | uniq %}
-					{% for category in categories %}
-					<li data-group="{{ category }}">{{ category }}</li>
-					{% endfor %}
-				</ul>
-
-			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter end -->
-
-		<ul class="list-items-container images-loaded shuffle">
-			{% assign ordered_projects = site.projects | sort:"order" %}
-			{% for project in ordered_projects %}
-			<li class="list-item" data-groups="all {{ project.category }}">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/project/{{project.banner_image}}" alt="p1">
-					<figcaption>
-						<a href="{{site.baseurl}}{{project.url}}"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">{{project.title}}</h3>
-							<div class="portfolio-item-desc">{{project.category}}</div>
+<div id="page5" data-anchor="page5" class="pp-scrollable text-white section section-5">
+	<div class="scroll-wrap">
+		<div class="bg-changer">
+			<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
+			<div class="section-bg" style="background-image:url(images/bg/project2.jpg);"></div>
+			<div class="section-bg" style="background-image:url(images/bg/project3.jpg);"></div>
+			<div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
+		</div>
+		<div class="scrollable-content">
+			<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
+			<div class="vertical-centred">
+				<div class="boxed boxed-inner">
+					<div class="boxed">
+						<div class="container">
+							<div class="">
+								<div class="row">
+									<div class="col-md-12">
+										{% assign ordered_projects = site.projects | sort:"order" %}
+										{% for project in ordered_projects %}
+										<div class="project-row">
+											<a href="{{ site.baseurl }}{{ project.url }}">
+												<span class="project-number">{{ forloop.index }}</span>
+												<h2 class="project-title">{{ project.title }}</h2>
+												<div class="project-category">{{ project.category }}</div>
+											</a>
+										</div>
+										{% endfor %}
+										<div class="view-all view-all-projects">
+											<a href="projects.html">
+												View all projects
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</figcaption>
-				</figure>
-			</li>
-			{% endfor %}
-
-		</ul><!-- .projects-container -->
-	</div><!-- .contaier -->
-
-</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- Projects end -->
