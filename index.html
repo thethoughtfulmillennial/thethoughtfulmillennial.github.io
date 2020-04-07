@@ -27,10 +27,10 @@ layout: default
 	<div class="menu-footer right-boxed">
 		<div class="social-list">
 			<a href="" class="icon ion-social-twitter"></a>
-			<a href="" class="icon ion-social-facebook"></a>
-			<a href="" class="icon ion-social-googleplus"></a>
-			<a href="" class="icon ion-social-linkedin"></a>
-			<a href="" class="icon ion-social-dribbble-outline"></a>
+			<a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon ion-social-facebook"></a>
+			<a href="https://twitter.com/{{ site.twitter_username }}" class="icon ion-social-twitter"></a>
+			<a href="https://www.instagram.com/{{ site.linkedin_username }}" class="icon ion-social-linkedin"></a>
+			<a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon ion-social-instagram"></a>
 		</div>
 		<div class="copy">© John Choque 2019. All Rights Reseverd</div>
 	</div>
@@ -86,6 +86,7 @@ layout: default
 										<div class="col-md-8 col-lg-6">
 											<h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s"><span
 													class="text-primary">Hello,</span> I'm John</h1>
+											<p>Creating digital solutions for a sustainable future.</p>
 											<a class="popup-youtube"
 												href="http://www.youtube.com/watch?v=0O2aH4XLbto"><span
 													class="icon ion-ios-play"></span>Watch video </a>
@@ -307,34 +308,16 @@ layout: default
 								<div class="intro">
 									<div class="row">
 										<div class="col-md-12">
+											{% assign ordered_projects = site.projects | sort:"order" %}
+											{% for project in ordered_projects %}
 											<div class="project-row">
-												<a class="active" href="project-detail.html">
+												<a class="active" href="{{site.baseurl}}{{post.url}}">
 													<span class="project-number">01</span>
-													<h2 class="project-title">Abstract Skat</h2>
-													<div class="project-category">Illustration</div>
+													<h2 class="project-title">{{ project.title }}</h2>
+													<div class="project-category">{{ project.description }}</div>
 												</a>
 											</div>
-											<div class="project-row">
-												<a href="project-detail.html">
-													<span class="project-number">02</span>
-													<h2 class="project-title">Borato Prism</h2>
-													<div class="project-category">Branding</div>
-												</a>
-											</div>
-											<div class="project-row">
-												<a href="project-detail.html">
-													<span class="project-number">03</span>
-													<h2 class="project-title">Brole Mobile App</h2>
-													<div class="project-category">Mobile Design</div>
-												</a>
-											</div>
-											<div class="project-row">
-												<a href="project-detail.html">
-													<span class="project-number">04</span>
-													<h2 class="project-title">Bauhaus Studio</h2>
-													<div class="project-category">House Design</div>
-												</a>
-											</div>
+											{% endfor %}
 											<div class="view-all view-all-projects">
 												<a href="projects.html">
 													View all projects
