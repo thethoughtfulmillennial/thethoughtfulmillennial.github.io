@@ -1,33 +1,40 @@
 <!-- Navigation start -->
 
-<header class="header">
-
-	<nav class="navbar navbar-custom">
-
-		<div class="container">
-
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-					<span>Menu</span>
-				</button>
-				<a class="navbar-brand" href="/index.html">
-					<img class="logo--small" src="/assets/images/icon-simple.svg">
-				</a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="custom-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/#home">home</a></li>
-					<li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="/about.html">About</a></li>
-					<li class="{% if page.url == '/projects.html' %}active{% endif %}"><a href="/projects.html">Projects</a></li>
-					<li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="/blog.html">Blog</a></li>
-				</ul>
-			</div>
-
-		</div><!-- .container -->
-
-	</nav>
-
-</header>
+<div class="menu">
+	<span class="close-menu icon-cross2 right-boxed"></span>
+	<ul class="menu-list right-boxed">
+		<li data-menuanchor="page1">
+			<a href="#page1">Home</a>
+		</li>
+		<li data-menuanchor="page2">
+			<a href="#page2">Specialization</a>
+		</li>
+		<li data-menuanchor="page3">
+			<a href="#page3">Resume</a>
+		</li>
+		<li data-menuanchor="page4">
+			<a href="#page4">About</a>
+		</li>
+		<li data-menuanchor="page5">
+			<a href="#page5">Projects</a>
+		</li>
+		<li data-menuanchor="page7">
+			<a href="#page7">Testimonials</a>
+		</li>
+		<li data-menuanchor="page8">
+			<a href="#page8">Contact</a>
+		</li>
+	</ul>
+	<div class="menu-footer right-boxed">
+		<div class="social-list">
+			<a href="" class="icon ion-social-twitter"></a>
+			<a href="" class="icon ion-social-facebook"></a>
+			<a href="" class="icon ion-social-googleplus"></a>
+			<a href="" class="icon ion-social-linkedin"></a>
+			<a href="" class="icon ion-social-dribbble-outline"></a>
+		</div>
+		<div class="copy">© Ramsay 2019. All Rights Reseverd</div>
+	</div>
+</div>
 
 <!-- Navigation end -->

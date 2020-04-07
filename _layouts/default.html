@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="description"
+		content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="author" content="">
 	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
 
@@ -28,7 +30,7 @@
 	<link href="/assets/css/owl.carousel.css" rel="stylesheet">
 
 	<!-- Youtube background -->
-    <link rel="stylesheet" href="assets/css/ytplayer.css">
+	<link rel="stylesheet" href="assets/css/ytplayer.css">
 
 	<!-- Animate css -->
 	<link href="/assets/css/animate.css" rel="stylesheet">
@@ -37,6 +39,7 @@
 	<link href="/assets/css/style.css" rel="stylesheet" media="screen">
 	<link href="/assets/css/style_branding.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
 
 	<!-- Preloader -->
@@ -45,27 +48,42 @@
 		<div id="loading-center">
 			<div id="loading-center-absolute">
 				<div class="box">
-				  <div class="blobs">
-				    <div class="blob"></div>
-				    <div class="blob"></div>
-				  </div>
+					<div class="blobs">
+						<div class="blob"></div>
+						<div class="blob"></div>
+					</div>
 
-				  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-				    <defs>
-				      <filter id="goo">
-				        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-				        <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-				        <feBlend in="SourceGraphic" in2="goo" />
-				      </filter>
-				    </defs>
-				  </svg>
+					<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<defs>
+							<filter id="goo">
+								<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+								<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+									result="goo" />
+								<feBlend in="SourceGraphic" in2="goo" />
+							</filter>
+						</defs>
+					</svg>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="animsition">
+		<div class="loader">
+			<div class="spinner">
+				<div class="double-bounce1"></div>
+				<div class="double-bounce2"></div>
+			</div>
+		</div>
 
-	{{content}}
-	
+		<!-- Content CLick Capture-->
+
+		<div class="click-capture">
+			{{content}}
+
+		</div>
+	</div>
+
+
 	{% include footer.html %}
 
 	<!-- Javascript files -->
@@ -83,15 +101,16 @@
 	<script src="/assets/js/wow.min.js"></script>
 
 	<!-- Youtube background -->
-	<script src="assets/js/jquery.mb.YTPlayer.js"></script> 
+	<script src="assets/js/jquery.mb.YTPlayer.js"></script>
 
 	<!--PARTICLES ANIMATE JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
 
 	<!-- Custom scripts -->
 	<script src="/assets/js/custom.js"></script>
 	<script src="/assets/js/custom-shuffle-init.js"></script>
-    {% include analytics.html %}
+	{% include analytics.html %}
 
 </body>
+
 </html>
