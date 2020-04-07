@@ -26,7 +26,6 @@ layout: default
 	</ul>
 	<div class="menu-footer right-boxed">
 		<div class="social-list">
-			<a href="" class="icon ion-social-twitter"></a>
 			<a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon ion-social-facebook"></a>
 			<a href="https://twitter.com/{{ site.twitter_username }}" class="icon ion-social-twitter"></a>
 			<a href="https://www.instagram.com/{{ site.linkedin_username }}" class="icon ion-social-linkedin"></a>
@@ -66,11 +65,10 @@ layout: default
 </header>
 <div class="copy-bottom white boxed">© John Choque 2019.</div>
 <div class="social-list social-list-bottom boxed">
-	<a href="" class="icon ion-social-twitter"></a>
-	<a href="" class="icon ion-social-facebook"></a>
-	<a href="" class="icon ion-social-googleplus"></a>
-	<a href="" class="icon ion-social-linkedin"></a>
-	<a href="" class="icon ion-social-dribbble-outline"></a>
+	<a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon ion-social-facebook"></a>
+	<a href="https://twitter.com/{{ site.twitter_username }}" class="icon ion-social-twitter"></a>
+	<a href="https://www.instagram.com/{{ site.linkedin_username }}" class="icon ion-social-linkedin"></a>
+	<a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon ion-social-instagram"></a>
 </div>
 
 <div class="" id="content">
@@ -150,7 +148,7 @@ layout: default
 	</div>
 	<div id="page3" data-anchor="page3" class="pp-scrollable text-white section section-3">
 		<div class="scroll-wrap">
-			<div class="section-bg mask" style="background-image:url(images/bg/resume.jpg);"></div>
+			<div class="section-bg mask" style="background-image:url(assets/images/bg/resume.jpg);"></div>
 			<div class="scrollable-content">
 				<div class="vertical-title d-none d-lg-block"><span>resume</span></div>
 				<div class="vertical-centred">
@@ -295,10 +293,10 @@ layout: default
 	<div id="page5" data-anchor="page5" class="pp-scrollable text-white section section-5">
 		<div class="scroll-wrap">
 			<div class="bg-changer">
-				<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project2.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project3.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
+				{% assign ordered_projects = site.projects | sort:"order" %}
+				{% for project in ordered_projects limit:4 %}
+					<div class="section-bg" style="background-image:url(assets/images/post/);"></div>
+				{% endfor %}
 			</div>
 			<div class="scrollable-content">
 				<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
@@ -311,7 +309,7 @@ layout: default
 									<div class="row">
 										<div class="col-md-12">
 											{% assign ordered_projects = site.projects | sort:"order" %}
-											{% for project in ordered_projects limit:3 %}
+											{% for project in ordered_projects limit:4 %}
 											<div class="project-row">
 												<a href="{{ site.baseurl }}{{ project.url }}">
 													<span class="project-number">{{ forloop.index }}</span>
@@ -325,63 +323,6 @@ layout: default
 													View all projects
 												</a>
 											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="page6" data-anchor="page6" class="pp-scrollable section section-6">
-		<div class="scroll-wrap">
-			<div class="scrollable-content">
-				<div class="vertical-title text-white d-none d-lg-block"><span>partners</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<h2 class="title text-white"><span class="text-primary">Trusted</span> from Clients
-									</h2>
-									<div class="row row-partners">
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/1.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/2.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/3.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/4.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/5.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/6.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/7.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/8.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/9.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/10.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/11.png"></div>
-										</div>
-										<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
-											<div class="partner-inner"><img alt="" src="images/partners/12.png"></div>
 										</div>
 									</div>
 								</div>
