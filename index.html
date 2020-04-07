@@ -74,7 +74,7 @@ layout: default
 </div>
 
 <div class="" id="content">
-	<div data-anchor="page1" class="pp-scrollable text-white section section-1">
+	<div id="page1" data-anchor="page1" class="pp-scrollable text-white section section-1">
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image:url(images/bg/main.jpg);"></div>
 			<div class="scrollable-content">
@@ -101,7 +101,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page2" class="pp-scrollable section section-2">
+	<div id="page2" data-anchor="page2" class="pp-scrollable section section-2">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
 				<div class="vertical-title text-white  d-none d-lg-block"><span>what I do</span></div>
@@ -148,7 +148,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page3" class="pp-scrollable text-white section section-3">
+	<div id="page3" data-anchor="page3" class="pp-scrollable text-white section section-3">
 		<div class="scroll-wrap">
 			<div class="section-bg mask" style="background-image:url(images/bg/resume.jpg);"></div>
 			<div class="scrollable-content">
@@ -222,7 +222,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page4" class="pp-scrollable section section-4">
+	<div id="page4" data-anchor="page4" class="pp-scrollable section section-4">
 		<div class="scroll-wrap">
 			<div class="section-bg bg-about" style="background-image:url(images/bg/about.jpg);"></div>
 			<div class="scrollable-content">
@@ -292,7 +292,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page5" class="pp-scrollable text-white section section-5">
+	<div id="page5" data-anchor="page5" class="pp-scrollable text-white section section-5">
 		<div class="scroll-wrap">
 			<div class="bg-changer">
 				<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
@@ -315,7 +315,7 @@ layout: default
 												<a class="active" href="{{site.baseurl}}{{post.url}}">
 													<span class="project-number">01</span>
 													<h2 class="project-title">{{ project.title }}</h2>
-													<div class="project-category">{{ project.description }}</div>
+													<div class="project-category">{{ project.category }}</div>
 												</a>
 											</div>
 											{% endfor %}
@@ -334,7 +334,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page6" class="pp-scrollable section section-6">
+	<div id="page6" data-anchor="page6" class="pp-scrollable section section-6">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
 				<div class="vertical-title text-white d-none d-lg-block"><span>partners</span></div>
@@ -391,7 +391,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div data-anchor="page7" class="pp-scrollable section section-7">
+	<div id="page7" data-anchor="page7" class="pp-scrollable section section-7">
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
 			<div class="scrollable-content">
