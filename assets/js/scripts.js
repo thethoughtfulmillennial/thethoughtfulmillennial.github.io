@@ -22,7 +22,12 @@
 		wow.init();
 	});
 
-
+	var width = $(window).width();
+	$(window).resize(function () {
+		if (width > 720) {
+			$('#content').addClass('pagepiling');
+		}
+	});
 
 	/*-------------------------------------------------------------------------------
 	   Animsition Loader
