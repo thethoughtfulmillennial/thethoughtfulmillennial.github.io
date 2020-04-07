@@ -6,43 +6,47 @@ layout: default
 
 <!-- Blog Detail Start -->
 
-<section class="blog-detail">
-	<div>
-		<div class="blog-detail-banner wow fadeIn container">
-			{% if page.banner_image %}
-				<img src="/assets/images/project/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
-			{% endif %}
-		</div>
-		<div class="blog-detail-contents wow fadeInUp container">
-			<h1 class="text-center">{{page.title}}</h1>
-			<div class="blog-detail-about clearfix">
-				<div class="blog-detail-category pull-left">
-					{{ page.category }}
+<div class="content">
+	<div class="container">
+		<div class="row row-project">
+			<div class="col-project-name col-md-6  mt-5 mb-5 mb-md-0">
+				<h1>{{page.title}}</h1>
+				<div class="social-list social-list-detail">
+					<a href="https://www.facebook.com/{{ site.facebook_username }}"
+						class="icon ion-social-facebook"></a>
+					<a href="https://twitter.com/{{ site.twitter_username }}" class="icon ion-social-twitter"></a>
+					<a href="https://www.instagram.com/{{ site.linkedin_username }}"
+						class="icon ion-social-linkedin"></a>
+					<a href="https://www.instagram.com/{{ site.instagram_username }}"
+						class="icon ion-social-instagram"></a>
 				</div>
 			</div>
-			<div class="blog-detail-content">
-				{{content}}
-			</div>
-			<div class="blog-detail-footer">
+			<div class="col-project-info col-md-6">
 				<div class="row">
-					<div class="col-md-12">
-						<div class="blog-detail-tags">
-							<ul> 
-								{% if page.tags.size > 0 %}
-								Tags: {% for tag in page.tags %}
-								<li>
-									<a class="tags" href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}">{{ tag }}</a>
-								</li>
-								{% unless forloop.last %} {% endunless %}{% endfor %}
-
-								{% endif %}
-							</ul>
-						</div>
+					<div class="col-md-6 mt-5">
+						<h5>Category</h5>
+						<p>{{ page.category }}</p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<h5>Team</h5>
+						<p></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<h5>Services</h5>
+						<p></p>
+					</div>
+					<div class="col-md-6 mt-5">
+						<h5>Date</h5>
+						<p>{{ page.date }}</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
-
-<!-- Blog Detail End -->
+	<img alt="" class="image-holder wow fadeIn" src="/assets/images/project/{{page.banner_image}}">
+	<div class="container">
+		<p class="project-detail-text text-center">
+			{{content}}
+		</p>
+	</div>
+</div>
