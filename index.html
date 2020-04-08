@@ -69,7 +69,7 @@ layout: default
 </div>
 
 <div class="" id="content">
-	<div id="page1" data-anchor="page1" class="pp-scrollable text-white section section-1">
+	<div id="page1" data-anchor="page1" class=" text-white section section-1">
 		<div class="scroll-wrap">
 			<div class="section-bg mask" style="background-image:url(assets/images/bg/main.jpg);"></div>
 			<div class="scrollable-content">
@@ -96,7 +96,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page2" data-anchor="page2" class="pp-scrollable section section-2">
+	<div id="page2" data-anchor="page2" class=" section section-2">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
 				<div class="vertical-title text-white  d-none d-lg-block"><span>what I do</span></div>
@@ -137,7 +137,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page3" data-anchor="page3" class="pp-scrollable text-white section section-3">
+	<div id="page3" data-anchor="page3" class=" text-white section section-3">
 		<div class="scroll-wrap">
 			<div class="section-bg mask" style="background-image:url(assets/images/bg/resume.jpg);"></div>
 			<div class="scrollable-content">
@@ -211,7 +211,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page4" data-anchor="page4" class="pp-scrollable text-white section section-4">
+	<div id="page4" data-anchor="page4" class=" text-white section section-4">
 		<div class="scroll-wrap">
 			<div class="bg-changer">
 				{% assign ordered_projects = site.projects | sort:"order" %}
@@ -254,7 +254,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page5" data-anchor="page5" class="pp-scrollable text-white section section-5">
+	<div id="page5" data-anchor="page5" class=" text-white section section-5">
 		<div class="scroll-wrap">
 			<div class="bg-changer">
 				{% assign ordered_projects = site.projects | sort:"order" %}
@@ -272,7 +272,7 @@ layout: default
 									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog
 									<div class="row">
 										<div class="col-md-12">
-											{% for post in site.posts limit:4 %}
+											{% for post in site.posts limit:3 %}
 											<div class="project-row">
 												<a href="{{ site.baseurl }}{{ post.url }}">
 													<span class="project-number">{{ forloop.index }}</span>
@@ -296,7 +296,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page6" data-anchor="page6" class="pp-scrollable section section-6">
+	<div id="page6" data-anchor="page6" class=" section section-6">
 		<div class="scroll-wrap">
 			<div class="section-bg" style="background-image:url(images/bg/contact.jpg);"></div>
 			<div class="scrollable-content">
