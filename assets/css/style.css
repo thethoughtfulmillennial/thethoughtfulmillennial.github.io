@@ -671,7 +671,7 @@ a.brand:focus{
 
 .social-list-bottom{
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   right:0;
   bottom:2.4rem;
@@ -965,7 +965,7 @@ a.brand:focus{
 
 .copy-bottom{
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 10;
   left:0;
   bottom:2.4rem;
