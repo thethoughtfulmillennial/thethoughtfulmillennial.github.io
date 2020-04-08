@@ -8,17 +8,22 @@ layout: default
 
 <div class="content">
 	<div class="container">
-		<div class="row row-project">
+		<div class="row">
 			<div class="col-project-name col-md-6  mt-5 mb-5 mb-md-0">
 				<h1>{{page.title}}</h1>
 				<div class="social-list social-list-detail">
-					<a href="https://www.facebook.com/{{ site.facebook_username }}"
-						class="icon ion-social-facebook"></a>
-					<a href="https://twitter.com/{{ site.twitter_username }}" class="icon ion-social-twitter"></a>
-					<a href="https://www.instagram.com/{{ site.linkedin_username }}"
-						class="icon ion-social-linkedin"></a>
-					<a href="https://www.instagram.com/{{ site.instagram_username }}"
-						class="icon ion-social-instagram"></a>
+					{% if page.facebook %}
+						<a href="https://www.facebook.com/{{ page.facebook }}" class="icon ion-social-facebook"></a>
+					{% endif %}
+					{% if page.twitter %}
+						<a href="https://twitter.com/{{ page.twitter }}" class="icon ion-social-twitter"></a>
+					{% endif %}
+					{% if page.linkedin %}
+						<a href="https://www.linkedin.com/{{ page.linkedin }}" class="icon ion-social-linkedin"></a>
+					{% endif %}
+					{% if page.instagram %}
+						<a href="https://www.instagram.com/{{ page.instagram }}" class="icon ion-social-instagram"></a>
+					{% endif %}
 				</div>
 			</div>
 			<div class="col-project-info col-md-6">
@@ -26,14 +31,6 @@ layout: default
 					<div class="col-md-6 mt-5">
 						<h5>Category</h5>
 						<p>{{ page.category }}</p>
-					</div>
-					<div class="col-md-6 mt-5">
-						<h5>Team</h5>
-						<p></p>
-					</div>
-					<div class="col-md-6 mt-5">
-						<h5>Services</h5>
-						<p></p>
 					</div>
 					<div class="col-md-6 mt-5">
 						<h5>Date</h5>

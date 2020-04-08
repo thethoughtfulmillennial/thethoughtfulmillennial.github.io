@@ -6,6 +6,8 @@ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 banner_image: tedxucb.png
 category: Community
 order: 4
+facebook: TedxUcb
+instagram: tedxucb
 ---
 In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = an independently organized TED event. The TED Conference provides general guidance, rules and regulations for the TEDx program.
 

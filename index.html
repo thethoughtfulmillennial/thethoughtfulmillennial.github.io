@@ -39,6 +39,9 @@ layout: default
 	<div class="navbar-bg"></div>
 	<a class="brand" href="#">
 		<img alt="" src="/assets/images/logo.png">
+		<div class="brand-info">
+			<div class="brand-name">John</div>
+		</div>
 	</a>
 
 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"
@@ -118,9 +121,12 @@ layout: default
 										</div>
 										<div class="col-lg-5 mt-5 mt-xl-0">
 											<h2 class="title"> <span class="text-primary">About</span> me</h2>
-											<p>I am passionate about Sustainable Development and Music. Facilitator and builder
-												on various projects on the industry. Mental health and Gender Equality advocate.
-												Good communicator and planner with strong logical judgment, with experience at
+											<p>I am passionate about Sustainable Development and Music. Facilitator and
+												builder
+												on various projects on the industry. Mental health and Gender Equality
+												advocate.
+												Good communicator and planner with strong logical judgment, with
+												experience at
 												different international events and programs.</p>
 										</div>
 									</div>
@@ -154,7 +160,8 @@ layout: default
 												<div class="resume-content">
 													<div class="resume-inner">
 														<div class="resume-row">
-															<h6 class="resume-type">BSc Computer Systems Engineering</h6>
+															<h6 class="resume-type">BSc Computer Systems Engineering
+															</h6>
 															<i class="resume-study">Del Valle University, Bolivia,
 																La Paz<br>Jan 2012 - Dec 2018</i>
 															<p class="resume-text">Lorem ipsum dolor sit amet,
@@ -216,7 +223,7 @@ layout: default
 			<div class="bg-changer">
 				{% assign ordered_projects = site.projects | sort:"order" %}
 				{% for project in ordered_projects limit:4 %}
-					<div class="section-bg mask" style="background-image:url(assets/images/project/);"></div>
+				<div class="section-bg mask" style="background-image:url(assets/images/project/);"></div>
 				{% endfor %}
 			</div>
 			<div class="scrollable-content">
@@ -227,25 +234,25 @@ layout: default
 							<div class="container">
 								<div class="">
 									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
-									<div class="row">
-										<div class="col-md-12">
-											{% assign ordered_projects = site.projects | sort:"order" %}
-											{% for project in ordered_projects limit:4 %}
-											<div class="project-row">
-												<a href="{{ site.baseurl }}{{ project.url }}">
-													<span class="project-number">{{ forloop.index }}</span>
-													<h2 class="project-title">{{ project.title }}</h2>
-													<div class="project-category">{{ project.category }}</div>
-												</a>
-											</div>
-											{% endfor %}
-											<div class="view-all view-all-projects">
-												<a href="projects.html">
-													View all projects
-												</a>
+										<div class="row">
+											<div class="col-md-12">
+												{% assign ordered_projects = site.projects | sort:"order" %}
+												{% for project in ordered_projects limit:4 %}
+												<div class="project-row">
+													<a href="{{ site.baseurl }}{{ project.url }}">
+														<span class="project-number">{{ forloop.index }}</span>
+														<h2 class="project-title">{{ project.title }}</h2>
+														<div class="project-category">{{ project.category }}</div>
+													</a>
+												</div>
+												{% endfor %}
+												<div class="view-all view-all-projects">
+													<a href="projects.html">
+														View all projects
+													</a>
+												</div>
 											</div>
 										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -259,7 +266,7 @@ layout: default
 			<div class="bg-changer">
 				{% assign ordered_projects = site.projects | sort:"order" %}
 				{% for project in ordered_projects limit:4 %}
-					<div class="section-bg mask" style="background-image:url(assets/images/project/);"></div>
+				<div class="section-bg mask" style="background-image:url(assets/images/project/);"></div>
 				{% endfor %}
 			</div>
 			<div class="scrollable-content">
@@ -270,24 +277,24 @@ layout: default
 							<div class="container">
 								<div class="">
 									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog
-									<div class="row">
-										<div class="col-md-12">
-											{% for post in site.posts limit:3 %}
-											<div class="project-row">
-												<a href="{{ site.baseurl }}{{ post.url }}">
-													<span class="project-number">{{ forloop.index }}</span>
-													<h2 class="project-title">{{ post.title }}</h2>
-													<div class="project-category">{{ post.category }}</div>
-												</a>
-											</div>
-											{% endfor %}
-											<div class="view-all view-all-projects">
-												<a href="projects.html">
-													View all posts
-												</a>
+										<div class="row">
+											<div class="col-md-12">
+												{% for post in site.posts limit:3 %}
+												<div class="project-row">
+													<a href="{{ site.baseurl }}{{ post.url }}">
+														<span class="project-number">{{ forloop.index }}</span>
+														<h2 class="project-title">{{ post.title }}</h2>
+														<div class="project-category">{{ post.category }}</div>
+													</a>
+												</div>
+												{% endfor %}
+												<div class="view-all view-all-projects">
+													<a href="projects.html">
+														View all posts
+													</a>
+												</div>
 											</div>
 										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -317,35 +324,31 @@ layout: default
 											</section>
 										</div>
 										<div class="col-md-6">
-											<div class="contact-info">
-												<form class="js-form" novalidate="novalidate">
-													<div class="row">
-														<div class="form-group col-sm-6">
-															<input type="text" name="name" required=""
-																placeholder="Name*" aria-required="true">
-														</div>
-														<div class="form-group col-sm-6">
-															<input type="email" required="" name="email"
-																placeholder="Email*">
-														</div>
-														<div class="form-group col-sm-12">
-															<input type="text" name="subject"
-																placeholder="Subject (Optinal)">
-														</div>
-														<div class="form-group col-sm-12">
-															<textarea name="message" required=""
-																placeholder="Message*"></textarea>
-														</div>
-														<div class="form-group form-group-message col-sm-12">
-															<span id="success" class="text-primary">Thank You, your
-																message is successfully sent!</span>
-															<span id="error" class="text-primary">Sorry, something went
-																wrong </span>
-														</div>
-														<div class="col-sm-12"><button type="submit" class="btn">Contact
-																me</button></div>
+											<div class="row row-partners">
+												<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
+													<div class="partner-inner">
+														<a href="https://www.facebook.com/{{ site.facebook_username }}"
+															class="icon ion-social-facebook"></a>
 													</div>
-												</form>
+												</div>
+												<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
+													<div class="partner-inner">
+														<a href="https://twitter.com/{{ site.twitter_username }}"
+															class="icon ion-social-twitter"></a>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
+													<div class="partner-inner">
+														<a href="https://www.linkedin.com/{{ site.linkedin_username }}"
+															class="icon ion-social-linkedin"></a>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-4 col-xl-3 col-partner">
+													<div class="partner-inner">
+														<a href="https://www.instagram.com/{{ site.instagram_username }}"
+															class="icon ion-social-instagram"></a>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
