@@ -1062,7 +1062,7 @@ a.brand:focus{
 /* 3.1 Sections */
 
 .section {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .pagepiling .section{
@@ -1097,6 +1097,10 @@ a.brand:focus{
   font-size: 0;
 }
 
+.scrollable-content.half{
+  height: 50vh;
+}
+
 .scrollable-content:before{
   content: '';
   display: inline-block;
@@ -1126,6 +1130,10 @@ a.brand:focus{
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.section-bg.half {
+  height: 50vh;
 }
 
 .vertical-title{
