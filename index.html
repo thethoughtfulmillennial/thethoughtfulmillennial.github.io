@@ -150,11 +150,11 @@ layout: default
 						<div class="boxed">
 							<div class="container">
 								<div class="">
-									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> experiences
+									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
 										<div class="row">
 											<div class="col-md-12">
 												{% assign ordered_projects = site.projects | sort:"order" %}
-												{% for project in ordered_projects limit:4 %}
+												{% for project in ordered_projects limit:3 %}
 												<div class="project-row">
 													<a href="{{ site.baseurl }}{{ project.url }}">
 														<span class="project-number">{{ forloop.index }}</span>
@@ -229,9 +229,9 @@ layout: default
 											<h2 class="title"><span class="text-primary">Contact</span> me</h2>
 											<h5 class="text-muted">166 Main Street, Beverly Hills, CA 90210</h5>
 											<section class="contact-address">
-												<h3><a class="mail" href="mailto:contact@ramsay.com">
-														contact@ramsay.com</a></h3>
-												<h3><span class="phone">+96 56-85-1379</span></h3>
+												<h3><a class="mail" href="mailto:contact@johngchoque.com">
+														contact@johngchoque.com</a></h3>
+												<h3><span class="phone">+591</span></h3>
 											</section>
 										</div>
 										<div class="col-md-6">
