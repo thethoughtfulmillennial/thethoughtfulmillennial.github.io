@@ -1599,7 +1599,7 @@ a.brand:focus{
   opacity:1;
 }
 
-.project-row a.active{
+.project-row a:hover{
   opacity: 1;
 }
 
