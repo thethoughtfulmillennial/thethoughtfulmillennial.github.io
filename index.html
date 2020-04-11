@@ -151,34 +151,28 @@ layout: default
 							<div class="container">
 								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
 							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						{% assign ordered_projects = site.projects | sort:"order" %}
-						{% for project in ordered_projects limit:3 %}
-						<div class="col-12 col-sm-6 col-lg list-item">
-							<figure>
-								<img class="img-fluid"
-									src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="p1">
-								<figcaption>
-									<a href="{{site.baseurl}}{{project.url}}"></a>
-									<div class="caption-inner">
-										<h3 class="portfolio-item-title">{{project.title}}</h3>
-										<div class="portfolio-item-desc">{{project.category}}</div>
-									</div>
-								</figcaption>
-							</figure>
-						</div>
-						{% endfor %}
-					</div>
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="view-all">
-									<a href="/about.html">
-										View all projects
-									</a>
+							<div class="row justify-content-center">
+								{% assign ordered_projects = site.projects | sort:"order" %}
+								{% for project in ordered_projects limit:3 %}
+								<div class="col-12 col-sm-6 col-lg list-item">
+									<figure>
+										<img class="img-fluid"
+											src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="p1">
+										<figcaption>
+											<a href="{{site.baseurl}}{{project.url}}"></a>
+											<div class="caption-inner">
+												<h3 class="portfolio-item-title">{{project.title}}</h3>
+												<div class="portfolio-item-desc">{{project.category}}</div>
+											</div>
+										</figcaption>
+									</figure>
 								</div>
+								{% endfor %}
+							</div>
+							<div class="view-all">
+								<a href="/about.html">
+									View all projects
+								</a>
 							</div>
 						</div>
 					</div>
