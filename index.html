@@ -150,27 +150,27 @@ layout: default
 						<div class="boxed">
 							<div class="container">
 								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
-									<div class="row">
-										{% assign ordered_projects = site.projects | sort:"order" %}
-										{% for project in ordered_projects limit:4 %}
-										<div class="col-12 col-md list-item">
-											<figure>
-												<img class="img-fluid"
-													src="{{site.baseurl}}assets/images/project/{{project.banner_image}}"
-													alt="p1">
-												<figcaption>
-													<a href="{{site.baseurl}}{{project.url}}"></a>
-													<div class="caption-inner">
-														<h3 class="portfolio-item-title">{{project.title}}</h3>
-														<div class="portfolio-item-desc">{{project.category}}</div>
-													</div>
-												</figcaption>
-											</figure>
-										</div>
-										{% endfor %}
-									</div>
 							</div>
 						</div>
+					</div>
+					<div class="row">
+						{% assign ordered_projects = site.projects | sort:"order" %}
+						{% for project in ordered_projects limit:4 %}
+						<div class="col-12 col-sm-6 col-lg list-item">
+							<figure>
+								<img class="img-fluid"
+									src="{{site.baseurl}}assets/images/project/{{project.banner_image}}"
+									alt="p1">
+								<figcaption>
+									<a href="{{site.baseurl}}{{project.url}}"></a>
+									<div class="caption-inner">
+										<h3 class="portfolio-item-title">{{project.title}}</h3>
+										<div class="portfolio-item-desc">{{project.category}}</div>
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						{% endfor %}
 					</div>
 				</div>
 			</div>
