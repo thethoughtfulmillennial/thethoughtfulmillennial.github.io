@@ -2204,7 +2204,7 @@ figure {
 	overflow: hidden;
 	position: relative;
 }
-.list-item .list-item figcaption {
+.list-item figcaption {
 	background: #006680;
 	background: -moz-linear-gradient(45deg, #006680 0%, #37c8ab 100%);
 	background: -webkit-gradient(left bottom, right top, color-stop(0%, #006680), color-stop(100%, #37c8ab));

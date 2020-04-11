@@ -152,8 +152,8 @@ layout: default
 								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
 									<div class="row">
 										{% assign ordered_projects = site.projects | sort:"order" %}
-										{% for project in ordered_projects limit:3 %}
-										<div class="col-sm list-item">
+										{% for project in ordered_projects limit:4 %}
+										<div class="col-12 col-md list-item">
 											<figure>
 												<img class="img-fluid"
 													src="{{site.baseurl}}assets/images/project/{{project.banner_image}}"
