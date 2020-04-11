@@ -153,14 +153,13 @@ layout: default
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row justify-content-center">
 						{% assign ordered_projects = site.projects | sort:"order" %}
-						{% for project in ordered_projects limit:4 %}
+						{% for project in ordered_projects limit:3 %}
 						<div class="col-12 col-sm-6 col-lg list-item">
 							<figure>
 								<img class="img-fluid"
-									src="{{site.baseurl}}assets/images/project/{{project.banner_image}}"
-									alt="p1">
+									src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="p1">
 								<figcaption>
 									<a href="{{site.baseurl}}{{project.url}}"></a>
 									<div class="caption-inner">
@@ -171,6 +170,17 @@ layout: default
 							</figure>
 						</div>
 						{% endfor %}
+					</div>
+					<div class="boxed boxed-inner">
+						<div class="boxed">
+							<div class="container">
+								<div class="view-all">
+									<a href="/about.html">
+										View all projects
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
