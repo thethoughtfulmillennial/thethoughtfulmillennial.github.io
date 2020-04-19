@@ -1152,11 +1152,10 @@ a.brand:focus{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
-  opacity: 0;
+  opacity: 1;
   overflow: hidden;
   transition: all 0.5s 0.6s;
   white-space: nowrap;
-  letter-spacing: 2.5rem;
 }
 
 .section.active .vertical-title span{

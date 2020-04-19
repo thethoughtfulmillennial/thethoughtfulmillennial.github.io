@@ -6,63 +6,66 @@ layout: default
 
 {% include nav.html %}
 
-<section id="blog-page" class="module">
-	<div class="container">
-		<div class="row">
-
-			<div class="module-header">
-				<h2 class="module-title">
-					Blog
-					<span>Blog</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter start-->
-
-		<div class="row">
-
-			<div class="col-sm-12">
-
-				<ul id="filter">
-					<li class="active" data-group="all">All</li>
-					{% assign categories = site.posts | map: 'category' | uniq %}
-						{% for category in categories %}
-						<li data-group="{{ category }}">{{ category }}</li>
-					{% endfor %}
-				</ul>
-
-			</div>
-
-		</div><!-- .row -->
-
-		<!-- Blog Filter end -->
-
-		<ul class="list-items-container blog-wrapper">
-
-			{% for post in site.posts %}
-
-			<li class="list-item" data-groups="all {{ post.category }}">
-				<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-					<div class="blogList-img">
-						<img src="{{ "/assets/images/post/" | append: post.banner_image | prepend: site.baseurl }}" alt="Blog Desc">
-						<span>{{ post.category }}</span>
+<div class="" id="content">
+	<div id="page1" data-anchor="page1">
+		<div>
+			<div class="section-bg half mask" style="background-image:url(assets/images/bg/header__about.jpg);"></div>
+			<div class="scrollable-content half">
+				<div class="vertical-centred">
+					<div class="boxed boxed-inner">
+						<div class="boxed">
+							<div class="container">
+								<div class="intro">
+									<div class="row">
+										<div class="col-md-8 col-lg-6">
+											<h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s"><span
+													class="text-primary">My</span> blog</h1>
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="blogList-desc">
-						<h3>{{ post.title }}</h3>
-						<div>{{ post.description }}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="page5" data-anchor="page5" class="section">
+		<div class="scroll-wrap">
+			<div class="bg-changer">
+				<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
+				<div class="section-bg" style="background-image:url(images/bg/project2.jpg);"></div>
+				<div class="section-bg" style="background-image:url(images/bg/project3.jpg);"></div>
+				<div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
+			</div>
+			<div class="scrollable-content">
+				<div class="vertical-title  d-none d-lg-block"><span>my articles</span></div>
+				<div class="vertical-centred">
+					<div class="boxed boxed-inner">
+						<div class="boxed">
+							<div class="container">
+								<div class="my-5">
+									<div class="row">
+										<div class="col-md-12">
+											{% for post in site.posts %}
+											<div class="project-row">
+												<a href="{{ site.baseurl }}{{ post.url }}">
+													<span class="project-number">{{ forloop.index }}</span>
+													<h2 class="project-title">{{ post.title }}</h2>
+													<div class="project-category">{{ post.category }}</div>
+												</a>
+											</div>
+											{% endfor %}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				</a>
-			</li>
-
-			{% endfor %}
-
-
-		</ul><!-- .projects-container -->
-	</div><!-- .contaier -->
-
-</section>
-
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Blog start -->

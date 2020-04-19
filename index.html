@@ -99,7 +99,7 @@ layout: default
 	<div id="page2" data-anchor="page2" class="pp-scrollable section section-2">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
-				<div class="vertical-title text-white  d-none d-lg-block"><span>what I do</span></div>
+				<div class="vertical-title text-white d-lg-block"><span>what I do</span></div>
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
 						<div class="boxed">
@@ -144,32 +144,31 @@ layout: default
 		<div class="scroll-wrap">
 			<div class="section-bg mask" style="background-image:url(assets/images/bg/projects.jpg);"></div>
 			<div class="scrollable-content">
-				<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
+				<div class="vertical-title d-lg-block"><span>my works</span></div>
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
 						<div class="boxed">
 							<div class="container">
-								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects
-							</div>
-							<div class="row justify-content-center">
-								{% assign ordered_projects = site.projects | sort:"order" %}
-								{% for project in ordered_projects limit:3 %}
-								<div class="col-12 col-sm-6 col-lg list-item">
-									<figure>
-										<img class="img-fluid"
-											src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="p1">
-										<figcaption>
-											<a href="{{site.baseurl}}{{project.url}}"></a>
-											<div class="caption-inner">
-												<h3>{{project.title}}</h3>
-												<div>{{project.category}}</div>
-											</div>
-										</figcaption>
-									</figure>
+								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects</h2>
+								<div class="row justify-content-center">
+									{% assign ordered_projects = site.projects | sort:"order" %}
+									{% for project in ordered_projects limit:3 %}
+									<div class="col-12 col-sm-6 col-lg list-item">
+										<figure>
+											<img class="img-fluid"
+												src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
+												alt="p1">
+											<figcaption>
+												<a href="{{site.baseurl}}{{project.url}}"></a>
+												<div class="caption-inner">
+													<h3>{{project.title}}</h3>
+													<div>{{project.category}}</div>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									{% endfor %}
 								</div>
-								{% endfor %}
-							</div>
-							<div class="container">
 								<div class="view-all">
 									<a href="/projects.html">
 										View all projects
@@ -186,7 +185,7 @@ layout: default
 		<div class="scroll-wrap">
 			<div class="section-bg mask" style="background-image:url(assets/images/bg/blog.jpg);"></div>
 			<div class="scrollable-content">
-				<div class="vertical-title  d-none d-lg-block"><span>my articles</span></div>
+				<div class="vertical-title d-lg-block"><span>my articles</span></div>
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
 						<div class="boxed">
@@ -222,7 +221,7 @@ layout: default
 	<div id="page5" data-anchor="page5" class="pp-scrollable section section-5">
 		<div class="scroll-wrap">
 			<div class="scrollable-content">
-				<div class="vertical-title text-white d-none d-lg-block"><span>contact</span></div>
+				<div class="vertical-title text-white d-lg-block"><span>contact</span></div>
 				<div class="vertical-centred">
 					<div class="boxed boxed-inner">
 						<div class="boxed">
