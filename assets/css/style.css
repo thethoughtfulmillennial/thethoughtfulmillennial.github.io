@@ -1912,7 +1912,7 @@ a.brand:focus{
 }
 .image-holder{
   display:block;
-  margin:2rem auto 2rem;
+  margin: 2rem auto 2rem;
   max-width:100%;
 }
 
@@ -2264,4 +2264,23 @@ figure {
 	-ms-transform: scale(.97);
 	-o-transform: scale(.97);
 	transform: scale(.97);
+}
+
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-holder.image-header {
+  width: 100%;
 }

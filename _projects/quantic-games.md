@@ -15,7 +15,7 @@ Since June 2019 I started working with them as a Project Manager, being in charg
 ### ExpoBix
 The last videogame we are working on is called Puma Punku and while working on it we had the luck to win the award for Best Audio at Expobix 2019. For the competition, organised by the Bolivian Video Game Association, we created the first version of this game  in about 13 days. As we tried our best to create the best experience, we relied on our individual talents to finish the game on time. Thankfully, our efforts were good enough to win that prize.
 
-![alt text]({{site.baseurl}}/assets/images/project/quantic_1.jpg "ExpoBix winners")
+![alt text]({{site.baseurl}}/assets/images/project/quantic_1.jpg "ExpoBix winners"){:.image-holder}
 
 Below you can check the Intro and Gameplay of the first version of the videogame.
 
