@@ -20,12 +20,7 @@ layout: default
 		</div>
 		<div class="row">
 			<div class="col">
-				<span>By {{ site.author_name }}</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<span>{{ page.date | date: "%B %-d, %Y" }}</span>
+				<span>By {{ site.author_name }}, {{ page.date | date: "%B %-d, %Y" }}</span>
 			</div>
 		</div>
 		<div class="row">
@@ -39,7 +34,7 @@ layout: default
 			{{content}}
 		</p>
 	</div>
-	<div class="row">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="blog-detail-tags">
