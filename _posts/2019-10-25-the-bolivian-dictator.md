@@ -3,7 +3,7 @@ layout: post
 title: "The Bolivian Dictator"
 date: 2019-10-25
 description: "Bolivia is on crisis. The last few days have been nothing but sad. This post is for the people who wonder what's happening in my co..."
-banner_image: dictator.jpeg
+banner_image: dictator.jpg
 category: Politics
 tags: [Bolivia]
 ---

@@ -8,32 +8,7 @@ layout: default
 
 
 <div class="content">
-	<div id="page1" data-anchor="page1">
-		<div>
-			<div class="section-bg mask half overflow-hidden">
-				<img class="section-bg post" src="/assets/images/post/{{ page.banner_image }}">
-			</div>
-			<div class="scrollable-content half">
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<div class="row">
-										<div class="col-md-8 col-lg-6">
-											<h1 class="display-4 text-white  wow fadeIn" data-wow-delay="0.1s">
-												{{page.title}}</h1>
-											<p></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<img alt="" class="image-holder image-header wow fadeIn animated" src="/assets/images/post/{{ page.banner_image }}">
 	<div class="container text-center my-4">
 		<div class="row">
 			<div class="col">
@@ -43,22 +18,19 @@ layout: default
 				<span> / {{ page.title }}</span>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-project-info col-12">
-			<div class="row">
-				<div class="col-md-2">
-					<div class="media-left">
-						<img src="/assets/images/avatar.jpg" class="media-object" alt="avatar">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<h5>{{site.author_name}}</h5>
-					<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-				</div>
-				<div class="col-md-4">
-					<h5>{{ page.category }}</h5>
-				</div>
+		<div class="row">
+			<div class="col">
+				<span>By {{ site.author_name }}</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<span>{{ page.date | date: "%B %-d, %Y" }}</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<span>{{ page.category }}</span>
 			</div>
 		</div>
 	</div>
