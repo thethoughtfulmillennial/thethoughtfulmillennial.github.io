@@ -6,76 +6,113 @@ layout: default
 
 <!-- Blog Detail Start -->
 
-<section class="blog-detail">
-	<div>
-		<div class="blog-detail-banner wow fadeIn container">
-			{% if page.banner_image %}
-				<img src="/assets/images/post/{{page.banner_image}}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
-			{% endif %}
-		</div>
-		<div class="blog-detail-contents wow fadeInUp container">
-			<h1 class="text-center">{{page.title}}</h1>
-			<div class="blog-detail-about clearfix">
-				<div class="media pull-left">
-					<div class="media-left">
-						<img src="/assets/images/avatar.jpg" class="media-object" alt="avatar">
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">{{site.author_name}}</h4>
-						<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-					</div>
-				</div>
-				<div class="blog-detail-category pull-right">
-					{{ page.category }}
-				</div>
-			</div>
-			<div class="blog-detail-content">
-				{{content}}
-			</div>
-			<div class="blog-detail-footer">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="blog-detail-tags">
-							<ul> 
-								{% if page.tags.size > 0 %}
-								Tags: {% for tag in page.tags %}
-								<li>
-									<a class="tags" href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}">{{ tag }}</a>
-								</li>
-								{% unless forloop.last %} {% endunless %}{% endfor %}
 
-								{% endif %}
-							</ul>
+<div class="" id="content">
+	<div id="page1" data-anchor="page1">
+		<div>
+			<img class="section-bg half mask" src="/assets/images/post/{{ page.banner_image }}">
+			<div class="scrollable-content half">
+				<div class="vertical-centred">
+					<div class="boxed boxed-inner">
+						<div class="boxed">
+							<div class="container">
+								<div class="intro">
+									<div class="row">
+										<div class="col-md-8 col-lg-6">
+											<h1 class="display-4 text-white  wow fadeIn" data-wow-delay="0.1s">
+												{{page.title}}</h1>
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="blog-detail-sib">
-					<div class="row">
-						{% if page.previous.url %}
-						<div class="col-md-6">
-							<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
-								<span>Previous</span>
-								<p>{{page.previous.title}}</p>
-							</a>
-						</div>
-						{% endif %}
-
-						{% if page.next.url %}
-						<div class="col-md-6">
-							<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
-								<span>Next</span>
-								<p>{{page.next.title}}</p>
-							</a>
-						</div>
-						{% endif %}
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
+	<div id="page2" data-anchor="page2" class="pp-scrollable section section-2">
+		<div class="scroll-wrap">
+			<div class="scrollable-content">
+				<div class="vertical-title text-white d-lg-block"><span>what I do</span></div>
+				<div class="vertical-centred">
+					<div class="boxed boxed-inner">
+						<div class="boxed">
+							<div class="container">
+								<div class="intro">
+									<div class="row">
+										<div class="blog-detail-about clearfix">
+											<div class="media pull-left">
+												<div class="media-left">
+													<img src="/assets/images/avatar.jpg" class="media-object"
+														alt="avatar">
+												</div>
+												<div class="media-body">
+													<h4 class="media-heading">{{site.author_name}}</h4>
+													<p>{{ page.date | date: "%B %-d, %Y" }}</p>
+												</div>
+											</div>
+											<div class="blog-detail-category pull-right">
+												{{ page.category }}
+											</div>
+										</div>
+										<div class="blog-detail-content">
+											{{content}}
+										</div>
+									</div>
 
-<!-- Blog Detail End -->
+									<div class="blog-detail-footer">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="blog-detail-tags">
+													<ul>
+														{% if page.tags.size > 0 %}
+														Tags: {% for tag in page.tags %}
+														<li>
+															<a class="tags"
+																href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}">{{ tag }}</a>
+														</li>
+														{% unless forloop.last %} {% endunless %}{% endfor %}
+
+														{% endif %}
+													</ul>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="blog-detail-sib">
+										<div class="row">
+											{% if page.previous.url %}
+											<div class="col-md-6">
+												<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
+													<span>Previous</span>
+													<p>{{page.previous.title}}</p>
+												</a>
+											</div>
+											{% endif %}
+
+											{% if page.next.url %}
+											<div class="col-md-6">
+												<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
+													<span>Next</span>
+													<p>{{page.next.title}}</p>
+												</a>
+											</div>
+											{% endif %}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- Blog start -->
 
@@ -91,23 +128,24 @@ layout: default
 
 		<div class="row">
 
-        	{% for post in site.posts limit:3 %}
-				<div class="col-sm-4">
-					<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
-						<div class="blogList-img">
-							{% if post.banner_image %}
-								<img src="{{ "/assets/images/post/" | append: post.banner_image | prepend: site.baseurl }}" alt="Blog Desc">
-							{% endif %}
-							{% if post.category %}
-							<span>{{ post.category }}</span>
-							{% endif %}
-						</div>
-						<div class="blogList-desc">
-							<h3>{{ post.title }}</h3>
-							<div>{{ post.description }}</div>
-						</div>
-					</a>
-				</div>
+			{% for post in site.posts limit:3 %}
+			<div class="col-sm-4">
+				<a href="{{site.baseurl}}{{post.url}}" class="blogList wow fadeInUp">
+					<div class="blogList-img">
+						{% if post.banner_image %}
+						<img src="{{ "/assets/images/post/" | append: post.banner_image | prepend: site.baseurl }}"
+							alt="Blog Desc">
+						{% endif %}
+						{% if post.category %}
+						<span>{{ post.category }}</span>
+						{% endif %}
+					</div>
+					<div class="blogList-desc">
+						<h3>{{ post.title }}</h3>
+						<div>{{ post.description }}</div>
+					</div>
+				</a>
+			</div>
 			{% endfor %}
 
 			<div class="col-sm-12">
