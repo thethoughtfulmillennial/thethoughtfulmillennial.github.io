@@ -7,7 +7,7 @@ layout: default
 <!-- Blog Detail Start -->
 
 
-<div class="" id="content">
+<div class="content">
 	<div id="page1" data-anchor="page1">
 		<div>
 			<div class="section-bg mask half overflow-hidden">
@@ -34,92 +34,77 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page2" data-anchor="page2" class="pp-scrollable section section-2">
-		<div class="scroll-wrap">
-			<div class="scrollable-content">
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<div class="container text-center my-4">
-										<div class="row">
-											<div class="col">
-												<a href="/projects.html" class="blog-nav">
-													<span>Projects</span>
-												</a>
-												<span> / {{ page.title }}</span>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-project-info col-12">
-											<div class="row">
-												<div class="col-md-2">
-													<div class="media-left">
-														<img src="/assets/images/avatar.jpg" class="media-object"
-															alt="avatar">
-													</div>
-												</div>
-												<div class="col-md-4">
-													<h5>{{site.author_name}}</h5>
-													<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-												</div>
-												<div class="col-md-4">
-													<h5>{{ page.category }}</h5>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										{{content}}
-									</div>
-									<div class="row">
-										<div class="row">
-											<div class="col-md-12">
-												<div class="blog-detail-tags">
-													<ul>
-														{% if page.tags.size > 0 %}
-														Tags: {% for tag in page.tags %}
-														<li>
-															<a class="tags"
-																href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}">{{ tag }}</a>
-														</li>
-														{% unless forloop.last %} {% endunless %}{% endfor %}
-
-														{% endif %}
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="row">
-											{% if page.previous.url %}
-											<div class="col-md-6">
-												<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
-													<span>Previous</span>
-													<p>{{page.previous.title}}</p>
-												</a>
-											</div>
-											{% endif %}
-
-											{% if page.next.url %}
-											<div class="col-md-6">
-												<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
-													<span>Next</span>
-													<p>{{page.next.title}}</p>
-												</a>
-											</div>
-											{% endif %}
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+	<div class="container text-center my-4">
+		<div class="row">
+			<div class="col">
+				<a href="/blog.html" class="blog-nav">
+					<span>Blog</span>
+				</a>
+				<span> / {{ page.title }}</span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-project-info col-12">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="media-left">
+						<img src="/assets/images/avatar.jpg" class="media-object" alt="avatar">
 					</div>
 				</div>
+				<div class="col-md-4">
+					<h5>{{site.author_name}}</h5>
+					<p>{{ page.date | date: "%B %-d, %Y" }}</p>
+				</div>
+				<div class="col-md-4">
+					<h5>{{ page.category }}</h5>
+				</div>
 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<p class="project-detail-text text-center">
+			{{content}}
+		</p>
+	</div>
+	<div class="row">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="blog-detail-tags">
+					<ul>
+						{% if page.tags.size > 0 %}
+						Tags: {% for tag in page.tags %}
+						<li>
+							<a class="tags"
+								href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}">{{ tag }}</a>
+						</li>
+						{% unless forloop.last %} {% endunless %}{% endfor %}
+
+						{% endif %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="row">
+			{% if page.previous.url %}
+			<div class="col-md-6">
+				<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
+					<span>Previous</span>
+					<p>{{page.previous.title}}</p>
+				</a>
+			</div>
+			{% endif %}
+
+			{% if page.next.url %}
+			<div class="col-md-6">
+				<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
+					<span>Next</span>
+					<p>{{page.next.title}}</p>
+				</a>
+			</div>
+			{% endif %}
 		</div>
 	</div>
 	<div id="page4" data-anchor="page4" class="pp-scrollable text-white section section-4">
