@@ -1132,6 +1132,16 @@ a.brand:focus{
   background-position: center;
 }
 
+.section-bg.post {
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
 .section-bg.half {
   height: 50vh;
 }
