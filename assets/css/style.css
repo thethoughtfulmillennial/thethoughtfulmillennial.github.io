@@ -1250,6 +1250,7 @@ a.brand:focus{
   letter-spacing: -0.025em;
   line-height: 1.33333;
   margin:0 0 3rem;
+  color: white;
 }
 
 .display-1{
@@ -1577,7 +1578,7 @@ a.brand:focus{
 }
 
 .project-row a{
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .project-detail-row{
@@ -1661,7 +1662,7 @@ a.brand:focus{
   .view-all-projects,
   .project-row,
   .project-detail-row{
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   .project-title{
@@ -2246,11 +2247,11 @@ figure {
 }
 
 .list-item .caption-inner {
-	position: absolute;
-	left: 0;
-	top: 50%;
-	width: 100%;
-	margin-top: -20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .caption-inner .portfolio-item-title {
