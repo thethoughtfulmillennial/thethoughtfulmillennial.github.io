@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Drupal PKM"
-date: 2017-05-22
+date: 2017-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: blog-banner.jpg
 category: Software

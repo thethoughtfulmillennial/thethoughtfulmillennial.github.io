@@ -71,7 +71,7 @@ html{
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -1614,7 +1614,6 @@ a.brand:focus{
 }
 
 .project-title{
-  font-size:3.68rem;
   font-weight: 400;
   margin:0;
 }
@@ -1663,10 +1662,6 @@ a.brand:focus{
   .project-row,
   .project-detail-row{
     padding-left: 10%;
-  }
-
-  .project-title{
-    font-size:4.68rem;
   }
 
   .project-row a:after,

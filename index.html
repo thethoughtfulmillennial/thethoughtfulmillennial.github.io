@@ -148,7 +148,7 @@ layout: default
 								<div class="row justify-content-center">
 									{% assign ordered_projects = site.projects | sort:"order" %}
 									{% for project in ordered_projects limit:3 %}
-									<div class="col-12 col-sm-6 col-lg list-item">
+									<div class="col-12 col-sm-6 col-lg-4 list-item">
 										<figure>
 											<img class="img-fluid"
 												src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
@@ -156,7 +156,7 @@ layout: default
 											<figcaption>
 												<a href="{{site.baseurl}}{{project.url}}"></a>
 												<div class="caption-inner">
-													<h3>{{project.title}}</h3>
+													<h3 class="title">{{project.title}}</h3>
 													<div>{{project.category}}</div>
 												</div>
 											</figcaption>

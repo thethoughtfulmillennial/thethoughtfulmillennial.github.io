@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "TEDxUCB"
-date: 2017-05-22
+date: 2019-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: tedxucb_banner.png
 thumbnail: tedxucb_thumbnail.png
