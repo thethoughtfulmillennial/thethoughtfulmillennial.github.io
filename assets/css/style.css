@@ -76,7 +76,7 @@ body{
   font-weight: 400;
   letter-spacing: 0.025em;
   line-height: 1.9428;
-  color: #717171;
+  color: #a4a4a4;
   background: #1b1b1b;
   -webkit-overflow-scrolling:touch;
 }
@@ -88,21 +88,21 @@ body{
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #37c8ab;
+  background: #307f96;
 }
 
 ::selection{
-  background-color:#37c8ab;
+  background-color:#307f96;
   color:#fff;
 }
 
 -webkit-::selection{
-    background-color:#37c8ab;
+    background-color:#307f96;
     color:#fff;
 }
 
 ::-moz-selection{
-    background-color:#37c8ab;
+    background-color:#307f96;
     color:#fff;
 }
 
@@ -119,7 +119,7 @@ h1,
   font-size: 3.428rem;
   line-height: 1.2;
   font-weight: 600;
-  color: #fff;
+  color: #786749;
   letter-spacing: -0.025em;
   margin:0.5em 0;
 }
@@ -130,7 +130,7 @@ h2,
   font-weight: 600;
   font-size: 3.371rem;
   line-height: 1.166;
-  color: #fff;
+  color: #786749;
   letter-spacing: 0;
   margin:2.6rem 0;
 }
@@ -142,7 +142,7 @@ h3,
   font-size: 2.142rem;
   line-height: 1.2;
   letter-spacing: -0.05em;
-  color: #fff;
+  color: #786749;
   margin:2.6rem 0;
 }
 
@@ -153,7 +153,7 @@ h4,
   font-size: 1.714rem;
   line-height: 1.25;
   letter-spacing: 0.025em;
-  color: #fff;
+  color: #786749;
   margin:2.6rem 0;
 }
 
@@ -164,7 +164,7 @@ h5,
   font-size: 1.571rem;
   line-height: 1.1;
   letter-spacing:0;
-  color: #fff;
+  color: #786749;
   margin:2.6rem 0;
 }
 
@@ -175,7 +175,7 @@ h6,
   font-size: 1.285rem;
   line-height: 1.3333;
   letter-spacing:0;
-  color: #fff;
+  color: #786749;
   margin:2.6rem 0;
 }
 
@@ -226,7 +226,7 @@ blockquote{
   padding: 0;
   width: 80%;
   padding-left: 6.8rem;
-  border-left: 0.3rem solid #37c8ab;
+  border-left: 0.3rem solid #307f96;
   margin-top: 5rem;
   color:#fff;
 }
@@ -240,14 +240,14 @@ cite{
 }
 
 a {
-  color:#37c8ab;
+  color:#307f96;
   -webkit-transition: color .3s ease-out;
        -o-transition: color .3s ease-out;
           transition: color .3s ease-out;
 }
 
 a:hover {
-  color:#37c8ab;
+  color:#307f96;
   outline: none;
 }
 
@@ -303,7 +303,7 @@ input[type='email']:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 textarea:focus{
-  border-color: #37c8ab;
+  border-color: #307f96;
   outline: 0;
   color: #fff;
 }
@@ -358,7 +358,7 @@ label.error{
   border:0;
   border-radius: 0;
   padding: 1.1em 2.28em 1em;
-  background-color: #37c8ab;
+  background-color: #307f96;
   text-decoration: none;
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
@@ -400,8 +400,8 @@ label.error{
 }
 
 .ion-ios-play:hover{
-  color: #37c8ab;
-  border: 1px solid #37c8ab;
+  color: #307f96;
+  border: 1px solid #307f96;
 }
 
 .ion-ios-play:after {
@@ -460,7 +460,7 @@ label.error{
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #37c8ab;
+  background-color: #307f96;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -506,7 +506,7 @@ label.error{
 }
 
 .text-primary{
-  color:#37c8ab!important;
+  color:#307f96!important;
 }
 
 .masked{
@@ -657,7 +657,7 @@ a.brand:focus{
 }
 
 .navbar-toggle:hover .icon-bar{
-  background-color:  #37c8ab;
+  background-color:  #307f96;
 }
 
 .navbar .social-list{
@@ -692,7 +692,7 @@ a.brand:focus{
 }
 
 .social-list a:hover{
-  color:#37c8ab;
+  color:#307f96;
   text-decoration: none;
 }
 
@@ -793,7 +793,7 @@ a.brand:focus{
 }
 
 .close-menu:hover{
-  color: #37c8ab;
+  color: #307f96;
 }
 
 .menu-list{
@@ -888,7 +888,7 @@ a.brand:focus{
 }
 
 .menu-footer .social-list a:hover{
-  color:#37c8ab;
+  color:#307f96;
 }
 
 .menu-footer .copy{
@@ -1034,7 +1034,7 @@ a.brand:focus{
 #pp-nav .pp-nav-down:hover,
 #pp-nav.white .pp-nav-up:hover,
 #pp-nav.white .pp-nav-down:hover{
-  color: #37c8ab;
+  color: #307f96;
 }
 
 #pp-nav.white .pp-nav-up,
@@ -1053,7 +1053,7 @@ a.brand:focus{
 
 #pp-nav li .active span, .pp-slidesNav .active span{
   opacity: 1;
-  background: #37c8ab;
+  background: #307f96;
   transform:scale(1.6);
 }
 
@@ -1286,7 +1286,7 @@ a.brand:focus{
 
 .icon-specialization{
   font-size:5rem;
-  color:#37c8ab;
+  color:#307f96;
 }
 
 .row-specialization{
@@ -1343,7 +1343,7 @@ a.brand:focus{
 }
 
 .col-resume:hover{
-  background: #37c8ab;
+  background: #307f96;
 }
 
 .resume-type{
@@ -1485,7 +1485,7 @@ a.brand:focus{
 }
 
 .progress-bar{
-  background-color:#37c8ab;
+  background-color:#307f96;
   height: 100%;
 }
 
@@ -1652,7 +1652,7 @@ a.brand:focus{
 
 
 .view-all a:hover{
-  color:#37c8ab;
+  color:#307f96;
   text-decoration: none;
 }
 
@@ -1899,7 +1899,7 @@ a.brand:focus{
 }
 
 .owl-dot.active span{
-  background: #37c8ab;
+  background: #307f96;
   transform:scale(1.4);
 }
 
@@ -2181,7 +2181,7 @@ a.brand:focus{
 
 #filter li:hover,
 #filter li.active {
-	background: #37c8ab;
+	background: #307f96;
 	color: #fff;
 }
 
@@ -2213,14 +2213,14 @@ figure {
 	position: relative;
 }
 .list-item figcaption {
-	background: #006680;
-	background: -moz-linear-gradient(45deg, #006680 0%, #37c8ab 100%);
-	background: -webkit-gradient(left bottom, right top, color-stop(0%, #006680), color-stop(100%, #37c8ab));
-	background: -webkit-linear-gradient(45deg, #006680 0%, #37c8ab 100%);
-	background: -o-linear-gradient(45deg, #006680 0%, #37c8ab 100%);
-	background: -ms-linear-gradient(45deg, #006680 0%, #37c8ab 100%);
-	background: linear-gradient(45deg, #006680 0%, #37c8ab 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006680', endColorstr='#37c8ab', GradientType=1 );
+	background: #1a2121;
+	background: -moz-linear-gradient(45deg, #1a2121 0%, #307f96 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, #1a2121), color-stop(100%, #307f96));
+	background: -webkit-linear-gradient(45deg, #1a2121 0%, #307f96 100%);
+	background: -o-linear-gradient(45deg, #1a2121 0%, #307f96 100%);
+	background: -ms-linear-gradient(45deg, #1a2121 0%, #307f96 100%);
+	background: linear-gradient(45deg, #1a2121 0%, #307f96 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2121', endColorstr='#307f96', GradientType=1 );
 	bottom: 8px;
 	left: 8px;
 	opacity: 0;
