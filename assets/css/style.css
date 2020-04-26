@@ -71,7 +71,7 @@ html{
 }
 
 body{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -1588,15 +1588,13 @@ a.brand:focus{
 .project-row a:after,
 .project-row a.active:after,
 .project-detail-row a:after{
-  content:'';
-  opacity:0;
+  content: '';
+  opacity: 0;
   position: absolute;
-  top:2.2rem;
-  margin-left:-4rem;
   height: 1px;
   background: #fff;
-  width:100000px;
-  transition:opacity 0.3s;
+  width: 100000px;
+  transition: opacity 0.3s;
 }
 
 .project-detail-row a:after{
@@ -1664,16 +1662,10 @@ a.brand:focus{
     padding-left: 10%;
   }
 
-  .project-row a:after,
-  .project-row a.active:after,
-  .project-detail-row{
-    top:3rem;
+  .project-title{
+    font-size:4.68rem;
   }
 
-  .project-number{
-    top:1.7rem;
-  }
-  
   .project-detail-row .project-number{
     top:3vmin;
   }
