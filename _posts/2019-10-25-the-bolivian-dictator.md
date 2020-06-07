@@ -8,8 +8,6 @@ category: Politics
 tags: [Bolivia]
 ---
 
-###### Picture by EPA-efe/Martin Alipaz.
-
 Bolivia is on crisis. The last few days have been nothing but sad. This post is for the people who wonder what's happening in my country.
 
 Presidential elections showed us the last piece of dignity that the current government can have. We witnessed the most obvious attempt of electoral fraud.
