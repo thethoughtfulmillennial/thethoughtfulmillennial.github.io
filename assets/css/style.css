@@ -2321,12 +2321,12 @@ figure {
 }
 
 .portfolio .portfolio-filter a.active {
-  background-color: #e24727 !important;
+  background-color: #307f96 !important;
   color: #ffffff !important;
 }
 
 .portfolio .portfolio-filter a:hover {
-  background-color: #e24727 !important;
+  background-color: #307f96 !important;
   color: #ffffff !important;
 }
 
@@ -2411,7 +2411,7 @@ figure {
 }
 
 .portfolio .img-overlay-content a:hover {
-  background-color: #e24727;
+  background-color: #307f96;
   color: #ffffff;
 }
 
@@ -2435,7 +2435,7 @@ figure {
 }
 
 .portfolio .portfolio-icon a:hover, .portfolio .portfolio-icon button:hover {
-  background-color: #e24727;
+  background-color: #307f96;
   color: #ffffff;
 }
 
