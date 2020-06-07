@@ -115,11 +115,10 @@ body{
 h1,
 .h1{ 
   font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3.428rem;
   line-height: 1.2;
-  font-weight: 600;
-  color: #786749;
+  color: #c49b66;
   letter-spacing: -0.025em;
   margin:0.5em 0;
 }
@@ -127,10 +126,10 @@ h1,
 h2,
 .h2{ 
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 3.371rem;
   line-height: 1.166;
-  color: #786749;
+  color: #c49b66;
   letter-spacing: 0;
   margin:2.6rem 0;
 }
@@ -138,11 +137,11 @@ h2,
 h3,
 .h3{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2.142rem;
   line-height: 1.2;
   letter-spacing: -0.05em;
-  color: #786749;
+  color: #c49b66;
   margin:2.6rem 0;
 }
 
@@ -153,7 +152,7 @@ h4,
   font-size: 1.714rem;
   line-height: 1.25;
   letter-spacing: 0.025em;
-  color: #786749;
+  color: #c49b66;
   margin:2.6rem 0;
 }
 
@@ -164,7 +163,7 @@ h5,
   font-size: 1.571rem;
   line-height: 1.1;
   letter-spacing:0;
-  color: #786749;
+  color: #c49b66;
   margin:2.6rem 0;
 }
 
@@ -175,7 +174,7 @@ h6,
   font-size: 1.285rem;
   line-height: 1.3333;
   letter-spacing:0;
-  color: #786749;
+  color: #c49b66;
   margin:2.6rem 0;
 }
 
@@ -1262,7 +1261,7 @@ a.brand:focus{
 
 .display-2{
   font-size: 6.54rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: -0.05em;
   margin: 0;
@@ -1611,11 +1610,6 @@ a.brand:focus{
   opacity: 1;
 }
 
-.project-title{
-  font-weight: 400;
-  margin:0;
-}
-
 .project-detail-row .project-title{
   font-size:9vmin;
 }
@@ -1660,10 +1654,6 @@ a.brand:focus{
   .project-row,
   .project-detail-row{
     padding-left: 10%;
-  }
-
-  .project-title{
-    font-size:4.68rem;
   }
 
   .project-detail-row .project-number{
