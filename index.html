@@ -148,27 +148,19 @@ layout: default
 								<div class="row justify-content-center portfolio-items">
 									{% assign ordered_projects = site.projects | sort:"order" %}
 									{% for project in ordered_projects limit:3 %}
-									<div class="col-lg-4 portfolio-item my-3 graphic"
-										style="position: relative;display: block;">
-										<div class="portfolio-item-content rounded">
-											<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
-												alt="/" style="width: 100%;position: relative;">
-											<div class="img-overlay text-center">
-												<div class="img-overlay-content">
-													<div class="portfolio-icon">
-														<button type="button" data-toggle="modal"
-															data-target="#portfolio-single">
-															<i class="lni-link"></i>
-														</button>
-														<a href="{{site.baseurl}}{{project.url}}">
-															<i class="lni-search"></i>
-														</a>
+									<div class="col-lg-4 portfolio-item my-3 graphic" style="position: relative;display: block;">
+										<a href="{{site.baseurl}}{{project.url}}">
+											<div class="portfolio-item-content rounded">
+												<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
+													alt="/" style="width: 100%;position: relative;">
+												<div class="img-overlay text-center">
+													<div class="img-overlay-content">
+														<h5 class="text-white m-0">{{project.title}}</h5>
+														<div>{{project.category}}</div>
 													</div>
-													<h5 class="text-white mt-3 mb-0">{{project.title}}</h5>
-													<div>{{project.category}}</div>
 												</div>
 											</div>
-										</div>
+										</a>
 									</div>
 									{% endfor %}
 								</div>
