@@ -63,33 +63,29 @@ layout: default
 		</div>
 	</div>
 	<div id="page4" data-anchor="page4" class="pp-scrollable text-white section section-4">
-		<div class="scroll-wrap">
-			<div class="section-bg mask" style="background-image:url(/assets/images/bg/blog.jpg);"></div>
-			<div class="scrollable-content">
-				<div class="vertical-title d-lg-block"><span>my articles</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="">
-									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog</h2>
-									<div class="row">
-										<div class="col-md-12">
-											{% for post in site.posts limit:3 %}
-											<div class="project-row">
-												<a href="{{ site.baseurl }}{{ post.url }}">
-													<span class="project-number">{{ forloop.index }}</span>
-													<h2 class="project-title">{{ post.title }}</h2>
-													<div class="project-category">{{ post.category }}</div>
-												</a>
-											</div>
-											{% endfor %}
-											<div class="view-all view-all-projects">
-												<a href="/blog.html">
-													View all posts
-												</a>
-											</div>
-										</div>
+		<div class="section-bg mask" style="background-image:url(/assets/images/bg/blog.jpg);"></div>
+		<div class="vertical-title d-lg-block"><span>my articles</span></div>
+		<div class="vertical-centred section-content">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<div class="">
+							<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog</h2>
+							<div class="row">
+								<div class="col-md-12">
+									{% for post in site.posts limit:3 %}
+									<div class="project-row">
+										<a href="{{ site.baseurl }}{{ post.url }}">
+											<span class="project-number">{{ forloop.index }}</span>
+											<h2 class="project-title">{{ post.title }}</h2>
+											<div class="project-category">{{ post.category }}</div>
+										</a>
+									</div>
+									{% endfor %}
+									<div class="view-all view-all-projects">
+										<a href="/blog.html">
+											View all posts
+										</a>
 									</div>
 								</div>
 							</div>
