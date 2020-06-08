@@ -633,7 +633,8 @@ a.brand:focus{
   border-radius: 0;
   background: none;
   border: 0;
-  margin-top:0.8rem;
+  margin-top:0.5rem;
+  color: white;
 }
 
 .navbar-toggle:focus{
@@ -2026,12 +2027,6 @@ a.brand:focus{
   html{
     font-size: 14px;
   }
-
-  .navbar{
-    padding:2.7rem 0;
-  }
-
-
 
   /* Sidebar Menu */
 
