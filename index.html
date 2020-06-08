@@ -70,8 +70,8 @@ layout: default
 								<div class="intro">
 									<div class="row">
 										<div class="col-md-8 col-lg-6">
-											<h1 class="display-2 text-white"><span
-													class="text-primary">Hello,</span> I'm John</h1>
+											<h1 class="display-2 text-white"><span class="text-primary">Hello,</span>
+												I'm John</h1>
 											<p>Creating digital solutions for a sustainable future.</p>
 											<a class="popup-youtube"
 												href="http://www.youtube.com/watch?v=0O2aH4XLbto"><span
@@ -87,42 +87,38 @@ layout: default
 		</div>
 	</div>
 	<div id="page2" data-anchor="page2" class="section">
-		<div class="scroll-wrap">
-			<div class="scrollable-content">
-				<div class="vertical-title text-white d-lg-block"><span>what I do</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<div class="row align-items-center">
-										<div class="col-lg-6 offset-xl-1">
-											<div class="experience-box">
-												<div class="experience-content">
-													<div class="experience-number">3</div>
-													<div class="experience-info">
-														<div>Years<br>Experience<br>Working</div>
-													</div>
-												</div>
+		<div class="vertical-title text-white d-lg-block"><span>what I do</span></div>
+		<div class="vertical-centred section-content">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<div class="intro">
+							<div class="row align-items-center">
+								<div class="col-lg-6 offset-xl-1">
+									<div class="experience-box">
+										<div class="experience-content">
+											<div class="experience-number">3</div>
+											<div class="experience-info">
+												<div>Years<br>Experience<br>Working</div>
 											</div>
 										</div>
-										<div class="col-lg-5 mt-5 mt-xl-0">
-											<h2 class="title"> <span class="text-primary">About</span> me</h2>
-											<p>I am passionate about Sustainable Development and Music. Facilitator and
-												builder
-												on various projects on the industry. Mental health and Gender Equality
-												advocate.
-												Good communicator and planner with strong logical judgment, with
-												experience at
-												different international events and programs.</p>
-										</div>
-									</div>
-									<div class="view-all">
-										<a href="/about.html">
-											Know more
-										</a>
 									</div>
 								</div>
+								<div class="col-lg-5 mt-5 mt-xl-0">
+									<h2 class="title"> <span class="text-primary">About</span> me</h2>
+									<p>I am passionate about Sustainable Development and Music. Facilitator and
+										builder
+										on various projects on the industry. Mental health and Gender Equality
+										advocate.
+										Good communicator and planner with strong logical judgment, with
+										experience at
+										different international events and programs.</p>
+								</div>
+							</div>
+							<div class="view-all">
+								<a href="/about.html">
+									Know more
+								</a>
 							</div>
 						</div>
 					</div>
@@ -131,40 +127,37 @@ layout: default
 		</div>
 	</div>
 	<div id="page3" data-anchor="page3" class="text-white section portfolio">
-		<div class="scroll-wrap">
-			<div class="section-bg mask" style="background-image:url(assets/images/bg/projects.jpg);"></div>
-			<div class="scrollable-content">
-				<div class="vertical-title d-lg-block"><span>my works</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects</h2>
-								<div class="row justify-content-center portfolio-items">
-									{% assign ordered_projects = site.projects | sort:"order" %}
-									{% for project in ordered_projects limit:3 %}
-									<div class="col-lg-4 portfolio-item my-3 graphic" style="position: relative;display: block;">
-										<a href="{{site.baseurl}}{{project.url}}">
-											<div class="portfolio-item-content rounded">
-												<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
-													alt="/" style="width: 100%;position: relative;">
-												<div class="img-overlay text-center">
-													<div class="img-overlay-content">
-														<h5 class="text-white m-0">{{project.title}}</h5>
-														<div>{{project.category}}</div>
-													</div>
-												</div>
+		<div class="section-bg mask" style="background-image:url(assets/images/bg/projects.jpg);"></div>
+		<div class="vertical-title d-lg-block"><span>my works</span></div>
+		<div class="vertical-centred section-content">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> projects</h2>
+						<div class="row justify-content-center portfolio-items">
+							{% assign ordered_projects = site.projects | sort:"order" %}
+							{% for project in ordered_projects limit:3 %}
+							<div class="col-lg-4 portfolio-item my-3 graphic"
+								style="position: relative;display: block;">
+								<a href="{{site.baseurl}}{{project.url}}">
+									<div class="portfolio-item-content rounded">
+										<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="/"
+											style="width: 100%;position: relative;">
+										<div class="img-overlay text-center">
+											<div class="img-overlay-content">
+												<h5 class="text-white m-0">{{project.title}}</h5>
+												<div>{{project.category}}</div>
 											</div>
-										</a>
+										</div>
 									</div>
-									{% endfor %}
-								</div>
-								<div class="view-all">
-									<a href="/projects.html">
-										View all projects
-									</a>
-								</div>
+								</a>
 							</div>
+							{% endfor %}
+						</div>
+						<div class="view-all">
+							<a href="/projects.html">
+								View all projects
+							</a>
 						</div>
 					</div>
 				</div>
@@ -172,94 +165,87 @@ layout: default
 		</div>
 	</div>
 	<div id="page4" data-anchor="page4" class="text-white section">
-		<div class="scroll-wrap">
-			<div class="section-bg mask" style="background-image:url(assets/images/bg/blog.jpg);"></div>
-			<div class="scrollable-content">
-				<div class="vertical-title d-lg-block"><span>my articles</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="">
-									<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog</h2>
-									<div class="row">
-										<div class="col-md-12">
-											{% for post in site.posts limit:3 %}
-											<div class="project-row">
-												<a href="{{ site.baseurl }}{{ post.url }}">
-													<span class="project-number">{{ forloop.index }}</span>
-													<h2 class="project-title">{{ post.title }}</h2>
-													<div class="project-category">{{ post.category }}</div>
-												</a>
-											</div>
-											{% endfor %}
-										</div>
-									</div>
-									<div class="view-all">
-										<a href="/blog.html">
-											View all posts
+		<div class="section-bg mask" style="background-image:url(assets/images/bg/blog.jpg);"></div>
+		<div class="vertical-title d-lg-block"><span>my articles</span></div>
+		<div class="vertical-centred section-content">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<div class="">
+							<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog</h2>
+							<div class="row">
+								<div class="col-md-12">
+									{% for post in site.posts limit:3 %}
+									<div class="project-row">
+										<a href="{{ site.baseurl }}{{ post.url }}">
+											<span class="project-number">{{ forloop.index }}</span>
+											<h2 class="project-title">{{ post.title }}</h2>
+											<div class="project-category">{{ post.category }}</div>
 										</a>
 									</div>
+									{% endfor %}
 								</div>
+							</div>
+							<div class="view-all">
+								<a href="/blog.html">
+									View all posts
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
 	<div id="page5" data-anchor="page5" class="section">
-		<div class="scroll-wrap">
-			<div class="scrollable-content">
-				<div class="vertical-title text-white d-lg-block"><span>contact</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro overflow-hidden">
+		<div class="vertical-title text-white d-lg-block"><span>contact</span></div>
+		<div class="vertical-centred section-content">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<div class="intro overflow-hidden">
+							<div class="row">
+								<div class="col-md-6">
+									<h2 class="title"><span class="text-primary">Contact</span> me</h2>
+									<section class="contact-address">
+										<h4 class="text-muted">For talks and workshops about:
+											<ul>
+												<li>Sustainability</li>
+												<li>Coding</li>
+												<li>Project Managemenet</li>
+											</ul>
+										</h4>
+									</section>
+								</div>
+								<div class="col-md-6">
 									<div class="row">
-										<div class="col-md-6">
-											<h2 class="title"><span class="text-primary">Contact</span> me</h2>
-											<section class="contact-address">
-												<h4 class="text-muted">For talks and workshops about:
-													<ul>
-														<li>Sustainability</li>
-														<li>Coding</li>
-														<li>Project Managemenet</li>
-													</ul>
-												</h4>
-											</section>
+										<div class="col-6 col-md-6 col-partner">
+											<div class="partner-inner">
+												<a target="_blank"
+													href="https://www.facebook.com/{{ site.facebook_username }}"
+													class="icon ion-social-facebook"></a>
+											</div>
 										</div>
-										<div class="col-md-6">
-											<div class="row">
-												<div class="col-6 col-md-6 col-partner">
-													<div class="partner-inner">
-														<a target="_blank"
-															href="https://www.facebook.com/{{ site.facebook_username }}"
-															class="icon ion-social-facebook"></a>
-													</div>
-												</div>
-												<div class="col-6 col-md-6 col-partner">
-													<div class="partner-inner">
-														<a target="_blank"
-															href="https://twitter.com/{{ site.twitter_username }}"
-															class="icon ion-social-twitter"></a>
-													</div>
-												</div>
-												<div class="col-6 col-md-6 col-partner">
-													<div class="partner-inner">
-														<a target="_blank"
-															href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
-															class="icon ion-social-linkedin"></a>
-													</div>
-												</div>
-												<div class="col-6 col-md-6 col-partner">
-													<div class="partner-inner">
-														<a target="_blank"
-															href="https://www.instagram.com/{{ site.instagram_username }}"
-															class="icon ion-social-instagram"></a>
-													</div>
-												</div>
+										<div class="col-6 col-md-6 col-partner">
+											<div class="partner-inner">
+												<a target="_blank"
+													href="https://twitter.com/{{ site.twitter_username }}"
+													class="icon ion-social-twitter"></a>
+											</div>
+										</div>
+										<div class="col-6 col-md-6 col-partner">
+											<div class="partner-inner">
+												<a target="_blank"
+													href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
+													class="icon ion-social-linkedin"></a>
+											</div>
+										</div>
+										<div class="col-6 col-md-6 col-partner">
+											<div class="partner-inner">
+												<a target="_blank"
+													href="https://www.instagram.com/{{ site.instagram_username }}"
+													class="icon ion-social-instagram"></a>
 											</div>
 										</div>
 									</div>
