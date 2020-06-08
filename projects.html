@@ -2,64 +2,20 @@
 layout: default
 ---
 
-<!-- Projects start -->
-
 {% include nav.html %}
 
-<!-- Hero start -->
-<div class="" id="content">
-	<div id="page1" data-anchor="page1">
-		<div>
-			<div class="section-bg half mask" style="background-image:url(assets/images/bg/header__about.jpg);"></div>
-			<div class="scrollable-content half">
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<div class="row">
-										<div class="col-md-8 col-lg-6">
-											<h1 class="text-white  wow fadeIn" data-wow-delay="0.1s"><span
-													class="text-primary">My</span> projects</h1>
-											<p></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="page5" data-anchor="page5" class="section portfolio">
-		<div class="scroll-wrap">
-			<div class="scrollable-content">
-				<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
-				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="my-5">
-									<div class="row justify-content-center portfolio-items">
-										{% assign ordered_projects = site.projects | sort:"order" %}
-										{% for project in ordered_projects %}
-										<div class="col-lg-4 portfolio-item my-3 graphic" style="position: relative;display: block;">
-											<a href="{{site.baseurl}}{{project.url}}">
-												<div class="portfolio-item-content rounded">
-													<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
-														alt="/" style="width: 100%;position: relative;">
-													<div class="img-overlay text-center">
-														<div class="img-overlay-content">
-															<h5 class="text-white m-0">{{project.title}}</h5>
-															<div>{{project.category}}</div>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										{% endfor %}
-									</div>
+<div class="section">
+	<div class="section-bg half mask" style="background-image:url(assets/images/bg/header__about.jpg);"></div>
+	<div class="scrollable-content half">
+		<div class="vertical-centred">
+			<div class="boxed boxed-inner">
+				<div class="boxed">
+					<div class="container">
+						<div class="intro">
+							<div class="row">
+								<div class="col-md-8 col-lg-6">
+									<h1 class="text-white"><span class="text-primary">My</span> projects</h1>
+									<p></p>
 								</div>
 							</div>
 						</div>
@@ -69,4 +25,36 @@ layout: default
 		</div>
 	</div>
 </div>
-<!-- Projects end -->
+<div class="section portfolio">
+	<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
+	<div class="vertical-centred">
+		<div class="boxed boxed-inner">
+			<div class="boxed">
+				<div class="container">
+					<div class="my-5">
+						<div class="row justify-content-center portfolio-items">
+							{% assign ordered_projects = site.projects | sort:"order" %}
+							{% for project in ordered_projects %}
+							<div class="col-lg-4 portfolio-item my-3 graphic"
+								style="position: relative;display: block;">
+								<a href="{{site.baseurl}}{{project.url}}">
+									<div class="portfolio-item-content rounded">
+										<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="/"
+											style="width: 100%;position: relative;">
+										<div class="img-overlay text-center">
+											<div class="img-overlay-content">
+												<h5 class="text-white m-0">{{project.title}}</h5>
+												<div>{{project.category}}</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
