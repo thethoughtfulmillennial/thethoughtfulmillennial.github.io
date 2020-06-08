@@ -19,7 +19,7 @@ layout: default
 								<div class="intro">
 									<div class="row">
 										<div class="col-md-8 col-lg-6">
-											<h1 class="display-2 text-white  wow fadeIn" data-wow-delay="0.1s"><span
+											<h1 class="text-white  wow fadeIn" data-wow-delay="0.1s"><span
 													class="text-primary">My</span> projects</h1>
 											<p></p>
 										</div>
@@ -32,14 +32,8 @@ layout: default
 			</div>
 		</div>
 	</div>
-	<div id="page5" data-anchor="page5" class="section">
+	<div id="page5" data-anchor="page5" class="section portfolio">
 		<div class="scroll-wrap">
-			<div class="bg-changer">
-				<div class="section-bg" style="background-image:url(images/bg/project1.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project2.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project3.jpg);"></div>
-				<div class="section-bg" style="background-image:url(images/bg/project4.jpg);"></div>
-			</div>
 			<div class="scrollable-content">
 				<div class="vertical-title  d-none d-lg-block"><span>my works</span></div>
 				<div class="vertical-centred">
@@ -47,22 +41,22 @@ layout: default
 						<div class="boxed">
 							<div class="container">
 								<div class="my-5">
-									<div class="row justify-content-center">
+									<div class="row justify-content-center portfolio-items">
 										{% assign ordered_projects = site.projects | sort:"order" %}
 										{% for project in ordered_projects %}
-										<div class="col-12 col-sm-6 col-lg-4 list-item">
-											<figure>
-												<img class="img-fluid"
-													src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
-													alt="p1">
-												<figcaption>
-													<a href="{{site.baseurl}}{{project.url}}"></a>
-													<div class="caption-inner">
-														<h3 class="title">{{project.title}}</h3>
-														<div>{{project.category}}</div>
+										<div class="col-lg-4 portfolio-item my-3 graphic" style="position: relative;display: block;">
+											<a href="{{site.baseurl}}{{project.url}}">
+												<div class="portfolio-item-content rounded">
+													<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}"
+														alt="/" style="width: 100%;position: relative;">
+													<div class="img-overlay text-center">
+														<div class="img-overlay-content">
+															<h5 class="text-white m-0">{{project.title}}</h5>
+															<div>{{project.category}}</div>
+														</div>
 													</div>
-												</figcaption>
-											</figure>
+												</div>
+											</a>
 										</div>
 										{% endfor %}
 									</div>
