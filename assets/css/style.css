@@ -1062,7 +1062,7 @@ a.brand:focus{
 /* 3.1 Sections */
 
 .section {
-  /* overflow: hidden; */
+  overflow-x: hidden;
   position: relative;
   display: block;
 }
