@@ -12,8 +12,8 @@ Since 1948 IAESTE has been providing young science and engineering students from
 
 Since January 2018, I volunteer to the organization as the Commitee Leader of my city, La Paz in Bolivia. I am in charge of giving talks about the program to all local universitites, guide foreign students when they arrive my country and support applicants when needed.
 
-![alt text]({{site.baseurl}}/assets/images/project/iaeste_1.JPG "IAESTE Talk")
+![alt text]({{site.baseurl}}/assets/images/project/iaeste_1.JPG "IAESTE Talk"){:.image-holder}
 
-![alt text]({{site.baseurl}}/assets/images/project/iaeste_2.JPG "IAESTE Talk")
+![alt text]({{site.baseurl}}/assets/images/project/iaeste_2.JPG "IAESTE Talk"){:.image-holder}
 
-![alt text]({{site.baseurl}}/assets/images/project/iaeste_3.jpg "IAESTE Talk")
+![alt text]({{site.baseurl}}/assets/images/project/iaeste_3.jpg "IAESTE Talk"){:.image-holder}
