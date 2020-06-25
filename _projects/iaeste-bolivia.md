@@ -6,7 +6,7 @@ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 banner_image: iaesteb_banner.png
 thumbnail: iaesteb_thumbnail.png
 category: Community
-order: 6
+order: 7
 ---
 Since 1948 IAESTE has been providing young science and engineering students from around the world with paid, course related work experience. Similarly, IAESTE has been a source of high quality trainees for companies and institutions in more than 80 countries worldwide.
 
