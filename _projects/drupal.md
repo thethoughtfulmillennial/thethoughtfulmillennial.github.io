@@ -9,9 +9,10 @@ order: 1
 ---
 Drupal is an open source CMS with great standard features, great flexibility, amazing performance and modularity for improving the core experience.
 
-I started my journey with Drupal in 2015 when I was accepted for an internship at MD Systems through IAESTE Bolivia. Thanks to that I was able to be the top 15th contributor of Drupal in the world in 2017. Thanks to MD Systems I was able to work on the following projects around the Drupal ecosystem.
+I started my journey with Drupal in 2015 when I was accepted for an internship at MD Systems through IAESTE Bolivia. Thanks to that I was able to be the top 15th contributor of Drupal in the world in 2017.
 
 ## Contribution
+Thanks to MD Systems I was able to work on the following projects around the Drupal ecosystem.
 
 ### Paragraphs
 Paragraphs is one of the most used Drupal modules at the moment. It allows users to add a replacement for the Body field (where the user usually adds the conent of a page) with a dynamic field where the user can add different types of Paragraphs with differente fields and configuration.

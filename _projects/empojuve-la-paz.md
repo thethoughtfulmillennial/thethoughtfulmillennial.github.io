@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Empoderando Juventudes La paz"
+title: "Empoderando Juventudes La Paz"
 date: 2020-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: empojuve_banner.png
