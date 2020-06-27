@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Nucleo GNU/Linux"
-date: 2017-01-01
+date_start: 2017-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: project/nlg_banner.png
 thumbnail: ngl_thumbnail.png

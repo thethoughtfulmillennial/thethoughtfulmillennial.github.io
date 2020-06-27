@@ -34,7 +34,7 @@ layout: default
 					</div>
 					<div class="col-md-6 pt-4">
 						<h5>Year</h5>
-						<p>{{ page.date | date: "%Y"}}</p>
+						<p>{{ page.date_start | date: "%B %Y"}} - {% if page.date_finish %} {{ page.date_finish | date: "%B %Y"}} {% else %} Present {% endif %}</p>
 					</div>
 				</div>
 			</div>

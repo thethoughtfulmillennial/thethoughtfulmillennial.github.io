@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "OPENSchool Solutions"
-date: 2019-01-01
+date_start: 2019-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: project/oss_banner.png
 thumbnail: oss_thumbnail.png

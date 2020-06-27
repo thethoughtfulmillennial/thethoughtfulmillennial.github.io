@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "IAESTE Bolivia"
-date: 2017-01-01
+date_start: 2017-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
 banner_image: project/iaesteb_banner.png
 thumbnail: iaesteb_thumbnail.png
