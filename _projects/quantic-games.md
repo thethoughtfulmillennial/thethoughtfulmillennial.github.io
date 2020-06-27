@@ -3,7 +3,7 @@ layout: project
 title: "Quantic Games"
 date: 2019-01-01
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
-banner_image: quanticgames_banner.png
+banner_image: project/quanticgames_banner.png
 thumbnail: quanticgames_thumbnail.png
 category: Videogames
 order: 3

@@ -3,7 +3,7 @@ layout: post
 title: "Dear Bolivia"
 date: 2019-08-22
 description: "For international donations, please go to www.waterthruskin.com/aid-bolivia. For spreading awareness use #SOSBolivia. Dear Bolivia..."
-banner_image: dear_bolivia.jpeg
+banner_image: post/dear_bolivia.jpeg
 category: Thoughts
 tags: [Bolivia, awareness]
 ---

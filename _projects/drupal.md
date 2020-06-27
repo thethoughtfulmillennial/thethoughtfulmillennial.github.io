@@ -2,7 +2,7 @@
 layout: project
 title: "Drupal"
 date: 2016-01-01
-banner_image: drupal_banner.png
+banner_image: project/drupal_banner.png
 thumbnail: drupal_thumbnail.png
 category: Software
 order: 1

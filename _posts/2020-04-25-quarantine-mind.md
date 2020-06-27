@@ -3,7 +3,7 @@ layout: post
 title: "Quarantine: Mind"
 date: 2020-04-25
 description: "In a room somewhere in the world, in the middle of the night, there is someone feeling anxious as they think that this quarantine is not..."
-banner_image: 1_blog_quarantine.jpg
+banner_image: post/1_blog_quarantine.jpg
 category: Quarantine
 tags: [mental health]
 ---

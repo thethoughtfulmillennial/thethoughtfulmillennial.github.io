@@ -11,6 +11,12 @@
 
 	<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+	{% if page.banner_image %}
+		<meta property="og:image" content="assets/images/{{ page.banner_image }}.jpg">
+	{% else %}
+		<meta property="og:image" content="assets/images/bg/main.jpg">
+	{% endif %}
+
 	<!-- Youtube background -->
 	<link rel="stylesheet" href="assets/css/ytplayer.css">
 

@@ -3,7 +3,7 @@ layout: post
 title: "OpenCalais and semantic tags"
 date: 2017-07-04
 description: "The more content is created, the harder is to tag them all. Whenever an user needs to tag some kind of content the big and important..."
-banner_image: opencalais_1.jpg
+banner_image: post/opencalais_1.jpg
 category: Coding
 tags: [contrib, drupal, module]
 ---

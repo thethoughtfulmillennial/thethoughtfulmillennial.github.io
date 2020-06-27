@@ -3,7 +3,7 @@ layout: post
 title: "OpenCalais and Drupal 8"
 date: 2017-07-17
 description: "OpenCalais is a web service that analyses text for extracting “SocialTags”. As the OpenCalais documentation says: “SocialTags” are a..."
-banner_image: oc_d8_banner.jpeg
+banner_image: post/oc_d8_banner.jpeg
 category: Coding
 tags: [contrib, drupal, module]
 ---
