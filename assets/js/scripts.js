@@ -22,6 +22,8 @@
 		wow.init();
 	});
 
+
+
 	/*-------------------------------------------------------------------------------
 	   Animsition Loader
 	-------------------------------------------------------------------------------*/
@@ -197,6 +199,23 @@
 		$('.pp-nav-down').on('click', function(){
 			$.fn.pagepiling.moveSectionDown();
 		});
+ 
+
+
+
+    /*-------------------------------------------------------------------------------
+	  Change bacgkround on project section
+	-------------------------------------------------------------------------------*/
+
+
+
+    $('.project-row a').on('mouseover',function(){
+    	var index = $('.project-row a').index(this)
+    	$('.project-row a').removeClass('active');
+    	$(this).addClass('active');
+    	$('.bg-changer .section-bg').removeClass('active').eq(index).addClass('active');
+    });
+
 
 
 
