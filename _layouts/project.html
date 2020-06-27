@@ -9,7 +9,7 @@ layout: default
 <div class="content">
 	<div class="container">
 		<div class="row">
-			<div class="col-project-name col-md-6 my-4">
+			<div class="col-project-name col-12 my-4 text-center">
 				<h1>{{page.title}}</h1>
 				<div class="social-list social-list-detail">
 					{% if page.facebook %}
@@ -26,15 +26,15 @@ layout: default
 					{% endif %}
 				</div>
 			</div>
-			<div class="col-project-info col-md-6 my-4">
+			<div class="col-project-info col-12 text-center">
 				<div class="row">
-					<div class="col-md-6 pt-4">
+					<div class="col-6 pt-4">
 						<h5>Category</h5>
 						<p>{{ page.category }}</p>
 					</div>
-					<div class="col-md-6 pt-4">
+					<div class="col-6 pt-4">
 						<h5>Year</h5>
-						<p>{{ page.date_start | date: "%B %Y"}} - {% if page.date_finish %} {{ page.date_finish | date: "%B %Y"}} {% else %} Present {% endif %}</p>
+						<p>{{ page.date_start | date: "%b %Y"}} - {% if page.date_finish %} {{ page.date_finish | date: "%b %Y"}} {% else %} Present {% endif %}</p>
 					</div>
 				</div>
 			</div>
