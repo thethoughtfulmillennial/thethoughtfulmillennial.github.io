@@ -3,7 +3,7 @@ layout: project
 title: "TEDxUCB"
 date_start: 2019-05-01
 description: "TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED T..."
-banner_image: tedxucb_banner.png
+banner_image: project/tedxucb_banner.png
 thumbnail: tedxucb_thumbnail.png
 category: Community
 order: 4

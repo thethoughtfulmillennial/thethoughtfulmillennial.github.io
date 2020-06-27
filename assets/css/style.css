@@ -1930,6 +1930,10 @@ a.brand:focus{
 
 }
 
+.col-project-name .social-list a {
+  float: unset;
+}
+
 .project-detail-text{
   color: #fff;
   font-size:1.2rem;
