@@ -27,16 +27,27 @@ layout: default
 					<div class="my-5">
 						<div class="row">
 							<div class="col-md-12">
-								{% for post in site.posts %}
 								<div class="project-row">
-									<a href="{{ site.baseurl }}{{ post.url }}">
-										<span class="project-number">{{ forloop.index }}</span>
-										<h2 class="project-title">{{ post.title }}</h2>
-										<div class="project-category">{{ post.category }}</div>
-									</a>
-									<p>{{ post.description }}</p>
+									<span class="project-number">2</span>
+									<h2 class="project-title">A trip</h2>
+									<div class="embed-youtube">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/dZpEKasJcVg" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<p>
+										Improvements:
+										<ul>
+											<li>Taught myself the usage of LUTs for automatic color grading.</li>
+											<li>Added sound effects that switch between deafult audio and music.</li>
+										</ul>
+									</p>
 								</div>
-								{% endfor %}
+								<div class="project-row">
+									<span class="project-number">1</span>
+									<h2 class="project-title">Loneliness</h2>
+									<div class="embed-youtube">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/ZC-eIad-c1o" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
