@@ -834,7 +834,7 @@ a.brand:focus{
 }
 
 .menu-list > li{
-  margin-top: 2.7rem;
+  margin-top: 2rem;
 }
 
 .menu-list > li:first-child{
@@ -1149,7 +1149,6 @@ a.brand:focus{
 .vertical-title{
   position: absolute;
   text-align: center;
-  font-weight: 600;
   opacity: 0.05;
   font-size:9rem;
   top: 50%;
@@ -2029,7 +2028,7 @@ a.brand:focus{
 @media (min-width: 992px){
 
   html{
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* Sidebar Menu */
@@ -2097,7 +2096,7 @@ a.brand:focus{
   }
 
   .menu-list > li{
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 
   .menu-footer{
