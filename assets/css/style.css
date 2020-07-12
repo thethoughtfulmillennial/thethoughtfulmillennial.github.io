@@ -71,7 +71,7 @@ html{
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -114,7 +114,7 @@ body{
 
 h1,
 .h1{ 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 3.428rem;
   line-height: 1.2;
@@ -125,7 +125,7 @@ h1,
 
 h2,
 .h2{ 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.166;
@@ -136,7 +136,7 @@ h2,
 
 h3,
 .h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   font-size: 2.142rem;
   line-height: 1.2;
@@ -147,7 +147,7 @@ h3,
 
 h4,
 .h4{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
   font-size: 1.714rem;
   line-height: 1.25;
@@ -158,7 +158,7 @@ h4,
 
 h5,
 .h5{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
   font-size: 1.571rem;
   line-height: 1.1;
@@ -169,7 +169,7 @@ h5,
 
 h6,
 .h6{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
   font-size: 1.285rem;
   line-height: 1.3333;
@@ -1352,7 +1352,7 @@ a.brand:focus{
 }
 
 .resume-type{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: 500;
@@ -1414,7 +1414,7 @@ a.brand:focus{
 }
 
 .experience-number{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size:23.142rem;
   line-height: 1;
   font-weight:400;
@@ -1626,7 +1626,7 @@ a.brand:focus{
 .view-all{
   position: relative;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size:1.26rem;
   margin-top:2.3rem;
 }
@@ -1806,7 +1806,7 @@ a.brand:focus{
 }
 
 .author-name{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.125rem;
   text-transform: uppercase;
   line-height: 1.333;
