@@ -35,7 +35,7 @@ layout: default
 			<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"
 				class="icon ion-social-instagram"></a>
 		</div>
-		<div class="copy">© John Choque 2020. All Rights Reserved</div>
+		<div class="copy">© John Choque 2020</div>
 	</div>
 </div>
 
@@ -133,7 +133,7 @@ layout: default
 						<div class="row justify-content-center portfolio-items">
 							{% assign ordered_projects = site.projects | sort:"order" %}
 							{% for project in ordered_projects limit:3 %}
-							<div class="col-lg-4 portfolio-item my-3 graphic"
+							<div class="col-lg-4 col-md-6 portfolio-item my-3 graphic"
 								style="position: relative;display: block;">
 								<a href="{{site.baseurl}}{{project.url}}">
 									<div class="portfolio-item-content rounded">

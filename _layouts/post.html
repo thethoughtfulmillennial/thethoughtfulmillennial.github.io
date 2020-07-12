@@ -62,9 +62,9 @@ layout: default
 			{% endif %}
 		</div>
 	</div>
-	<div id="page4" data-anchor="page4" class="pp-scrollable text-white section section-4">
+	<div id="page4" data-anchor="page4" class="text-white section">
 		<div class="section-bg mask" style="background-image:url(/assets/images/bg/blog.jpg);"></div>
-		<div class="vertical-title d-lg-block"><span>my articles</span></div>
+		<div class="vertical-title d-lg-block"><span>articles</span></div>
 		<div class="vertical-centred section-content">
 			<div class="boxed boxed-inner">
 				<div class="boxed">
@@ -80,6 +80,7 @@ layout: default
 											<h2 class="project-title">{{ post.title }}</h2>
 											<div class="project-category">{{ post.category }}</div>
 										</a>
+										<p>{{ post.description }}</p>
 									</div>
 									{% endfor %}
 									<div class="view-all view-all-projects">
