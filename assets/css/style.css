@@ -1253,7 +1253,7 @@ a.brand:focus{
 .title{
   letter-spacing: -0.025em;
   line-height: 1.33333;
-  margin:0 0 3rem;
+  margin: 0;
   color: white;
 }
 
@@ -2429,7 +2429,6 @@ figure {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .half {
   height: 50vh !important;
@@ -2445,5 +2444,5 @@ figure {
 
 h1.page-title {
   margin: 0;
-  font-size: 16vw;
+  font-size: 13vw;
 }
