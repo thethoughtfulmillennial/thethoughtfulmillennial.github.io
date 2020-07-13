@@ -2442,3 +2442,8 @@ figure {
 .logo--small {
 	height: 20px;
 }
+
+h1.page-title {
+  margin: 0;
+  font-size: 16vw;
+}
