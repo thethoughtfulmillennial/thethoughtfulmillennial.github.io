@@ -205,34 +205,32 @@ layout: default
 							<div class="row">
 								<div class="col-12">
 									<div class="row">
-										<div class="col-12"><h3 class="title text-primary">Like my work?</h3></div>
-										<div class="col-12"><h3 class="title">You can contact me now!</h3></div>
-										<div class="col-6 col-md-3 col-partner">
-											<div class="partner-inner">
-												<a target="_blank"
-													href="https://www.facebook.com/{{ site.facebook_username }}"
-													class="icon ion-social-facebook"></a>
-											</div>
+										<div class="col-12">
+											<h3 class="title text-primary">Like my work?</h3>
 										</div>
-										<div class="col-6 col-md-3 col-partner">
-											<div class="partner-inner">
-												<a target="_blank"
-													href="https://twitter.com/{{ site.twitter_username }}"
-													class="icon ion-social-twitter"></a>
-											</div>
+										<div class="col-12">
+											<h3 class="title">You can contact me now!</h3>
 										</div>
-										<div class="col-6 col-md-3 col-partner">
-											<div class="partner-inner">
-												<a target="_blank"
-													href="https://www.linkedin.com/in/{{ site.linkedin_username }}"
-													class="icon ion-social-linkedin"></a>
-											</div>
-										</div>
-										<div class="col-6 col-md-3 col-partner">
-											<div class="partner-inner">
-												<a target="_blank"
-													href="https://www.instagram.com/{{ site.instagram_username }}"
-													class="icon ion-social-instagram"></a>
+										<div class="col-md-12">
+											<div class="contact-info">
+												<form action="https://formspree.io/xjvapobr" method="POST" class="js-form">
+													<div class="row">
+														<div class="form-group col-sm-6">
+															<input type="text" name="name" required placeholder="Name*" aria-required="true">
+														</div>
+														<div class="form-group col-sm-6">
+															<input type="email" name="_replyto" required placeholder="Email*" aria-required="true">
+														</div>
+														<div class="form-group col-sm-12">
+															<input type="text" name="subject" placeholder="Subject (Optional)">
+														</div>
+														<div class="form-group col-sm-12">
+															<textarea name="message" required placeholder="Message*" aria-required="true"></textarea>
+														</div>
+														<div class="col-sm-12"><button type="submit" class="btn" value="Send">Contact me</button>
+														</div>
+													</div>
+												</form>
 											</div>
 										</div>
 									</div>
