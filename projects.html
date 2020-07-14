@@ -27,7 +27,7 @@ title: "Projects"
 						<div class="row justify-content-center portfolio-items">
 							{% assign ordered_projects = site.projects | sort:"order" %}
 							{% for project in ordered_projects %}
-							<div class="col-lg-4 portfolio-item my-3 graphic"
+							<div class="col-lg-4 col-md-6 portfolio-item my-3 graphic"
 								style="position: relative;display: block;">
 								<a href="{{site.baseurl}}{{project.url}}">
 									<div class="portfolio-item-content rounded">
