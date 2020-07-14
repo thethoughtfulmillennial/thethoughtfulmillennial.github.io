@@ -54,4 +54,5 @@ Some weeks ago I was invited to the podcast of Tu Beca Bolivia (An organization 
 <iframe src="https://open.spotify.com/embed-podcast/episode/5ZV4s5hjFfpa2AQbtyDWOc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
+
 If I wanted to write this, was to help others understand that there might be certain things in our lives that we think are impossible to achieve but after trying, working and believing, they can be accomplished. Even when your journey is full of stress, sadness or even depression, you are capable of facing your own challenges and overcome them. Each one of us is strong enough to be what we want to be. And maybe, if we see things carefully, we can avoid a journey with so many obstacles, a journey that we enjoy and we are happy to share.
