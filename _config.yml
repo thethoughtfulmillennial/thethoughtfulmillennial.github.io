@@ -9,7 +9,7 @@
 title: "John Choque"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "I am passionate about Sustainable Development and Music. Facilitator and builder on various projects on industry. Mental health and Gender Equality advocate. Good communicator and planner with a strong logical judgement, with experience at different international events and programs."
+description: "I am passionate about Sustainable Development, Music and Productivity. Facilitator and builder on various projects on industry. Mental health and Gender Equality advocate. Good communicator and planner with a strong logical judgement, with experience at different international events and programs."
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl:  ""
@@ -27,9 +27,9 @@ disqus:
 author_name: "John Choque"
 
 # Social links in the site footer
-twitter_username: "yongt9412"
-facebook_username: "yongt9412"
-instagram_username: "bolivianwanderer"
+twitter_username:
+facebook_username:
+instagram_username:
 linkedin_username: "john-choque-condori"
 
 collections:
