@@ -2444,3 +2444,9 @@ h1.page-title {
 .section-light {
   background-color: #272727;
 }
+
+@media (max-width: 575px) {
+  h1.page-title {
+      font-size: 6.13rem;
+  }
+}
