@@ -2444,8 +2444,8 @@ h1.page-title {
   background-color: #272727;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 700px) {
   h1.page-title {
-      font-size: 13vw;
+      font-size: 10vw;
   }
 }
