@@ -2439,14 +2439,13 @@ figure {
 
 h1.page-title {
   margin: 0;
-  font-size: 13vw;
 }
 .section-light {
   background-color: #272727;
 }
 
-@media (max-width: 575px) {
+@media (min-width: 575px) {
   h1.page-title {
-      font-size: 6.13rem;
+      font-size: 13vw;
   }
 }
