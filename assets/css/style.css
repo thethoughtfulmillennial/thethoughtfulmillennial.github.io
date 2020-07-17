@@ -132,6 +132,7 @@ h2,
   color: #c49b66;
   letter-spacing: 0;
   margin:2.6rem 0;
+  margin-bottom: 1rem;
 }
 
 h3,
@@ -143,6 +144,7 @@ h3,
   letter-spacing: -0.05em;
   color: #c49b66;
   margin:2.6rem 0;
+  margin-bottom: 1rem;
 }
 
 h4,
@@ -154,6 +156,7 @@ h4,
   letter-spacing: 0.025em;
   color: #c49b66;
   margin:2.6rem 0;
+  margin-bottom: 1rem;
 }
 
 h5,
@@ -165,6 +168,7 @@ h5,
   letter-spacing:0;
   color: #c49b66;
   margin:2.6rem 0;
+  margin-bottom: 1rem;
 }
 
 h6,
@@ -176,6 +180,7 @@ h6,
   letter-spacing:0;
   color: #c49b66;
   margin:2.6rem 0;
+  margin-bottom: 1rem;
 }
 
 h1 a,
