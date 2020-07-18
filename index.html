@@ -56,20 +56,15 @@ layout: default
 			<div class="section-bg mask" style="background-image:url(assets/images/bg/main.jpg);"></div>
 			<div class="scrollable-content">
 				<div class="vertical-centred">
-					<div class="boxed boxed-inner">
-						<div class="boxed">
-							<div class="container">
-								<div class="intro">
-									<div class="row">
-										<div class="col-12">
-											<h1 class="display-2 text-white page-title"><span class="text-primary">Hello,</span>
-												I'm John</h1>
-											<p class="lead">And I create digital solutions for a sustainable future.</p>
-											<a class="popup-youtube"
-												href="https://www.youtube.com/watch?v=pkLg-LbCo0E"><span
-													class="icon ion-ios-play"></span>YSI Global Documentary</a>
-										</div>
-									</div>
+					<div class="container">
+						<div class="intro">
+							<div class="row">
+								<div class="col-12">
+									<h1 class="display-2 text-white page-title"><span class="text-primary">Hello,</span>
+										I'm John</h1>
+									<p class="lead">And I create digital solutions for a sustainable future.</p>
+									<a class="popup-youtube" href="https://www.youtube.com/watch?v=pkLg-LbCo0E"><span
+											class="icon ion-ios-play"></span>YSI Global Documentary</a>
 								</div>
 							</div>
 						</div>
@@ -80,64 +75,55 @@ layout: default
 	</div>
 	<div class="text-white section portfolio">
 		<div class="vertical-centred section-content">
-			<div class="boxed boxed-inner">
-				<div class="boxed">
-					<div class="container">
-						<h2 class="title mb-5"> <span class="text-primary">My</span> projects</h2>
-						<div class="row justify-content-center portfolio-items">
-							{% assign ordered_projects = site.projects | sort:"order" %}
-							{% for project in ordered_projects limit:3 %}
-							<div class="col-lg-4 col-md-6 portfolio-item my-3 graphic"
-								style="position: relative;display: block;">
-								<a href="{{site.baseurl}}{{project.url}}">
-									<div class="portfolio-item-content rounded">
-										<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="/"
-											style="width: 100%;position: relative;">
-										<div class="img-overlay text-center">
-											<div class="img-overlay-content">
-												<h5 class="text-white m-0">{{project.title}}</h5>
-												<div>{{project.category}}</div>
-											</div>
-										</div>
+			<div class="container">
+				<h2 class="title mb-5"> <span class="text-primary">My</span> projects</h2>
+				<div class="row justify-content-center portfolio-items">
+					{% assign ordered_projects = site.projects | sort:"order" %}
+					{% for project in ordered_projects limit:3 %}
+					<div class="col-lg-4 col-md-6 portfolio-item my-3 graphic"
+						style="position: relative;display: block;">
+						<a href="{{site.baseurl}}{{project.url}}">
+							<div class="portfolio-item-content rounded">
+								<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="/"
+									style="width: 100%;position: relative;">
+								<div class="img-overlay text-center">
+									<div class="img-overlay-content px-3">
+										<h5 class="text-white m-0">{{project.title}}</h5>
+										<div>{{project.category}}</div>
 									</div>
-								</a>
+								</div>
 							</div>
-							{% endfor %}
-						</div>
-						<div class="view-all">
-							<a href="/projects.html">
-								View all projects
-							</a>
-						</div>
+						</a>
 					</div>
+					{% endfor %}
+				</div>
+				<div class="view-all">
+					<a href="/projects.html">
+						View all projects
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="section section-light">
 		<div class="vertical-centred section-content">
-			<div class="boxed boxed-inner">
-				<div class="boxed">
-					<div class="container">
-						<div class="intro">
-							<div class="row align-items-center">
-								<div class="col-12">
-									<h2 class="title"> <span class="text-primary">About</span> me</h2>
-									<p>I am passionate about Sustainable Development and Music. Facilitator and
-										builder
-										on various projects on the industry. Mental health and Gender Equality
-										advocate.
-										Good communicator and planner with strong logical judgment, with
-										experience at
-										different international events and programs.</p>
-								</div>
-							</div>
-							<div class="view-all">
-								<a href="/about.html">
-									Know more
-								</a>
-							</div>
+			<div class="container">
+				<div class="intro">
+					<div class="row align-items-center">
+						<div class="col-12">
+							<p>I am passionate about Sustainable Development and Music. Facilitator and
+								builder
+								on various projects on the industry. Mental health and Gender Equality
+								advocate.
+								Good communicator and planner with strong logical judgment, with
+								experience at
+								different international events and programs.</p>
 						</div>
+					</div>
+					<div class="view-all">
+						<a href="/about.html">
+							About me
+						</a>
 					</div>
 				</div>
 			</div>
@@ -145,80 +131,71 @@ layout: default
 	</div>
 	<div class="text-white section">
 		<div class="vertical-centred section-content">
-			<div class="boxed boxed-inner">
-				<div class="boxed">
-					<div class="container">
-						<div class="">
-							<h2 class="title mb-5"> <span class="text-primary">My</span> blog</h2>
-							<div class="row">
-								<div class="col-md-12">
-									{% for post in site.posts limit:3 %}
-									<div class="project-row">
-										<a href="{{ site.baseurl }}{{ post.url }}">
-											<span class="project-number">{{ forloop.index }}</span>
-											<h2 class="project-title">{{ post.title }}</h2>
-											<div class="project-category">{{ post.category }}</div>
-										</a>
-										<p>{{ post.description }}</p>
-									</div>
-									{% endfor %}
-								</div>
-							</div>
-							<div class="view-all">
-								<a href="/blog.html">
-									View all posts
+			<div class="container">
+				<div class="">
+					<h2 class="title mb-5"> <span class="text-primary">My</span> blog</h2>
+					<div class="row">
+						<div class="col-md-12">
+							{% for post in site.posts limit:3 %}
+							<div class="project-row">
+								<a href="{{ site.baseurl }}{{ post.url }}">
+									<span class="project-number">{{ forloop.index }}</span>
+									<h2 class="project-title">{{ post.title }}</h2>
+									<div class="project-category">{{ post.category }}</div>
 								</a>
+								<p>{{ post.description }}</p>
 							</div>
+							{% endfor %}
 						</div>
 					</div>
+					<div class="view-all">
+						<a href="/blog.html">
+							View all posts
+						</a>
+					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<div id="contact" class="section section-light">
 		<div class="vertical-centred section-content">
-			<div class="boxed boxed-inner">
-				<div class="boxed">
-					<div class="container">
-						<div class="intro overflow-hidden">
+			<div class="container">
+				<div class="intro overflow-hidden">
+					<div class="row">
+						<div class="col-12">
 							<div class="row">
 								<div class="col-12">
-									<div class="row">
-										<div class="col-12">
-											<h3 class="title text-primary">Like my work?</h3>
-										</div>
-										<div class="col-12">
-											<h3 class="title mb-5">You can contact me now!</h3>
-										</div>
-										<div class="col-md-12">
-											<div class="contact-info">
-												<form action="https://formspree.io/xjvapobr" method="POST"
-													class="js-form" novalidate>
-													<div class="row">
-														<div class="form-group col-sm-6">
-															<input type="text" name="name" required placeholder="Name*"
-																aria-required="true">
-														</div>
-														<div class="form-group col-sm-6">
-															<input type="email" name="_replyto" required
-																placeholder="Email*" aria-required="true">
-														</div>
-														<div class="form-group col-sm-12">
-															<input type="text" name="subject"
-																placeholder="Subject (Optional)">
-														</div>
-														<div class="form-group col-sm-12">
-															<textarea name="message" required placeholder="Message*"
-																aria-required="true"></textarea>
-														</div>
-														<div class="col-sm-12"><button type="submit" class="btn"
-																value="Send">Contact me</button>
-														</div>
-													</div>
-												</form>
+									<h3 class="title text-primary">Like my work?</h3>
+								</div>
+								<div class="col-12">
+									<h3 class="title mb-5">You can contact me now!</h3>
+								</div>
+								<div class="col-md-12">
+									<div class="contact-info">
+										<form action="https://formspree.io/xjvapobr" method="POST" class="js-form"
+											novalidate>
+											<div class="row">
+												<div class="form-group col-sm-6">
+													<input type="text" name="name" required placeholder="Name*"
+														aria-required="true">
+												</div>
+												<div class="form-group col-sm-6">
+													<input type="email" name="_replyto" required placeholder="Email*"
+														aria-required="true">
+												</div>
+												<div class="form-group col-sm-12">
+													<input type="text" name="subject" placeholder="Subject (Optional)">
+												</div>
+												<div class="form-group col-sm-12">
+													<textarea name="message" required placeholder="Message*"
+														aria-required="true"></textarea>
+												</div>
+												<input type="text" name="_gotcha" style="display:none" />
+												<div class="col-sm-12"><button type="submit" class="btn"
+														value="Send">Contact me</button>
+												</div>
 											</div>
-										</div>
+										</form>
 									</div>
 								</div>
 							</div>
