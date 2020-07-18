@@ -5,38 +5,30 @@ title: "Blog"
 
 {% include nav.html %}
 
-<div class="text-white section half">
+<div class="text-white section half px-3">
 	<div class="hero--center">
 		<div class="section-bg mask" style="background-image:url(assets/images/bg/header_blog.jpg);"></div>
-		<div class="boxed boxed-inner w-100">
-			<div class="boxed">
-				<div class="container">
-					<h1 class="display-2 text-white page-title"><span class="text-primary">Articles</span>.</h1>
-				</div>
-			</div>
+		<div class="container">
+			<h1 class="display-2 text-white page-title"><span class="text-primary">Articles</span>.</h1>
 		</div>
 	</div>
 </div>
-<div class="section">
+<div class="section px-3">
 	<div class="vertical-centred section-content">
-		<div class="boxed boxed-inner">
-			<div class="boxed">
-				<div class="container">
-					<div class="my-5">
-						<div class="row">
-							<div class="col-md-12">
-								{% for post in site.posts %}
-								<div class="project-row">
-									<a href="{{ site.baseurl }}{{ post.url }}">
-										<span class="project-number">{{ forloop.index }}</span>
-										<h2 class="project-title">{{ post.title }}</h2>
-										<div class="project-category">{{ post.category }}</div>
-									</a>
-									<p>{{ post.description }}</p>
-								</div>
-								{% endfor %}
-							</div>
+		<div class="container">
+			<div class="my-5">
+				<div class="row">
+					<div class="col-md-12">
+						{% for post in site.posts %}
+						<div class="project-row">
+							<a href="{{ site.baseurl }}{{ post.url }}">
+								<span class="project-number">{{ forloop.index }}</span>
+								<h2 class="project-title">{{ post.title }}</h2>
+								<div class="project-category">{{ post.category }}</div>
+							</a>
+							<p>{{ post.description }}</p>
 						</div>
+						{% endfor %}
 					</div>
 				</div>
 			</div>
