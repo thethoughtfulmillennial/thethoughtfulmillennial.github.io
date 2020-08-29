@@ -162,10 +162,10 @@ a.white {
 	font: 700 0.75rem/0 "Nunito", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
-	color: #fff;
 }
 
 .btn-solid-lg:hover {
+	color: #fff;
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -273,7 +273,6 @@ a.white {
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
-	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #626262;
 	font: 400 0.875rem/1.875rem "Nunito", sans-serif;
@@ -638,6 +637,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
+    width: 7.4375rem;
 	height: 2rem;
 }
 
@@ -726,7 +726,6 @@ input[type='checkbox'] {
 .navbar-custom .navbar-toggler {
 	border: none;
 	color: #393939;
-	font-size: 2rem;
 }
 
 .navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
