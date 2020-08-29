@@ -755,6 +755,8 @@ input[type='checkbox'] {
 /*********************/
 .header {
 	background-color: #fff;
+	background: url('../images/header-background.jpg') center center no-repeat;
+	background-size: cover; 
 }
 
 .header .header-content {
@@ -2043,7 +2045,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		padding-top: 12.5rem;
+		padding-top: 15rem;
+		padding-bottom: 10rem;
 	}
 
 	.header .text-container {
