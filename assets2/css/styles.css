@@ -31,10 +31,10 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds - turquoise #008080
+- Backgrounds - turquoise #307f96
 - Backgrounds - blue #0079f9
 - Backgrounds - light gray #f7fcfd
-- Buttons, bullets, icons, links - turquoise #008080
+- Buttons, bullets, icons, links - turquoise #307f96
 - Cards border, inputs border - light gray #c4d8dc
 - Text headers, navbar links - black #393939
 - Text body - black #626262
@@ -116,7 +116,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #008080;
+	color: #307f96;
 }
 
 a.white {
@@ -132,15 +132,15 @@ a.white {
 }
 
 .turquoise {
-	color: #008080;
+	color: #307f96;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #008080;
+	border: 0.125rem solid #307f96;
 	border-radius: 2rem;
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	font: 700 0.75rem/0 "Nunito", sans-serif;
 	text-decoration: none;
@@ -149,16 +149,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #008080;
+	border: 0.125rem solid #307f96;
 	border-radius: 2rem;
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	font: 700 0.75rem/0 "Nunito", sans-serif;
 	text-decoration: none;
@@ -167,24 +167,24 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #008080;
+	border: 0.125rem solid #307f96;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 	font: 700 0.75rem/0 "Nunito", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	text-decoration: none;
 }
@@ -192,17 +192,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #008080;
+	border: 0.125rem solid #307f96;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 	font: 700 0.75rem/0 "Nunito", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	text-decoration: none;
 }
@@ -210,17 +210,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #008080;
+	border: 0.125rem solid #307f96;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 	font: 700 0.625rem/0 "Nunito", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	text-decoration: none;
 }
@@ -368,9 +368,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #008080;
+	border: 1px solid #307f96;
 	border-radius: 1.5rem;
-	background-color: #008080;
+	background-color: #307f96;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Nunito", sans-serif;
 	cursor: pointer;
@@ -379,7 +379,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #008080;
+	color: #307f96;
 }
 
 /* Form Success And Error Message Formatting */
@@ -596,7 +596,7 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #008080;
+	background-color: #307f96;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -664,7 +664,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #008080;
+	color: #307f96;
 }
 
 /* Dropdown Menu */
@@ -709,7 +709,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #008080;
+	color: #307f96;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -882,7 +882,7 @@ input[type='checkbox'] {
 }
 
 .basic-2 .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	line-height: 1.375rem;
 }
 
@@ -929,7 +929,7 @@ input[type='checkbox'] {
 	margin-bottom: 1.25rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #008080;
+	background-color: #307f96;
 	text-align: left;
 }
 
@@ -938,7 +938,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	line-height: 1.375rem;
 }
 
@@ -961,7 +961,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #008080;
+	color: #307f96;
 }
 /* end of signup Button */
 
@@ -971,7 +971,7 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #008080;
+	color: #307f96;
 	opacity: 1;
 }
 
@@ -1045,7 +1045,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .card .value {
-	color: #008080;
+	color: #307f96;
 	font-weight: 700;
 	font-size: 3.5rem;
 	line-height: 4rem;
@@ -1054,7 +1054,7 @@ input[type='checkbox'] {
 
 .cards-2 .card .currency {
 	margin-right: 0.375rem;
-	color: #008080;
+	color: #307f96;
 	font-size: 1.5rem;
 	vertical-align: 56%;
 }
@@ -1076,7 +1076,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .card .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	line-height: 1.375rem;
 }
 
@@ -1116,7 +1116,7 @@ input[type='checkbox'] {
     position: relative;
 	width: 13.75rem;
 	padding: 0.3125rem 0 0.3125rem 4.125rem;
-    background-color: #008080;
+    background-color: #307f96;
 	color: #fff;
     -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
     -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -1143,7 +1143,7 @@ input[type='checkbox'] {
 }
 
 .form-1 .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	line-height: 1.375rem;
 }
 
@@ -1208,7 +1208,7 @@ input[type='checkbox'] {
 	width: 4.75rem;
 	height: 4.75rem;
 	border-radius: 50%;
-	background: #008080;
+	background: #307f96;
 	animation: pulse-border 1500ms ease-out infinite;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1225,7 +1225,7 @@ input[type='checkbox'] {
 	width: 4.375rem;
 	height: 4.375rem;
 	border-radius: 50%;
-	background: #008080;
+	background: #307f96;
 	transition: all 200ms;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1390,7 +1390,7 @@ input[type='checkbox'] {
 }
 
 .basic-4 .fa-stack-2x {
-	color: #008080;
+	color: #307f96;
 	transition: all 0.2s ease;
 }
 
@@ -1434,7 +1434,7 @@ input[type='checkbox'] {
 .form-2 .list-unstyled .fab {
 	margin-right: 0.5rem;
 	font-size: 0.875rem;
-	color: #008080;
+	color: #307f96;
 }
 
 .form-2 .list-unstyled .fa-phone {
@@ -1483,7 +1483,7 @@ footer p {
 }
 
 .footer .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1504,7 +1504,7 @@ footer p {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #008080;
+	color: #307f96;
 	transition: all 0.2s ease;
 }
 
@@ -1545,7 +1545,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #008080 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #307f96 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1597,7 +1597,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #008080;
+	color: #307f96;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1786,7 +1786,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #008080;
+		color: #307f96;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1822,7 +1822,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-2x {
-		color: #008080;
+		color: #307f96;
 		transition: all 0.2s ease;
 	}
 	
@@ -1836,11 +1836,11 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #008080;
+		color: #307f96;
 	}
 
 	.navbar-custom.top-nav-collapse .fa-stack-2x {
-		color: #008080;
+		color: #307f96;
 	}
 	
 	.navbar-custom.top-nav-collapse .fa-stack-1x {
