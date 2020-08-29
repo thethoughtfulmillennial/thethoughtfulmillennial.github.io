@@ -368,9 +368,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #307f96;
+	border: 1px solid #222222;
 	border-radius: 1.5rem;
-	background-color: #307f96;
+	background-color: #222222;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Nunito", sans-serif;
 	cursor: pointer;
@@ -379,7 +379,7 @@ input[type='checkbox'] {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #307f96;
+	color: #222222;
 }
 
 /* Form Success And Error Message Formatting */
@@ -754,6 +754,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
+	height: 100vh;
 	background-color: #fff;
 	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover; 
