@@ -8,22 +8,21 @@ layout: default2
 	<div class="row mb-4">
 		<div class="col-md-12 ml-top-padding">
 			<div class="heading-title">
-				<h1>Hi. I Am John Choque.</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.<br> Iste
-					ratione molestias magni risus.</p>
+				<h1>Free dreaming Blog</h1>
+				<p>Sharing resources, information, knowledge and tools.<br>
+					Allowing others to free themselves from their mental walls.</p>
 			</div>
 		</div>
 	</div>
 	<div class="row mb-4">
 		<div class="col">
 			{% for post in site.posts %}
-			<div id="id-232"
-				class="col-md-6 col-sm-6 col-xs-12 selector post post-232 type-post status-publish format-standard has-post-thumbnail hentry category-fashion category-lifestyle category-travel tag-animation tag-clean tag-retina tag-simple"
-				style="position: absolute; left: 0px; top: 0px;">
-				<div class="post-thumbnail"> <a href="https://neuronthemes.com/crate/rockhead/"> <img width="960"
-							height="450" src="/assets/images/{{ post.banner_image }}"
-							class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
-							sizes="(max-width: 960px) 100vw, 960px"> </a></div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="post-thumbnail">
+					<a href="https://neuronthemes.com/crate/rockhead/">
+						<img src="/assets/images/{{ post.banner_image }}" class="img-fluid" alt="">
+					</a>
+				</div>
 				<div class="post-meta">
 					<h3><a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a></h3>
 					<ul class="underline">
@@ -39,8 +38,11 @@ layout: default2
 				<div class="post-info">
 					<p>{{ post.description }}</p>
 				</div>
-				<div class="button-holder"> <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read
-						More</a></div>
+				<div class="btn btn-solid-reg">
+					<a href="{{ site.baseurl }}{{ post.url }}" class="button">
+						Read More
+					</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
