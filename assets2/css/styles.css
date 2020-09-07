@@ -165,14 +165,17 @@ a.white {
 
 .btn-solid-reg {
 	display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #307f96;
-	border-radius: 2rem;
-	background-color: #307f96;
-	color: #fff;
-	font: 700 0.75rem/0 "Hind", sans-serif;
-	text-decoration: none;
 	transition: all 0.2s;
+	color: #fff;
+    background-color: #3b3b3b;
+    border-radius: 0;
+    border: 1px #3b3b3b solid;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .btn-solid-reg:hover {
@@ -1527,6 +1530,9 @@ input[type='checkbox'] {
 
 .footer .fa-stack:hover .fa-stack-2x {
     color: #00a7bd;
+}
+.footer .btn-solid-reg {
+	width: 100%;
 }
 
 
