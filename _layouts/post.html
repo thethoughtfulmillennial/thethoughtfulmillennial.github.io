@@ -10,34 +10,31 @@ layout: default2
 	<div class="row mb-4">
 		<div class="col-md-12 ml-top-padding">
 			<div class="heading-title">
-				<h1>{{ page.title }}</h1>
-				<p>By {{ site.author_name }}</p>
+				<h1>{{ post.title }}</h1>
+				<p>By {{ site.author_name }}<br>
+					{{ post.date | date: "%B %-d, %Y" }}</p>
 			</div>
 		</div>
 	</div>
 	<div class="row mb-4">
 		<div class="col">
-			<img src="/assets2/images/{{ page.banner_image }}" class="img-fluid" alt="">
+			<img src="/assets/images/{{ page.banner_image }}" class="img-fluid" alt="">
+		</div>
+	</div>
+	<div class="row mb-4">
+		<div class="col">
+			{{content}}
 		</div>
 	</div>
 	<div class="row mb-4">
 		<div class="post-meta">
-			<h3 class="text-center">
-				<a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a>
-			</h3>
 			<ul class="text-center p-0">
-				<li class="date">{{ post.date | date: "%B %-d, %Y" }}</li>
 				<li class="category"><a href="https://neuronthemes.com/crate/category/fashion/"
 						rel="category tag">Fashion</a> <a href="https://neuronthemes.com/crate/category/lifestyle/"
 						rel="category tag">Lifestyle</a> <a href="https://neuronthemes.com/crate/category/travel/"
 						rel="category tag">Travel</a>
 				</li>
 			</ul>
-		</div>
-	</div>
-	<div class="row mb-4">
-		<div class="col">
-			{{content}}
 		</div>
 	</div>
 	<div class="row">

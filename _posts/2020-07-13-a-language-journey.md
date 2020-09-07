@@ -50,7 +50,7 @@ I can say that after all of that, I was really comfortable communicating in Engl
 
 Some weeks ago I was invited to the podcast of Tu Beca Bolivia (An organization that helps Bolivian students to get scholarships abroad.) You can listen to it below.
 
-<div class="spotify-embeds">
+<div class="spotify-embeds mb-4">
 <iframe src="https://open.spotify.com/embed-podcast/episode/5ZV4s5hjFfpa2AQbtyDWOc" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
