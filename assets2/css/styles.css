@@ -1493,13 +1493,6 @@ input[type='checkbox'] {
 /**********************/
 /*     16. Footer     */
 /**********************/
-.footer {
-	padding-top: 4.625rem;
-	padding-bottom: 0.5rem;
-	background-color: #222222;
-}
-
-
 .footer .footer-col {
 	margin-bottom: 2.25rem;
 }
@@ -1515,11 +1508,8 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack {
-	margin-bottom: 0.75rem;
-	margin-right: 0.5rem;
-	font-size: 1.5rem;
 	float: right;
-	margin-left: 10px;
+	margin-left: 15px;
 }
 
 .footer .fa-stack .fa-stack-1x {
@@ -1528,7 +1518,6 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #307f96;
 	transition: all 0.2s ease;
 }
 
@@ -1787,13 +1776,11 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
 		opacity: 0.8;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #fff;
 		opacity: 1;
 	}
 
