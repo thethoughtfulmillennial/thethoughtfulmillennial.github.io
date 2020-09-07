@@ -1,93 +1,61 @@
 ---
-layout: default
+layout: default2
 ---
 
 {% include nav.html %}
 
 <!-- Blog Detail Start -->
 
-
-<div class="content">
-	<div class="container text-center my-4">
-		<div class="row">
-			<div class="col">
+<div class="container">
+	<div class="row mb-4">
+		<div class="col-md-12 ml-top-padding">
+			<div class="heading-title">
 				<h1>{{ page.title }}</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<a href="/blog.html" class="blog-nav">
-					<span>Blog</span>
-				</a>
-				<span> / {{ page.title }}</span>
+				<p>By {{ site.author_name }}</p>
 			</div>
 		</div>
 	</div>
-	<img class="image-holder image-header m-0" src="/assets/images/{{ page.banner_image }}">
-	<div class="container text-center my-4">
-		<div class="row">
-			<div class="col">
-				<span>By {{ site.author_name }}, {{ page.date | date: "%B %-d, %Y" }}</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<span>{{ page.category }}</span>
-			</div>
+	<div class="row mb-4">
+		<div class="col">
+			<img src="/assets2/images/{{ page.banner_image }}" class="img-fluid" alt="">
 		</div>
 	</div>
-	<div class="container my-5">
-		{{content}}
+	<div class="row mb-4">
+		<div class="post-meta">
+			<h3 class="text-center">
+				<a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a>
+			</h3>
+			<ul class="text-center p-0">
+				<li class="date">{{ post.date | date: "%B %-d, %Y" }}</li>
+				<li class="category"><a href="https://neuronthemes.com/crate/category/fashion/"
+						rel="category tag">Fashion</a> <a href="https://neuronthemes.com/crate/category/lifestyle/"
+						rel="category tag">Lifestyle</a> <a href="https://neuronthemes.com/crate/category/travel/"
+						rel="category tag">Travel</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			{% if page.previous.url %}
-			<div class="col-6">
-				<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
-					<p class="text-right">< Older</p>
-				</a>
-			</div>
-			{% endif %}
+	<div class="row mb-4">
+		<div class="col">
+			{{content}}
+		</div>
+	</div>
+	<div class="row">
+		{% if page.previous.url %}
+		<div class="col-6">
+			<a href="{{ site.baseurl }}{{page.previous.url}}" class="blog-nav">
+				<p class="text-right">
+					< Older</p>
+			</a>
+		</div>
+		{% endif %}
 
-			{% if page.next.url %}
-			<div class="col-6">
-				<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
-					<p class="text-left">Newer ></p>
-				</a>
-			</div>
-			{% endif %}
+		{% if page.next.url %}
+		<div class="col-6">
+			<a href="{{ site.baseurl }}{{page.next.url}}" class="blog-nav">
+				<p class="text-left">Newer ></p>
+			</a>
 		</div>
-	</div>
-	<div id="page4" data-anchor="page4" class="text-white section section-light">
-		<div class="vertical-centred section-content">
-			<div class="boxed boxed-inner">
-				<div class="boxed">
-					<div class="container">
-						<div class="">
-							<h2 class="title mb-5 pb-5"> <span class="text-primary">My</span> blog</h2>
-							<div class="row">
-								<div class="col-md-12">
-									{% for post in site.posts limit:3 %}
-									<div class="project-row">
-										<a href="{{ site.baseurl }}{{ post.url }}">
-											<span class="project-number">{{ forloop.index }}</span>
-											<h2 class="project-title">{{ post.title }}</h2>
-											<div class="project-category">{{ post.category }}</div>
-										</a>
-										<p>{{ post.description }}</p>
-									</div>
-									{% endfor %}
-									<div class="view-all view-all-projects">
-										<a href="/blog.html">
-											View all posts
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		{% endif %}
 	</div>
 </div>
