@@ -55,6 +55,10 @@ body, p {
 	font: 400 14px/24px "Hind", sans-serif;
 }
 
+p {
+	margin-bottom: 15px;
+}
+
 .p-large {
 	font: 400 1rem/1.5rem "Hind", sans-serif;
 }
@@ -78,7 +82,7 @@ body, p {
 h1 {
 	color: #3b3b3b;
 	font: 500 26px/28px "Poppins", sans-serif;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -87,7 +91,7 @@ h1 {
 h2 {
 	color: #3b3b3b;
 	font: 500 24px/26px "Poppins", sans-serif;
-	margin-bottom: 8px;
+	margin-bottom: 17px;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -96,7 +100,7 @@ h2 {
 h3 {
 	color: #3b3b3b;
 	font: 500 22px/24px "Poppins", sans-serif;
-	margin-bottom: 8px;
+	margin-bottom: 15px;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -105,7 +109,7 @@ h3 {
 h4 {
 	color: #3b3b3b;
 	font: 500 20px/22px "Poppins", sans-serif;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -114,7 +118,7 @@ h4 {
 h5 {
 	color: #3b3b3b;
 	font: 500 18px/20px "Poppins", sans-serif;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
