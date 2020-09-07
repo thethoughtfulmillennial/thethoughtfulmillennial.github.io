@@ -683,6 +683,9 @@ input[type='checkbox'] {
 	color: #3b3b3b;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
@@ -1515,6 +1518,8 @@ input[type='checkbox'] {
 	margin-bottom: 0.75rem;
 	margin-right: 0.5rem;
 	font-size: 1.5rem;
+	float: right;
+	margin-left: 10px;
 }
 
 .footer .fa-stack .fa-stack-1x {
@@ -2212,3 +2217,9 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width width 1200px */
+
+/* Custom */
+
+.ml-top-padding {
+	padding-top: 150px;
+}
