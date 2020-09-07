@@ -15,36 +15,35 @@ layout: default2
 		</div>
 	</div>
 	<div class="row mb-4">
-		<div class="col">
-			{% for post in site.posts %}
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<div class="post-thumbnail">
-					<a href="https://neuronthemes.com/crate/rockhead/">
-						<img src="/assets/images/{{ post.banner_image }}" class="img-fluid" alt="">
-					</a>
-				</div>
-				<div class="post-meta">
-					<h3><a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a></h3>
-					<ul class="underline">
-						<li class="date">{{ post.date }}</li>
-						<li class="category"><a href="https://neuronthemes.com/crate/category/fashion/"
-								rel="category tag">Fashion</a> <a
-								href="https://neuronthemes.com/crate/category/lifestyle/"
-								rel="category tag">Lifestyle</a> <a
-								href="https://neuronthemes.com/crate/category/travel/" rel="category tag">Travel</a>
-						</li>
-					</ul>
-				</div>
-				<div class="post-info">
-					<p>{{ post.description }}</p>
-				</div>
-				<div class="btn btn-solid-reg">
-					<a href="{{ site.baseurl }}{{ post.url }}" class="button">
-						Read More
-					</a>
-				</div>
+		{% for post in site.posts %}
+		<div class="col-md-6 col-sm-6 col-xs-12 mb-5 post">
+			<div class="post-thumbnail mb-3">
+				<a href="https://neuronthemes.com/crate/rockhead/">
+					<img src="/assets/images/{{ post.banner_image }}" class="img-fluid" alt="">
+				</a>
 			</div>
-			{% endfor %}
+			<div class="post-meta">
+				<h3 class="text-center">
+					<a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a>
+				</h3>
+				<ul class="underline">
+					<li class="date">{{ post.date | date: "%B %-d, %Y" }}</li>
+					<li class="category"><a href="https://neuronthemes.com/crate/category/fashion/"
+							rel="category tag">Fashion</a> <a href="https://neuronthemes.com/crate/category/lifestyle/"
+							rel="category tag">Lifestyle</a> <a href="https://neuronthemes.com/crate/category/travel/"
+							rel="category tag">Travel</a>
+					</li>
+				</ul>
+			</div>
+			<div class="post-info">
+				<p>{{ post.description }}</p>
+			</div>
+			<div class="text-center">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-solid-reg">
+					Read More
+				</a>
+			</div>
 		</div>
+		{% endfor %}
 	</div>
 </div>

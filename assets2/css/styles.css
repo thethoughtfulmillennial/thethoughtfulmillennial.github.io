@@ -135,12 +135,10 @@ h6 {
 
 a {
 	color: #626262;
-	text-decoration: underline;
 }
 
 a:hover {
-	color: #626262;
-	text-decoration: underline;
+	color: #307f96;
 }
 
 a.turquoise {
@@ -165,7 +163,6 @@ a.white {
 
 .btn-solid-reg {
 	display: inline-block;
-	transition: all 0.2s;
 	color: #fff;
     background-color: #3b3b3b;
     border-radius: 0;
@@ -1647,6 +1644,15 @@ a:hover.back-to-top {
 
 .ml-top-padding {
 	padding-top: 100px;
+}
+
+.post .post-meta ul li {
+	display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
 }
 
 /*****************************/
