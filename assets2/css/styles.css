@@ -759,7 +759,8 @@ input[type='checkbox'] {
 	text-decoration: none;
     transition: all 0.2s ease;
     text-transform: uppercase;
-    letter-spacing: 3px;
+	letter-spacing: 3px;
+	font-size: 12px;
 }
 
 .navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
