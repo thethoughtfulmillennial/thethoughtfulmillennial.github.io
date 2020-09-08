@@ -659,7 +659,7 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #fff;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "Poppins", sans-serif;
+	font: 600 12px/0.875rem "Poppins", sans-serif;
 	transition: all 0.2s;
 }
 
