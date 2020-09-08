@@ -620,6 +620,7 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 2rem;
 	height: 2rem;
+	border: 3px solid #3b3b3b;
 	border-radius: 100%;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
@@ -658,7 +659,7 @@ input[type='checkbox'] {
 /**************************/
 .navbar-custom {
 	background-color: #fff;
-	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
 	font: 600 12px/0.875rem "Poppins", sans-serif;
 	transition: all 0.2s;
 }
