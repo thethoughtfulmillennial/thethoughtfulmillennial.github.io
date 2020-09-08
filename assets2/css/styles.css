@@ -1659,6 +1659,10 @@ a:hover.back-to-top {
     font-size: 12px;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/	

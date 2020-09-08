@@ -18,10 +18,10 @@ layout: default2
 		<ul>
 			{% assign ordered_projects = site.projects | sort:"order" %}
 			{% for project in ordered_projects %}
-			<li>
-				<div><a href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a></div>
-				<div>{{project.category}}</div>
-				<div></div>
+			<li class="mb-2">
+				<div class="font-weight-bold"><a class="underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a></div>
+				<div class="font-italic">{{project.category}}</div>
+				<div>{{project.description}}</div>
 			</li>
 			{% endfor %}
 		</ul>
