@@ -3,7 +3,7 @@ layout: project
 title: "Empoderando Juventudes La Paz"
 date_start: 2020-01-01
 date_finish: 2020-06-01
-description: "Empoderando Juventudes (Empowering Youth) is an organization that has the firm conviction to encourage Latin American youth to acti..."
+description: "I am the co-founder of Empoderando Juventudes La Paz. The organization aims to create impact of Gender Equality, Human Rights and Environment. I spent 6 months in the lead group and I created their website, organised many webinars."
 banner_image: project/empojuve_banner.png
 thumbnail: empojuve_thumbnail.png
 category: Community
