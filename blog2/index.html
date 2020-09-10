@@ -69,7 +69,11 @@ layout: default2
 				</a>
 			</li>
 			{% elsif page == 1 %}
-			<a href="/blog2">{{ page }}</a>
+			<li class="page-item">
+				<a class="page-link" href="/blog2">
+					{{ page }}
+				</a>
+			</li>
 			{% else %}
 			<li class="page-item">
 				<a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
