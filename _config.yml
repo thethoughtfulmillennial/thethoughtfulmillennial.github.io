@@ -39,4 +39,4 @@ collections:
 
 plugins: [jekyll-paginate]
 paginate: 6
-paginate_path: /blog/page:num/
+paginate_path: /blog2/page:num/
