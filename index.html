@@ -2,205 +2,96 @@
 layout: default
 ---
 
-<div class="menu">
-	<span class="close-menu icon-cross2 right-boxed"></span>
-	<ul class="menu-list right-boxed">
-		<li data-menuanchor="page1">
-			<a href="#page1">Home</a>
-		</li>
-		<li data-menuanchor="page3">
-			<a href="/projects.html">Projects</a>
-		</li>
-		<li data-menuanchor="page2">
-			<a href="/about.html">About</a>
-		</li>
-		<li data-menuanchor="page4">
-			<a href="/blog.html">Blog</a>
-		</li>
-		<li data-menuanchor="page5">
-			<a href="#contact">Contact</a>
-		</li>
-		<li data-menuanchor="page5">
-			<a href="/my-1-rule-journal.html">My 1% Rule Journal</a>
-		</li>
-	</ul>
-	<div class="menu-footer right-boxed">
-		<div class="social-list">
-			<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"
-				class="icon ion-social-linkedin"></a>
-		</div>
-		<div class="copy">© John Choque 2020</div>
-	</div>
-</div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+	<!-- Image Logo -->
+	<a class="navbar-brand logo-image" href="index.html"><img src="/assets2/images/icon-simple.svg"
+			alt="alternative"></a>
 
-<header class="navbar navbar-fullpage boxed">
-	<div class="navbar-bg"></div>
-	<a class="brand" href="#">
-		<img alt="" src="/assets/images/logo.png">
-	</a>
-
-	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"
-		aria-expanded="false">
-		<span>Menu</span>
+	<!-- Mobile Menu Toggle Button -->
+	<button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+		aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		Menu
 	</button>
-</header>
-<div class="copy-bottom white boxed">© John Choque 2020</div>
-<div class="social-list social-list-bottom boxed">
-	<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"
-		class="icon ion-social-linkedin"></a>
-</div>
+	<!-- end of mobile menu toggle button -->
 
-<div id="content">
-	<div id="page1" data-anchor="page1" class="text-white section px-3">
-		<div class="section-bg mask" style="background-image:url(assets/images/bg/main.jpg);"></div>
-		<div class="scrollable-content">
-			<div class="vertical-centred">
-				<div class="container">
-					<div class="intro">
-						<div class="row">
-							<div class="col-12">
-								<h1 class="display-2 text-white page-title"><span class="text-primary">Hello,</span>
-									I'm John</h1>
-								<p class="lead">And I create digital solutions for a sustainable future.</p>
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=pkLg-LbCo0E"><span
-										class="icon ion-ios-play"></span>YSI Global Documentary</a>
-							</div>
-						</div>
-					</div>
-				</div>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="/blog2.html">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="/projects2.html">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="/about2.html">About</a>
+			</li>
+		</ul>
+	</div>
+</nav> <!-- end of navbar -->
+<!-- end of navigation -->
+
+<div class="container">
+	<div class="row mb-5">
+		<div class="col-md-12 ml-top-padding">
+			<div class="heading-title">
+				<h1>The #freetodream Blog</h1>
+				<p>Finding my way to intentional growth.</p>
+				<a href="/about2.html" class="underline">
+					Visit the #freetodream blog
+				</a>
 			</div>
 		</div>
 	</div>
-	<div class="text-white section portfolio px-3">
-		<div class="vertical-centred section-content">
-			<div class="container">
-				<h2 class="title mb-5"> <span class="text-primary">My</span> projects</h2>
-				<div class="row justify-content-center portfolio-items">
-					{% assign ordered_projects = site.projects | sort:"order" %}
-					{% for project in ordered_projects limit:3 %}
-					<div class="col-lg-4 col-md-6 portfolio-item my-3 graphic"
-						style="position: relative;display: block;">
-						<a href="{{site.baseurl}}{{project.url}}">
-							<div class="portfolio-item-content rounded">
-								<img src="{{site.baseurl}}assets/images/project/{{project.thumbnail}}" alt="/"
-									style="width: 100%;position: relative;">
-								<div class="img-overlay text-center">
-									<div class="img-overlay-content px-3">
-										<h5 class="text-white m-0">{{project.title}}</h5>
-										<div>{{project.category}}</div>
-									</div>
-								</div>
-							</div>
+	<div class="row mb-5">
+		<div class="col-12">
+			<h2>Last entries</h2>
+		</div>
+		<div class="col-12">
+			<div class="row">
+				{% for post in site.posts limit:3 %}
+				<div class="col-lg-4 col-md-6 col-xs-12 mb-5 post">
+					<div class="post-thumbnail mb-3">
+						<a href="https://neuronthemes.com/crate/rockhead/">
+							<img src="/assets/images/{{ post.banner_image }}" class="img-fluid" alt="">
 						</a>
 					</div>
-					{% endfor %}
-				</div>
-				<div class="view-all">
-					<a href="/projects.html">
-						View all projects
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="section section-light px-3">
-		<div class="vertical-centred section-content">
-			<div class="container">
-				<div class="intro">
-					<div class="row align-items-center">
-						<div class="col-12">
-							<p>I am passionate about Sustainable Development and Music. Facilitator and
-								builder
-								on various projects on the industry. Mental health and Gender Equality
-								advocate.
-								Good communicator and planner with strong logical judgment, with
-								experience at
-								different international events and programs.</p>
-						</div>
+					<div class="post-meta">
+						<h3 class="text-center">
+							<a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a>
+						</h3>
+						<ul class="text-center p-0">
+							<li class="date">{{ post.date | date: "%B %-d, %Y" }}</li>
+						</ul>
 					</div>
-					<div class="view-all">
-						<a href="/about.html">
-							About me
+					<div class="post-info">
+						<p>{{ post.description }}</p>
+					</div>
+					<div class="text-center">
+						<a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-solid-reg">
+							Read More
 						</a>
 					</div>
 				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
-	<div class="text-white section px-3">
-		<div class="vertical-centred section-content">
-			<div class="container">
-				<div class="">
-					<h2 class="title mb-5"> <span class="text-primary">My</span> blog</h2>
-					<div class="row">
-						<div class="col-md-12">
-							{% for post in site.posts limit:3 %}
-							<div class="project-row">
-								<a href="{{ site.baseurl }}{{ post.url }}">
-									<span class="project-number">{{ forloop.index }}</span>
-									<h2 class="project-title">{{ post.title }}</h2>
-									<div class="project-category">{{ post.category }}</div>
-								</a>
-								<p>{{ post.description }}</p>
-							</div>
-							{% endfor %}
-						</div>
-					</div>
-					<div class="view-all">
-						<a href="/blog.html">
-							View all posts
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="contact" class="section section-light px-3">
-		<div class="vertical-centred section-content">
-			<div class="container">
-				<div class="intro overflow-hidden">
-					<div class="row">
-						<div class="col-12">
-							<div class="row">
-								<div class="col-12">
-									<h3 class="title text-primary">Like my work?</h3>
-								</div>
-								<div class="col-12">
-									<h3 class="title mb-5">You can contact me now!</h3>
-								</div>
-								<div class="col-md-12">
-									<div class="contact-info">
-										<form action="https://formspree.io/xjvapobr" method="POST" class="js-form"
-											novalidate>
-											<div class="row">
-												<div class="form-group col-sm-6">
-													<input type="text" name="name" required placeholder="Name*"
-														aria-required="true">
-												</div>
-												<div class="form-group col-sm-6">
-													<input type="email" name="_replyto" required placeholder="Email*"
-														aria-required="true">
-												</div>
-												<div class="form-group col-sm-12">
-													<input type="text" name="subject" placeholder="Subject (Optional)">
-												</div>
-												<div class="form-group col-sm-12">
-													<textarea name="message" required placeholder="Message*"
-														aria-required="true"></textarea>
-												</div>
-												<input type="text" name="_gotcha" style="display:none" />
-												<div class="col-sm-12"><button type="submit" class="btn"
-														value="Send">Contact me</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<div class="row mb-5">
+		<div class="col-12">
+			<h2>About me</h2>
+			<p>
+				My name is John Choque and I am passionate about Sustainable Development, Music and Productivity.
+				Facilitator and builder on various projects on the industry. Mental health and Gender Equality
+				advocate. Good communicator and planner with strong logical judgment, with experience at different
+				international events and programs.
+			</p>
+			<a href="/about2.html" class="underline">
+				Read more about John
+			</a>
 		</div>
 	</div>
 </div>

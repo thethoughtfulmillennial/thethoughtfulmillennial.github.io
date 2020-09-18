@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description"
-		content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="author" content="John Choque">
-	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Freeing people with knowledge.">
+    <meta name="author" content="John Choque">
 
-	<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="John Choque" /> <!-- website name -->
+	<meta property="og:site" content="https://www.jhnchoque.com/" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="/assets2/images/thumbnail.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
 
-	{% if page.banner_image %}
-		<meta property="og:image" content="assets/images/{{ page.banner_image }}">
-	{% else %}
-		<meta property="og:image" content="assets/images/bg/main.jpg">
-	{% endif %}
-
-	<!-- Youtube background -->
-	<link rel="stylesheet" href="assets/css/ytplayer.css">
-
-	<!-- Custom styles CSS -->
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:500,600,700,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lora:100,300,400,400i&display=swap" rel="stylesheet">
-	<link href="/assets/css/style.css" rel="stylesheet" media="screen">
+    <!-- Website Title -->
+    <title>John Choque</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="/assets2/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets2/css/fontawesome-all.css" rel="stylesheet">
+    <link href="/assets2/css/swiper.css" rel="stylesheet">
+	<link href="/assets2/css/magnific-popup.css" rel="stylesheet">
+    <link href="/assets2/css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="/assets2/images/favicon.png">
 </head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->    
 
-<body>
-	<div class="animsition">
-		<div class="loader">
-			<div class="spinner">
-				<div class="double-bounce1"></div>
-				<div class="double-bounce2"></div>
-			</div>
-		</div>
-		{{content}}
-		{% include footer.html %}
-	</div>
+    {{content}}
+    {% include footer2.html %}
 
-	<!-- Youtube background -->
-	<script src="assets/js/jquery.mb.YTPlayer.js"></script>
+    <!-- Scripts -->
+    <script src="/assets2/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="/assets2/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="/assets2/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="/assets2/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="/assets2/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="/assets2/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="/assets2/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="/assets2/js/scripts.js"></script> <!-- Custom scripts -->
 
-	<script src="/assets/js/jquery.min.js"></script>
-	<script src="/assets/js/smoothscroll.js"></script>
-	<script src="/assets/js/animsition.js"></script>
-	<script src="/assets/js/jquery.validate.min.js"></script>
-	<script src="/assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="/assets/js/owl.carousel.min.js"></script>
-	<script src="/assets/js/jquery.pagepiling.min.js"></script>
-
-	<script src="/assets/js/scripts.js"></script>
-
-	{% include analytics.html %}
+    {% include analytics.html %}
 
 </body>
-
 </html>
