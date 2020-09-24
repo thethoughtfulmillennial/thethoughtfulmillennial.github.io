@@ -297,14 +297,11 @@ a.white {
 .form-control-select {
 	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
 	width: 100%;
-	padding-top: 1.0625rem;
-	padding-bottom: 0.0625rem;
-	padding-left: 1.3125rem;
-	border: 1px solid #c4d8dc;
+	border: 1px solid #3b3b3b;
+	border-radius: unset;
 	background-color: #fff;
 	color: #626262;
 	font: 400 0.875rem/1.875rem "Hind", sans-serif;
-	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
 
