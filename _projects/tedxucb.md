@@ -1,14 +1,12 @@
 ---
 layout: project
 title: "TEDxUCB"
-date_start: 2019-05-01
-description: "TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED T..."
+description: "Technical management for talk recordings. Stage design and venue organisation. Technical director of speaker presentations and introduction. Website development. Supervisor of 10 people."
 banner_image: project/tedxucb_banner.png
 thumbnail: tedxucb_thumbnail.png
+external_url: https://www.facebook.com/TedxUcb
 category: Community
 order: 4
-facebook: TedxUcb
-instagram: tedxucb
 ---
 
 TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = an independently organized TED event. The TED Conference provides general guidance, rules and regulations for the TEDx program.

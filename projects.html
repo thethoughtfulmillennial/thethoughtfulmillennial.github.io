@@ -20,7 +20,7 @@ layout: default
 				{% assign ordered_projects = site.projects | sort:"order" %}
 				{% for project in ordered_projects %}
 				<li class="mb-2">
-					<div class="font-weight-bold"><a class="underline" href="{{ site.baseurl }}{{ project.url }}">{{project.title}}</a></div>
+					<div class="font-weight-bold"><a class="underline" href="{{ site.baseurl }}{{ project.external_url }}">{{project.title}}</a></div>
 					<div class="font-italic">{{project.category}}</div>
 					<div>{{project.description}}</div>
 				</li>

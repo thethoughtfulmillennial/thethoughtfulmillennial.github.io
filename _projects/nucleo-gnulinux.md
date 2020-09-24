@@ -1,10 +1,10 @@
 ---
 layout: project
 title: "Nucleo GNU/Linux"
-date_start: 2017-01-01
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."
+description: "Workshops, Talks and Events organization. Part of the organization group with a community of 1000+ members."
 banner_image: project/nlg_banner.png
 thumbnail: ngl_thumbnail.png
+external_url: https://www.facebook.com/nucleognulinux
 category: Software
 order: 5
 ---
