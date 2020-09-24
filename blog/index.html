@@ -8,9 +8,8 @@ layout: default
 	<div class="row mb-4">
 		<div class="col-md-12 ml-top-padding">
 			<div class="heading-title">
-				<h1>Free dreaming Blog</h1>
-				<p>Sharing resources, information, knowledge and tools.<br>
-					Allowing others to free themselves from their mental walls.</p>
+				<h2>The #freetodream Blog</h2>
+				<p>On this blog we share resources about productivity, peace of mind, and learning tools.</p>
 			</div>
 		</div>
 	</div>
@@ -18,13 +17,13 @@ layout: default
 		{% for post in paginator.posts %}
 		<div class="col-md-6 col-sm-6 col-xs-12 mb-5 post">
 			<div class="post-thumbnail mb-3">
-				<a href="https://neuronthemes.com/crate/rockhead/">
+				<a href="{{ site.baseurl }}{{ post.url }}">
 					<img src="/assets/images/{{ post.banner_image }}" class="img-fluid" alt="">
 				</a>
 			</div>
 			<div class="post-meta">
 				<h3 class="text-center">
-					<a href="https://neuronthemes.com/crate/rockhead/">{{ post.title }}</a>
+					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				</h3>
 				<ul class="text-center p-0">
 					<li class="date">{{ post.date | date: "%B %-d, %Y" }}</li>
