@@ -1509,31 +1509,23 @@ input[type='checkbox'] {
 	margin-left: 0.625rem;
 }
 
-.footer .fa-stack {
+.footer .fab {
 	float: right;
 	margin-left: 15px;
 }
 
-.footer .fa-stack .fa-stack-1x {
-    color: #fff;
-	transition: all 0.2s ease;
-}
-
-.footer .fa-stack .fa-stack-2x {
-	transition: all 0.2s ease;
-}
-
-.footer .fa-stack:hover .fa-stack-1x {
-	color: #fff;
-}
-
-.footer .fa-stack:hover .fa-stack-2x {
-    color: #00a7bd;
-}
 .footer .btn-solid-reg {
 	width: 100%;
 }
 
+.social-icons ul li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.social-icons ul li .fab {
+	font-size: 22px;
+}
 
 /*************************/
 /*     17. Copyright     */
