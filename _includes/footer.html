@@ -17,7 +17,8 @@
 					<h3>Recent Posts</h3>
 					<ul class="recent-wrapper module-white">
 						{% for post in site.posts limit:3 %}
-						<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d, %Y" }}</span></li>
+						<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+							<span>{{ post.date | date: "%B %-d, %Y" }}</span></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -60,7 +61,8 @@
 								<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
 										name="b_409e6541bbc7c654ed6d04915_7d68e2d2f6" tabindex="-1" value=""></div>
-								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-solid-reg w-100">
+								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+									class="btn btn-solid-reg w-100">
 								<small class="form-text text-muted">No spam, unsubscribe anytime.</small>
 							</div>
 						</form>
@@ -72,20 +74,15 @@
 			</div>
 		</div>
 		<div class="row py-3 border-top">
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="col-md-6 col-sm-6 col-xs-12 text-center text-md-left">
 				<p>© Copyright 2020. All Rights Reserved.</p>
 			</div>
-			<div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-md-row-reverse">
-				<span class="fa-stack">
-					<a chref="https://instagram.com/johnchque" target="_blank">
-						<i class="fas fa-circle fa-stack-2x"></i>
-						<i class="fab fa-instagram fa-stack-1x text-white"></i>
-					</a>
-					<a href="https://twitter.com/johnchque" target="_blank">
-						<i class="fas fa-circle fa-stack-2x"></i>
-						<i class="fab fa-twitter fa-stack-1x text-white"></i>
-					</a>
-				</span>
+			<div class="col-md-6 col-sm-6 col-xs-12 text-center text-md-right">
+				<ul>
+					<li><a target="_BLANK" href="#"><i class="fab fa-twitter fa-stack-1x"></i></a></li>
+					<li><a target="_BLANK" href="#"><i class="fab fa-instagram fa-stack-1x"></i></a></li>
+					<li><a target="_BLANK" href="#"><i class="fab fa-linkedin fa-stack-1x"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
