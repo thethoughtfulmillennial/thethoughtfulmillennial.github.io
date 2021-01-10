@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
@@ -65,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 }
 .fh5co-nav .fh5co-social {
   margin: 3px 0 0 0;
@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline-block;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 }
 .fh5co-nav ul li a {
   text-transform: uppercase;
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
 }
 .categories li {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   list-style: none;
   margin-bottom: 5px;
 }
@@ -589,7 +589,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
 .title {
@@ -1041,7 +1041,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 2px;
@@ -1259,7 +1259,7 @@ blockquote p {
   color: #666666;
 }
 blockquote .person {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Source Sans Pro", Arial, sans-serif;
   font-size: 14px;
   color: #b3b3b3;
 }
