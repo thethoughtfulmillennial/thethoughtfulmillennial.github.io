@@ -18,7 +18,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://jhnchoque.com/suc"
+url: "https://sentateuncacho.github.io"
 
 # The shortname for your Disqus site to enable comments.
 disqus:
@@ -29,8 +29,8 @@ author_name: "John Choque"
 # Social links in the site footer
 twitter_username:
 facebook_username:
-instagram_username:
-linkedin_username: "john-choque-condori"
+instagram_username: "sentateuncacho"
+linkedin_username: ""
 
 collections:
   projects:
