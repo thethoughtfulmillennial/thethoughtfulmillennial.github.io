@@ -1296,3 +1296,7 @@ blockquote .person cite {
 }
 
 /*# sourceMappingURL=style.css.map */
+.g-recaptcha > div {
+  width: inherit !important;
+  height: inherit !important;
+}
