@@ -55,12 +55,13 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1">
+				{% for episodio in site.episodios %}
 				<article class="has-animation" data-delay="0">
 					<div class="entry-media">
 						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
 					</div>
 					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">The only professional beauty supply resources you will ever need</a></h2>
+						<h2 class="entry-title"><a href="#">{{ episodio.title }}</a></h2>
 						<span class="entry-meta">Food, Lifestyle <span>- </span>August 4, 2017</span>
 						<div class="entry-content-bottom">
 							<a href="#" class="entry-read-more"><span></span>Read More</a>
@@ -73,88 +74,8 @@ layout: default
 							<span class="entry-share">Share</span>
 						</div>
 					</div>
-				</article>	
-
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
-					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">Good design is obvious and transparent</a></h2>
-						<span class="entry-meta">Beauty, Travel <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="#" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-heart"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
-						</div>
-					</div>
-				</article>	
-
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
-					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">Never underestimate the power of a sketch in accomplishing</a></h2>
-						<span class="entry-meta">Fashion, Lifestyle <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="#" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-heart"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
-						</div>
-					</div>
-				</article>	
-
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
-					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">It’s no secret that the digital industry is booming</a></h2>
-						<span class="entry-meta">Desing, Lifestyle <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="#" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-heart"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
-						</div>
-					</div>
-				</article>	
-
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
-					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">Ways your mother lied to you about food stuffs</a></h2>
-						<span class="entry-meta">Beauty, Lifestyle <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="#" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-heart"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
-						</div>
-					</div>
-				</article>									 
-
+				</article>
+				{% endfor %}
 			</div>
 		</div>
 		<!-- load more -->
