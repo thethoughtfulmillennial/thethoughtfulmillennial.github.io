@@ -14172,6 +14172,17 @@ label.error {
   color: #999;
   outline: none;
 }
+.form-field input[type=email] {
+  margin-top: 0;
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 8px;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #999;
+  outline: none;
+}
 
 .form-field.focused {
   border-color: #000;
@@ -17819,3 +17830,6 @@ button.lar {
 }
 
 /*# sourceMappingURL=style.css.map */
+.g-recaptcha > div {
+  margin: 0 auto;
+}
