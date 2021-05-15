@@ -12,15 +12,13 @@ layout: default
 			<div class="col-lg-6 col-xl-6">
 				<nav id="main-menu" class="text-center">
 					<ul>
-						<li><a href="index.html">Empieza aqui</a></li>
-						<li><a href="about.html">Episodios</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="/start.html">Start here</a></li>
+						<li><a href="/episodes.html">Episodes</a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="col-sm-3 col-lg-3 text-center col-xl-3">
 				<ul class="soical-icon-font list-inline">
-					<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</ul>
@@ -34,8 +32,10 @@ layout: default
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-xl-8 offset-xl-2 text-center">
-				<h1 class="has-animation" data-delay="10">Sentate un cacho</h1>
-				<p class="has-animation" data-delay="20">Un podcast sobre emprendimiento, lecciones, caídas y victorias detrás de empresas exitosas en Latinoamérica.</p>
+				<h1 class="has-animation" data-delay="10">The thoughtful millennial</h1>
+				<p class="has-animation" data-delay="20">The weekly podcast where we reflect on our rapidly evolving
+					attitudes to discuss the contradictions, challenges and little-wins in our struggle to becoming more
+					sustainable humans.</p>
 				<ul class="social-text light list-inline has-animation" data-delay="30">
 					<li class="list-inline-item"><a class="text-facebook" href="#">Apple Podcasts</a></li>
 					<li class="list-inline-item"><a class="text-twiiter" href="#">Spotify</a></li>
@@ -52,13 +52,13 @@ layout: default
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-10">
-				{% for episodio in site.episodios %}
+				{% for episode in site.episodes %}
 				<article class="has-animation" data-delay="0">
 					<div class="entry-media">
 						<img src="https://via.placeholder.com/920x371.png" alt="post-image">
 					</div>
 					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="#">{{ episodio.title }}</a></h2>
+						<h2 class="entry-title"><a href="#">{{ episode.title }}</a></h2>
 						<span class="entry-meta">Food, Lifestyle <span>- </span>August 4, 2017</span>
 						<div class="entry-content-bottom">
 							<a href="#" class="entry-read-more"><span></span>Read More</a>
@@ -91,7 +91,8 @@ layout: default
 						</ul>
 					</div>
 					<div class="col-md-4 col-xs-2 text-right">
-						<a href="#" class="left-button"><img src="/assets/images/right-button.png" alt="right-button"></a>
+						<a href="#" class="left-button"><img src="/assets/images/right-button.png"
+								alt="right-button"></a>
 					</div>
 				</div>
 			</div>

@@ -36,10 +36,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  episodios:
+  episodes:
     output: true
     sort_by: order
-    permalink: /episodios/:name
+    permalink: /episodes/:name
 
 gems:
   - jekyll-paginate
