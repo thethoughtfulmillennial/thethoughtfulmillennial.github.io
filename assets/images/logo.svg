@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="105.2145mm"
+   height="26.912384mm"
+   viewBox="0 0 105.2145 26.912384"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="252.4658"
+     inkscape:cy="-45.539551"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="330"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.761794,-130.84143)">
+    <g
+       transform="translate(564.72723,-19.067616)"
+       id="g902">
+      <text
+         transform="rotate(-90)"
+         inkscape:export-ydpi="100"
+         inkscape:export-xdpi="100"
+         id="text828-6-6-2-6"
+         y="-495.60971"
+         x="-148.94286"
+         style="font-style:normal;font-weight:normal;font-size:16.2689476px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0176a8;fill-opacity:1;stroke:none;stroke-width:0.40672371"
+         xml:space="preserve"><tspan
+           id="tspan830-5-1-9-7"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:end;text-anchor:end;fill:#0176a8;fill-opacity:1;stroke-width:0.40672371"
+           y="-495.60971"
+           x="-148.94286"
+           sodipodi:role="line">THE</tspan></text>
+      <text
+         inkscape:export-ydpi="100"
+         inkscape:export-xdpi="100"
+         id="text828-6-6-35"
+         y="160.0916"
+         x="-402.29898"
+         style="font-style:normal;font-weight:normal;font-size:14.37242031px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0176a8;fill-opacity:1;stroke:#0275a8;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823529"
+         xml:space="preserve"><tspan
+           id="tspan830-5-1-62"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:end;text-anchor:end;fill:#0176a8;fill-opacity:1;stroke:#0275a8;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.58823529"
+           y="160.0916"
+           x="-402.29898"
+           sodipodi:role="line">THOUGHTFUL</tspan></text>
+      <text
+         inkscape:export-ydpi="100"
+         inkscape:export-xdpi="100"
+         id="text828-6-6-3-9"
+         y="176.82143"
+         x="-401.40109"
+         style="font-style:normal;font-weight:normal;font-size:17.49274445px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0176a8;fill-opacity:1;stroke:none;stroke-width:0.43731865"
+         xml:space="preserve"><tspan
+           id="tspan830-5-1-6-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:Poppins;text-align:end;text-anchor:end;fill:#0176a8;fill-opacity:1;stroke-width:0.43731865"
+           y="176.82143"
+           x="-401.40109"
+           sodipodi:role="line">MILLENNIAL</tspan></text>
+    </g>
+  </g>
+</svg>
