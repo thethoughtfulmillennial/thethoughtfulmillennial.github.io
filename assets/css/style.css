@@ -17832,3 +17832,10 @@ button.lar {
 .center {
   margin: 0 auto;
 }
+
+/* Custom */
+.episode-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 250px;
+}
