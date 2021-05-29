@@ -12029,9 +12029,6 @@ label.error {
   display: inline-block;
 }
 
-#main-menu {
-  padding-top: 7px;
-}
 #main-menu ul li {
   padding: 0 18px;
   display: inline-block;
@@ -12125,7 +12122,7 @@ label.error {
   position: relative;
   width: 30px;
   height: 20px;
-  margin-top: 12px;
+  margin-top: 10px;
   margin-right: 5px;
 }
 .menu-click span {
@@ -12363,8 +12360,6 @@ label.error {
 
 .menu-title {
   background-color: #fff;
-}
-.menu-title #main-menu {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -12384,9 +12379,6 @@ label.error {
   width: 20px;
 }
 
-.soical-icon-font {
-  padding: 15px 0;
-}
 .soical-icon-font li {
   padding-left: 8px;
   padding-right: 8px;
@@ -16891,10 +16883,6 @@ button.lar {
 
   .overlay-image .entry-media:after {
     display: none;
-  }
-
-  .menu-title {
-    padding-bottom: 10px;
   }
 
   .menu-title .text-center {
