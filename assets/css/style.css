@@ -9928,7 +9928,7 @@ h3 {
 
 body {
   line-height: 1.75;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 body.fixed {
   overflow: hidden;
@@ -9936,7 +9936,7 @@ body.fixed {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
 }
 
@@ -9993,7 +9993,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   color: #111;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 14px;
   font-weight: 400;
   overflow-x: hidden;
@@ -12029,9 +12029,6 @@ label.error {
   display: inline-block;
 }
 
-#main-menu {
-  padding-top: 7px;
-}
 #main-menu ul li {
   padding: 0 18px;
   display: inline-block;
@@ -12125,7 +12122,7 @@ label.error {
   position: relative;
   width: 30px;
   height: 20px;
-  margin-top: 12px;
+  margin-top: 10px;
   margin-right: 5px;
 }
 .menu-click span {
@@ -12363,8 +12360,6 @@ label.error {
 
 .menu-title {
   background-color: #fff;
-}
-.menu-title #main-menu {
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -12384,9 +12379,6 @@ label.error {
   width: 20px;
 }
 
-.soical-icon-font {
-  padding: 15px 0;
-}
 .soical-icon-font li {
   padding-left: 8px;
   padding-right: 8px;
@@ -12986,12 +12978,11 @@ label.error {
 }
 .blog-post.style-four .entry-meta-content {
   padding: 18px 25px 20px 25px;
-  margin-left: 200px;
-  margin-right: 80px;
   position: absolute;
   bottom: -24%;
   background-color: #fff;
   min-width: 640px;
+  width: 100%;
   -webkit-box-shadow: 2px 2px 21px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 2px 2px 21px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 2px 2px 21px 2px rgba(0, 0, 0, 0.1);
@@ -14136,7 +14127,7 @@ label.error {
 }
 .form-field label {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 16px;
   font-weight: 800;
   letter-spacing: -0.2px;
@@ -14156,7 +14147,7 @@ label.error {
   width: 100%;
   border: none;
   margin-top: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 16px;
   color: #999;
   outline: none;
@@ -14167,7 +14158,18 @@ label.error {
   width: 100%;
   border: none;
   margin-top: 8px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #999;
+  outline: none;
+}
+.form-field input[type=email] {
+  margin-top: 0;
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 8px;
+  font-family: "Jost", sans-serif;
   font-size: 16px;
   color: #999;
   outline: none;
@@ -16300,11 +16302,6 @@ button.lar {
     padding: 13px 0 !important;
   }
 
-  .blog-post.style-four .entry-meta-content {
-    margin-left: 100px;
-    margin-right: 50px;
-  }
-
   .blog-post.style-four .entry-title {
     font-size: 24px;
     line-height: 30px;
@@ -16557,7 +16554,7 @@ button.lar {
   }
 
   .logo img {
-    width: 50px;
+    width: 95px;
   }
 
   .dots:before {
@@ -16759,7 +16756,6 @@ button.lar {
   }
 
   .blog-post.style-four .entry-meta-content {
-    width: 80%;
     min-width: auto;
   }
 
@@ -16880,10 +16876,6 @@ button.lar {
 
   .overlay-image .entry-media:after {
     display: none;
-  }
-
-  .menu-title {
-    padding-bottom: 10px;
   }
 
   .menu-title .text-center {
@@ -17055,10 +17047,6 @@ button.lar {
     margin: 44px 0 0;
   }
 
-  form .button-4 {
-    margin-top: 44px;
-  }
-
   .pad-left-90.pad-right-90 {
     padding-left: 20px;
     padding-right: 20px;
@@ -17194,8 +17182,6 @@ button.lar {
   .blog-post.style-four .entry-meta-content {
     width: 85%;
     min-width: auto;
-    margin-left: 50px;
-    margin-right: 25px;
     bottom: -40%;
   }
 
@@ -17549,8 +17535,6 @@ button.lar {
 
   .blog-post.style-four .entry-meta-content {
     width: 90%;
-    margin-left: 8%;
-    margin-right: 2%;
     bottom: auto;
     top: 60%;
     padding: 10px 20px 15px 17px;
@@ -17819,3 +17803,16 @@ button.lar {
 }
 
 /*# sourceMappingURL=style.css.map */
+.g-recaptcha > div {
+  margin: 0 auto;
+}
+.center {
+  margin: 0 auto;
+}
+
+/* Custom */
+.episode-image {
+  object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+}
