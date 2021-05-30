@@ -4,52 +4,44 @@ layout: default
 
 <!-- Blog Detail Start -->
 
-<div class="content">
+<section class="single-post pad-50">
 	<div class="container">
 		<div class="row">
-			<div class="col-project-name col-12 my-4 text-center">
-				<h1>{{page.title}}</h1>
-				<div class="social-list social-list-detail">
-					{% if page.facebook %}
-						<a href="https://www.facebook.com/{{ page.facebook }}" class="icon ion-social-facebook"></a>
-					{% endif %}
-					{% if page.twitter %}
-						<a href="https://twitter.com/{{ page.twitter }}" class="icon ion-social-twitter"></a>
-					{% endif %}
-					{% if page.linkedin %}
-						<a href="https://www.linkedin.com/{{ page.linkedin }}" class="icon ion-social-linkedin"></a>
-					{% endif %}
-					{% if page.instagram %}
-						<a href="https://www.instagram.com/{{ page.instagram }}" class="icon ion-social-instagram"></a>
-					{% endif %}
+			<div class="col-lg-8 offset-lg-2">
+				<div class="entry-header text-left">
+					<h4 class="entry-meta style2">Episode {{ page.order }} <span></span> 23 december 2018</h4>
+					<h1 class="entry-title">{{ page.title }}</h1>
+					<h5>{{ page.description }}</h5>
 				</div>
 			</div>
-			<div class="col-project-info col-12 text-center">
-				<div class="row">
-					<div class="col-6 pt-4">
-						<h5>Category</h5>
-						<p>{{ page.category }}</p>
-					</div>
-					<div class="col-6 pt-4">
-						<h5>Year</h5>
-						<p>{{ page.date_start | date: "%b %Y"}} - {% if page.date_finish %} {{ page.date_finish | date: "%b %Y"}} {% else %} Present {% endif %}</p>
-					</div>
+			<div class="col-lg-12">	
+				<div class="entry-media">
+					<img src="/assets/images/{{ page.banner_image }}" alt="post-image">
+				</div>
+			</div>
+			<div class="col-lg-8 offset-lg-2 ">
+				<div class="entry-content">
+					{{ content }}
+				</div>
+				<div class="entry-share-div">
+					<h5>Share :</h5>
+					<ul class="social-text light list-inline">
+						<li class="list-inline-item"><a class="text-facebook" href="#">facebook</a></li>
+						<li class="list-inline-item"><a class="text-twiiter" href="#">Twitter</a></li>
+						<li class="list-inline-item"><a class="text-linkedin" href="#">Linkedin</a></li>
+						<li class="list-inline-item"><a class="text-instagram" href="#">Instagram</a></li>
+					</ul>
+				</div>
+				<div class="entry-share-div">
+					<h5>Tag :</h5>
+					<ul class="taglist list-inline">
+						<li class="list-inline-item"><a class="text-facebook" href="#">Travel</a></li>
+						<li class="list-inline-item"><a class="text-twiiter" href="#">Design</a></li>
+						<li class="list-inline-item"><a class="text-linkedin" href="#">Beauty</a></li>
+						
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container text-center my-4">
-		<div class="row">
-			<div class="col">
-				<a href="/projects.html" class="blog-nav">
-					<span>Projects</span>
-				</a>
-				<span> / {{ page.title }}</span>
-			</div>
-		</div>
-	</div>
-	<img alt="" class="image-holder image-header wow fadeIn" src="/assets/images/{{page.banner_image}}">
-	<div class="container my-5">
-		{{content}}
-	</div>
-</div>
+</section>
