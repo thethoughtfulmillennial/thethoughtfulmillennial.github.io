@@ -1,51 +1,114 @@
 ---
 layout: default
 ---
-<!-- top header -->
-<section class="top-header style-seven pad-top-150 pad-bottom-150 bg-pattern-2 mt-0">
+<header class="edica-header edica-landing-header">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-xl-8 offset-xl-2 text-center">
-				<h1 class="has-animation" data-delay="10">The thoughtful millennial</h1>
-				<p class="has-animation" data-delay="20">The weekly podcast where we reflect on our rapidly evolving
-					attitudes to discuss the contradictions, challenges and little-wins in our struggle to becoming more
-					sustainable humans.</p>
-				<ul class="social-text light list-inline has-animation" data-delay="30">
-					<li class="list-inline-item"><a href="https://open.spotify.com/show/1q7rBGWTg5me9BbnxztgdP" target="_blank">Spotify</a></li>
-					<li class="list-inline-item"><a href="https://anchor.fm/thethoughtfulmillennial" target="_blank">Anchor</a></li>
-					<li class="list-inline-item"><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81OTdkMmNkNC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcasts</a></li>
-					<li class="list-inline-item"><a href="https://www.breaker.audio/the-thoughtful-millennial" target="_blank">Breaker</a></li>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="Edica"></a>
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#edicaMainNav"
+				aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="edicaMainNav">
+				<ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="blogDropdown" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">Blog</a>
+						<div class="dropdown-menu" aria-labelledby="blogDropdown">
+							<a class="dropdown-item" href="blog.html">Blog Archive</a>
+							<a class="dropdown-item" href="blog-single.html">Blog Post</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">Pages</a>
+						<div class="dropdown-menu" aria-labelledby="pagesDropdown">
+							<a class="dropdown-item" href="404.html">404</a>
+							<a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
 				</ul>
+				<ul class="navbar-nav mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#"><span
+								class="flag-icon flag-icon-squared rounded-circle flag-icon-gb"></span> Eng</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Download</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="edica-landing-header-content">
+			<div id="edicaLandingHeaderCarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-md-6 carousel-content-wrapper">
+								<h1>Get Started Power social proof for your brands.</h1>
+								<p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy
+									of his En Marche! movement.</p>
+								<div class="carousel-content-btns">
+									<a href="#!" class="btn btn-primary"> <i class="fab fa-apple mr-2"></i> App
+										Store</a>
+									<a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i> Google
+										Play</a>
+								</div>
+							</div>
+							<div class="col-md-6 carousel-img-wrapper">
+								<img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid"
+									width="350px">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</section>
-<!-- top header -->
-
-<section class="blog-post style-four pad-75">
+</header>
+<section class="edica-landing-section edica-landing-blog-posts">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-10">
-				{% for episode in site.episodes %}
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="/assets/images/{{ episode.banner_image }}" alt="post-image" class="episode-image">
-					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="{{ site.url }}{{ episode.url }}">{{ episode.title }}</a></h2>
-						<span class="entry-meta">Food, Lifestyle <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="{{ site.url }}{{ episode.url }}" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="ri-facebook-line"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="ri-twitter-line"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="ri-linkedin-line"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
-						</div>
-					</div>
-				</article>
-				{% endfor %}
+		<h4 class="edica-landing-section-subtitle" data-aos="fade-up">Blog posts</h4>
+		<h2 class="edica-landing-section-title" data-aos="fade-up">Check our app latest blog post <br> for more update.
+		</h2>
+		<div class="row">
+			{% for episode in site.episodes %}
+			<div class="col-md-12 mb-4">
+				<div class="blog-post-card blog-post-1 mb-4 mb-md-0" data-aos="fade-right">
+					<p class="post-category">Episode</p>
+					<h2 class="post-title">{{ episode.title }}</h2>
+					<a href="{{ site.url }}{{ episode.url }}" class="post-link">Listen</a>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<section class="edica-landing-section edica-landing-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6" data-aos="fade-up-right">
+				<h4 class="edica-landing-section-subtitle-alt">ABOUT US</h4>
+				<h2 class="edica-landing-section-title">1000+ customer using Our application.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incididunt ut labore
+					aliqua. Ut enim que minim veniam, quis nostrud exercitation.</p>
+				<ul class="landing-about-list">
+					<li>Powerful and flexible theme</li>
+					<li>Simple, transparent pricing</li>
+					<li>Build tools and full documention</li>
+				</ul>
+			</div>
+			<div class="col-md-6" data-aos="fade-up-left">
+				<img src="assets/images/phone-copy.png" width="468px" alt="about" class="img-fluid">
 			</div>
 		</div>
 	</div>
