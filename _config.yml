@@ -39,7 +39,7 @@ collections:
   episodes:
     output: true
     sort_by: order
-    permalink: /episodes/:order/:name
+    permalink: /episodes/:name
 
 gems:
   - jekyll-paginate
