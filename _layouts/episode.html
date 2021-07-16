@@ -2,46 +2,19 @@
 layout: default
 ---
 
-<!-- Blog Detail Start -->
-
-<section class="single-post pad-50">
+<div class="blog-post">
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 offset-lg-2">
-				<div class="entry-header text-left">
-					<h4 class="entry-meta style2">Episode {{ page.order }} <span></span> 23 december 2018</h4>
-					<h1 class="entry-title">{{ page.title }}</h1>
-					<h5>{{ page.description }}</h5>
-				</div>
-			</div>
-			<div class="col-lg-12">	
-				<div class="entry-media">
-					<img src="/assets/images/{{ page.banner_image }}" alt="post-image">
-				</div>
-			</div>
-			<div class="col-lg-8 offset-lg-2 ">
-				<div class="entry-content">
+		<h1 class="edica-page-title" data-aos="fade-up">{{ page.title }}</h1>
+		<p class="edica-blog-post-meta" data-aos="fade-up" data-aos-delay="200">Written by Richard Searls• February 1, 2019• 6:31 pm• Featured • 4 Comments</p>
+		<section class="blog-post-featured-img" data-aos="fade-up" data-aos-delay="300">
+			<img src="/assets/images/{{ page.banner_image }}" alt="featured image" class="w-100">
+		</section>
+		<section class="post-content">
+			<div class="row">
+				<div class="col-lg-9 mx-auto" data-aos="fade-up">
 					{{ content }}
 				</div>
-				<div class="entry-share-div">
-					<h5>Share :</h5>
-					<ul class="social-text light list-inline">
-						<li class="list-inline-item"><a class="text-facebook" href="#">facebook</a></li>
-						<li class="list-inline-item"><a class="text-twiiter" href="#">Twitter</a></li>
-						<li class="list-inline-item"><a class="text-linkedin" href="#">Linkedin</a></li>
-						<li class="list-inline-item"><a class="text-instagram" href="#">Instagram</a></li>
-					</ul>
-				</div>
-				<div class="entry-share-div">
-					<h5>Tag :</h5>
-					<ul class="taglist list-inline">
-						<li class="list-inline-item"><a class="text-facebook" href="#">Travel</a></li>
-						<li class="list-inline-item"><a class="text-twiiter" href="#">Design</a></li>
-						<li class="list-inline-item"><a class="text-linkedin" href="#">Beauty</a></li>
-						
-					</ul>
-				</div>
 			</div>
-		</div>
+		</section>
 	</div>
-</section>
+</div>
