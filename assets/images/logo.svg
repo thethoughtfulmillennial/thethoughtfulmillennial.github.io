@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="27.346241mm"
-   height="10.583333mm"
-   viewBox="0 0 27.346241 10.583333"
+   width="20.509682mm"
+   height="7.9375mm"
+   viewBox="0 0 20.509682 7.9375"
    version="1.1"
    id="svg8"
    sodipodi:docname="logo.svg"
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="14.493338"
+     inkscape:cx="-27.428001"
      inkscape:cy="29.138865"
      inkscape:document-units="mm"
      inkscape:current-layer="g902"
@@ -36,9 +36,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1051"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="330"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -56,7 +56,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(793.59994,-94.026228)">
+     transform="translate(793.59994,-96.672061)">
     <g
        id="g902"
        transform="matrix(0.41822103,0,0,0.41822103,-461.69976,60.859643)">
@@ -64,14 +64,14 @@
          inkscape:export-ydpi="693.52002"
          inkscape:export-xdpi="693.52002"
          id="path908"
-         d="m -735.81177,81.711146 a 2.2203591,2.2203591 0 0 1 2.22406,-2.221842 h 2.96542 c 1.22806,0 2.22406,0.998975 2.22406,2.221842 v 4.450357 h -5.18948 c -1.22806,0 -2.22406,-0.998976 -2.22406,-2.221844 z m 6.6722,3.709001 v -3.709001 a 1.4841933,1.4841933 0 0 0 -1.48272,-1.480488 h -2.96542 a 1.4790038,1.4790038 0 0 0 -1.48272,1.480488 v 2.228513 a 1.4841933,1.4841933 0 0 0 1.48272,1.480488 z m -2.22406,-2.965422 h 0.74134 v 0.741356 h -0.74134 z m -2.22408,0 h 0.74136 v 0.741356 h -0.74136 z"
+         d="m -750.25881,87.435749 a 1.6652693,1.6652693 0 0 1 1.66805,-1.666381 h 2.22406 c 0.92105,0 1.66805,0.749231 1.66805,1.666381 v 3.337768 h -3.89211 c -0.92105,0 -1.66805,-0.749232 -1.66805,-1.666383 z m 5.00415,2.781751 v -2.781751 a 1.113145,1.113145 0 0 0 -1.11204,-1.110366 h -2.22406 a 1.1092529,1.1092529 0 0 0 -1.11204,1.110366 v 1.671385 a 1.113145,1.113145 0 0 0 1.11204,1.110366 z m -1.66804,-2.224067 h 0.556 v 0.556017 h -0.556 z m -1.66806,0 h 0.55602 v 0.556017 h -0.55602 z"
          inkscape:connector-curvature="0"
-         style="fill:#01688e;fill-opacity:1;stroke:#01688e;stroke-width:0.37067765;stroke-opacity:1" />
+         style="fill:#01688e;fill-opacity:1;stroke:#01688e;stroke-width:0.27800825;stroke-opacity:1" />
       <g
          aria-label="THOUGHTFUL"
          style="font-style:normal;font-weight:normal;font-size:12.62884617px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#01688e;fill-opacity:1;stroke:none;stroke-width:0.31572118"
          id="text843"
-         transform="matrix(0.79999997,0,0,0.79999997,-158.72001,20.921915)">
+         transform="matrix(0.59999999,0,0,0.59999999,-317.43998,41.843825)">
         <path
            d="m -787.13394,84.406516 v 1.42706 h -2.34896 v 7.387875 h -1.76804 v -7.387875 h -2.34897 v -1.42706 z"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#01688e;fill-opacity:1;stroke-width:0.31572118"
@@ -127,7 +127,7 @@
          aria-label="THE"
          style="font-style:normal;font-weight:normal;font-size:12.62884617px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#01688e;fill-opacity:1;stroke:none;stroke-width:0.31572118"
          id="text843-3"
-         transform="matrix(0.8888889,0,0,0.8888889,-88.177758,11.623283)">
+         transform="matrix(0.66666668,0,0,0.66666668,-264.53329,34.869851)">
         <path
            d="m -787.78054,76.336635 v 1.284354 h -2.11406 v 6.649087 h -1.59124 v -6.649087 h -2.11407 v -1.284354 z"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#01688e;fill-opacity:1;stroke-width:0.28414905"
@@ -148,7 +148,7 @@
          aria-label="MILLENNIAL"
          style="font-style:normal;font-weight:normal;font-size:12.62884617px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#01688e;fill-opacity:1;stroke:none;stroke-width:0.31572118"
          id="text843-35"
-         transform="matrix(0.79999997,0,0,0.79999997,-158.72001,20.921915)">
+         transform="matrix(0.59999999,0,0,0.59999999,-317.43998,41.843825)">
         <path
            d="m -783.98937,95.794623 v 8.814937 h -1.76804 v -5.733498 l -2.36159,5.733498 h -1.33866 l -2.37422,-5.733498 v 5.733498 h -1.76804 v -8.814937 h 2.00798 l 2.80361,6.554367 2.8036,-6.554367 z"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Semi-Bold';fill:#01688e;fill-opacity:1;stroke-width:0.31572118"
