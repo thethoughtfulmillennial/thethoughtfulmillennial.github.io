@@ -1,75 +1,93 @@
 ---
 layout: default
 ---
-<header class="edica-header edica-landing-header">
+<header class="foi-header landing-header">
 	<div class="container">
-		<div class="edica-landing-header-content">
-			<div id="edicaLandingHeaderCarousel" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active">
-						<div class="row">
-							<div class="col-md-6 carousel-content-wrapper">
-								<h1>The thoughtful millennial</h1>
-								<p>The podcast where we reflect on our rapidly evolving attitudes on everything from
-									mental health to how to become a more sustainable human.</p>
-								<div class="carousel-content-btns">
-									<a href="https://open.spotify.com/show/1q7rBGWTg5me9BbnxztgdP"
-										class="btn btn-primary" target="_blank"> <i class="fab fa-apple mr-2"></i>
-										Spotify</a>
-									<a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81OTdkMmNkNC9wb2RjYXN0L3Jzcw=="
-										class="btn btn-primary" target="_blank"> <i class="fab fa-android mr-2"></i>
-										Google Podcasts</a>
-									<a href="https://www.breaker.audio/the-thoughtful-millennial"
-										class="btn btn-primary" target="_blank"> <i class="fab fa-android mr-2"></i>
-										Breaker</a>
-									<a href="https://anchor.fm/s/597d2cd4/podcast/rss" class="btn btn-primary"
-										target="_blank"> <i class="fab fa-android mr-2"></i> RSS</a>
-								</div>
-							</div>
-							<div class="col-md-6 carousel-img-wrapper">
-								<img src="assets/images/Slider_1.png" alt="carousel-img" class="img-fluid">
-							</div>
-						</div>
+		<nav class="navbar navbar-expand-lg navbar-light foi-navbar">
+			<a class="navbar-brand" href="index.html">
+				<img src="/assets/images/logo.svg" alt="FOI">
+			</a>
+			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+				data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavId">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/start.html">Start</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/episodes.html">Episodes</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav mt-2 mt-lg-0">
+					<li class="nav-item mr-2 mb-3 mb-lg-0">
+						<a class="btn btn-secondary" href="register.html">Listen</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="header-content">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>The Thoughtful Millennial</h1>
+					<p class="text-dark">The podcast where we reflect on our rapidly evolving attitudes on
+						everything from mental health to how to become a more sustainable human.</p>
+					<div class="my-2">
+						<p class="header-app-download-title">LISTEN HERE</p>
 					</div>
+					<div>
+						<a class="btn btn-app-download mr-2" href="#" target="_blank"><img src="/assets/images/spotify-1.svg"
+								alt="Spotify"></a>
+						<a class="btn btn-app-download" href="#" target="_blank"><img src="/assets/images/google-podcasts.svg"
+								alt="Google Podcasts"></a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="/assets/images/app_1.png" alt="app" width="388px" class="img-fluid">
 				</div>
 			</div>
 		</div>
 	</div>
 </header>
-<section class="edica-landing-section edica-landing-blog-posts">
+<section class="py-5 mb-5 page-blog">
 	<div class="container">
-		<h4 class="edica-landing-section-subtitle" data-aos="fade-up">Blog posts</h4>
-		<h2 class="edica-landing-section-title" data-aos="fade-up">Check our app latest blog post <br> for more update.
-		</h2>
+		<h2 class="section-title">Latest episodes</h2>
 		<div class="row">
-			{% for episode in site.episodes %}
-			<div class="col-md-12 mb-4">
-				<div class="blog-post-card blog-post-1 mb-4 mb-md-0" data-aos="fade-right">
-					<p class="post-category">Episode</p>
-					<h2 class="post-title">{{ episode.title }}</h2>
-					<a href="{{ site.url }}{{ episode.url }}" class="post-link">Listen</a>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
-</section>
-<section class="edica-landing-section edica-landing-about">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6" data-aos="fade-up-right">
-				<h4 class="edica-landing-section-subtitle-alt">ABOUT US</h4>
-				<h2 class="edica-landing-section-title">1000+ customer using Our application.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipng elit, sed do eiusmod tempor incididunt ut labore
-					aliqua. Ut enim que minim veniam, quis nostrud exercitation.</p>
-				<ul class="landing-about-list">
-					<li>Powerful and flexible theme</li>
-					<li>Simple, transparent pricing</li>
-					<li>Build tools and full documention</li>
-				</ul>
-			</div>
-			<div class="col-md-6" data-aos="fade-up-left">
-				<img src="assets/images/phone-copy.png" width="468px" alt="about" class="img-fluid">
+			<div class="col-lg-10 offset-lg-1">
+				<section class="foi-page-section pt-0">
+					<div class="row">
+						{% for episode in site.episodes %}
+						<div class="col-12">
+							<a href="{{ site.url }}{{ episode.url }}">
+								<article class="blog-post media">
+									<div class="blog-post-thumbnail-wrapper">
+										<img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
+										<span class="blog-post-badge">Episode</span>
+									</div>
+									<div class="media-body">
+										<p class="blog-post-date">{{ episode.date | date: "%B %-d, %Y" }}</p>
+										<h5 class="blog-post-title">{{ episode.title }}</h5>
+										<p class="blog-post-excerpt">All the basics for businesses that are just getting
+											started.</p>
+									</div>
+								</article>
+							</a>
+						</div>
+						{% endfor %}
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="text-center">
+								<a href="/episodes.html" class="load-more-link">See More</a>
+							</p>
+						</div>
+					</div>
+				</section>
 			</div>
 		</div>
 	</div>
