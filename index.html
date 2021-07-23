@@ -41,10 +41,13 @@ layout: default
 						<p class="header-app-download-title">LISTEN HERE</p>
 					</div>
 					<div>
-						<a class="btn btn-app-download" href="#" target="_blank"><img src="/assets/images/spotify-1.svg"
-								alt="Spotify"> Spotify</a>
-						<a class="btn btn-app-download" href="#" target="_blank"><img src="/assets/images/google-podcasts.svg"
-								alt="Google Podcasts"> Google Podcasts</a>
+						<a class="btn btn-app-download" href="https://open.spotify.com/show/1q7rBGWTg5me9BbnxztgdP"
+							target="_blank"><img src="/assets/images/spotify-1.svg" alt="Spotify" class="mr-2">
+							Spotify</a>
+						<a class="btn btn-app-download"
+							href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy81OTdkMmNkNC9wb2RjYXN0L3Jzcw=="
+							target="_blank"><img src="/assets/images/google-podcasts.svg" alt="Google Podcasts"
+								class="mr-2"> Google Podcasts</a>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -63,10 +66,11 @@ layout: default
 					<div class="row">
 						{% for episode in site.episodes %}
 						<div class="col-12">
-							<a href="{{ site.url }}{{ episode.url }}">
+							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
 								<article class="blog-post media">
 									<div class="blog-post-thumbnail-wrapper">
-										<img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
+										<img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px"
+											class="blog-post-thumbnail mr-md-3">
 										<span class="blog-post-badge">Episode</span>
 									</div>
 									<div class="media-body">
