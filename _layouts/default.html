@@ -73,25 +73,27 @@
                         <div class="row">
                             {% for episode in site.episodes %}
                             <div class="col-12">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Episode</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">{{ episode.title }}</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting
-                                            started.</p>
-                                    </div>
-                                </article>
+                                <a href="{{ site.url }}{{ episode.url }}">
+                                    <article class="blog-post media">
+                                        <div class="blog-post-thumbnail-wrapper">
+                                            <img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
+                                            <span class="blog-post-badge">Episode</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="blog-post-date">{{ episode.date | date: "%B %-d, %Y" }}</p>
+                                            <h5 class="blog-post-title">{{ episode.title }}</h5>
+                                            <p class="blog-post-excerpt">All the basics for businesses that are just getting
+                                                started.</p>
+                                        </div>
+                                    </article>
+                                </a>
                             </div>
                             {% endfor %}
                         </div>
                         <div class="row">
                             <div class="col-12">
                                 <p class="text-center">
-                                    <a href="#!" class="load-more-link">Load More</a>
+                                    <a href="/episodes.html" class="load-more-link">See More</a>
                                 </p>
                             </div>
                         </div>
