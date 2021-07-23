@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1445px"
+   height="621px"
+   viewBox="0 0 1445 621"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="Footer_bg.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.22214533"
+     inkscape:cx="722.5"
+     inkscape:cy="310.5"
+     inkscape:window-x="0"
+     inkscape:window-y="330"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title2">Footer_bg</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Symbols"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#01688e;fill-opacity:1">
+    <g
+       id="Footer"
+       transform="translate(0.000000, -39.000000)"
+       fill="#6206A8"
+       style="fill:#01688e;fill-opacity:1">
+      <path
+         d="M0,84.3254818 C243,32.4418273 483,25.1666667 720,62.5 C957,99.8333333 1198.66667,107.108494 1445,84.3254818 L1445,660 L0,660 L0,84.3254818 Z"
+         id="Footer_bg"
+         style="fill:#01688e;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

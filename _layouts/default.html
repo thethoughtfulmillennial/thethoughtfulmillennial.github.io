@@ -17,7 +17,9 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="/assets/images/logo.svg" alt="FOI">
                 </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -46,14 +48,17 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h1>The Thoughtful Millennial</h1>
-                        <p class="text-dark">The podcast where we reflect on our rapidly evolving attitudes on everything from mental health to how to become a more sustainable human.</p>
+                        <p class="text-dark">The podcast where we reflect on our rapidly evolving attitudes on
+                            everything from mental health to how to become a more sustainable human.</p>
                         <button class="btn btn-primary mb-4">Get Started</button>
                         <div class="my-2">
                             <p class="header-app-download-title">GET OUR MOBILE APP</p>
                         </div>
                         <div>
-                            <button class="btn btn-app-download mr-2"><img src="/assets/images/ios.svg" alt="App store"></button>
-                            <button class="btn btn-app-download"><img src="/assets/images/android.svg" alt="play store"></button>
+                            <button class="btn btn-app-download mr-2"><img src="/assets/images/ios.svg"
+                                    alt="App store"></button>
+                            <button class="btn btn-app-download"><img src="/assets/images/android.svg"
+                                    alt="play store"></button>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -63,151 +68,29 @@
             </div>
         </div>
     </header>
-    <section class="py-5 mb-5">
+    <section class="py-5 mb-5 page-blog">
         <div class="container">
+            <h2 class="section-title">Application Features</h2>
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <section class="page-header">
-                        <h1>Blog Profile</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb foi-breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Blog Profile</li>
-                            </ol>
-                        </nav>
-                    </section>
                     <section class="foi-page-section pt-0">
                         <div class="row">
-                            <div class="col-md-6">
+                            {% for episode in site.episodes %}
+                            <div class="col-12">
                                 <article class="blog-post media">
                                     <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_10.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
+                                        <img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
+                                        <span class="blog-post-badge">Episode</span>
                                     </div>
                                     <div class="media-body">
                                         <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
+                                        <h5 class="blog-post-title">{{ episode.title }}</h5>
+                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting
+                                            started.</p>
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_9.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_8.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_7.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_6.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_5.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_4.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_3.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_2.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="col-md-6">
-                                <article class="blog-post media">
-                                    <div class="blog-post-thumbnail-wrapper">
-                                        <img src="assets/images/blog_1.jpg" alt="blog" width="155px" class="blog-post-thumbnail mr-md-3">
-                                        <span class="blog-post-badge">Trending</span>
-                                    </div>
-                                    <div class="media-body">
-                                        <p class="blog-post-date">02 APR 2020</p>
-                                        <h5 class="blog-post-title">Whether you have questions or you would</h5>
-                                        <p class="blog-post-excerpt">All the basics for businesses that are just getting started.</p>
-                                    </div>
-                                </article>
-                            </div>
+                            {% endfor %}
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -238,8 +121,10 @@
                     </div>
                     <p class="font-os font-weight-semibold mb3">Get our mobile app</p>
                     <div>
-                        <button class="btn btn-app-download mr-2"><img src="/assets/images/ios.svg" alt="App store"></button>
-                        <button class="btn btn-app-download"><img src="/assets/images/android.svg" alt="play store"></button>
+                        <button class="btn btn-app-download mr-2"><img src="/assets/images/ios.svg"
+                                alt="App store"></button>
+                        <button class="btn btn-app-download"><img src="/assets/images/android.svg"
+                                alt="play store"></button>
                     </div>
                 </div>
                 <div class="col-md-3 mt-3 mt-md-0">
@@ -273,7 +158,8 @@
                                 <a href="#!" class="nav-link">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#!" class="nav-link">Careers <span class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
+                                <a href="#!" class="nav-link">Careers <span
+                                        class="badge badge-pill badge-secondary ml-3">Hiring</span></a>
                             </li>
                             <li class="nav-item">
                                 <a href="#!" class="nav-link">Blog</a>
@@ -286,7 +172,8 @@
                 </div>
                 <div class="col-md-3 mt-3 mt-md-0">
                     <p>
-                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
+                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com" target="_blank"
+                            rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
                     </p>
                     <p>All rights reserved.</p>
                     <nav class="social-menu">
