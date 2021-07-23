@@ -2,8 +2,8 @@
 layout: episode
 title: "Ep. 002 - The courage of accepting yourself"
 description: "Asking our reasons to keep going"
-banner_image: episodes/202105_001_motivation.jpg
-thumbnail: 202105_001_motivation.jpg
+banner_image: episodes/20210621_002_courage_accepting_yourself.jpg
+thumbnail: 20210621_002_courage_accepting_yourself.jpg
 category: Software
 order: 2
 ---

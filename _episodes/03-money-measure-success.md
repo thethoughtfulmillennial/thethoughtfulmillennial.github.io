@@ -2,8 +2,8 @@
 layout: episode
 title: "Ep. 003 - Money as measure of success"
 description: "Asking our reasons to keep going"
-banner_image: episodes/202105_001_motivation.jpg
-thumbnail: 202105_001_motivation.jpg
+banner_image: episodes/20210704_money_measure_success.jpg
+thumbnail: 20210704_money_measure_success.jpg
 category: Software
 order: 3
 ---

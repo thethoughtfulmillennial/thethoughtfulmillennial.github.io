@@ -2,8 +2,8 @@
 layout: episode
 title: "Ep. 001 - Motivations to keep going"
 description: "Asking our reasons to keep going"
-banner_image: episodes/202105_001_motivation.jpg
-thumbnail: 202105_001_motivation.jpg
+banner_image: episodes/20210613_001_motivation.jpg
+thumbnail: 20210613_001_motivation.jpg
 category: Software
 order: 1
 ---

@@ -2,8 +2,8 @@
 layout: episode
 title: "Ep. 004 - The challenges of using social media"
 description: "Asking our reasons to keep going"
-banner_image: episodes/202105_001_motivation.jpg
-thumbnail: 202105_001_motivation.jpg
+banner_image: episodes/20210713_challenges_social_media.jpg
+thumbnail: 20210713_challenges_social_media.jpg
 category: Software
 order: 4
 ---
