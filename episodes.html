@@ -1,36 +1,51 @@
 ---
 layout: default
 ---
+{% include navigation.html %}
 
-<section class="blog-post style-four pad-75">
+<section class="page-blog">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-sm-12 text-center">
-				<div class="page-title pad-bottom-50">
-					<h1><b>Episodes</b></h1>
-				</div>
-			</div>
-			<div class="col-lg-10">
-				{% for episode in site.episodes %}
-				<article class="has-animation" data-delay="0">
-					<div class="entry-media">
-						<img src="/assets/images/{{ episode.banner_image }}" alt="post-image" class="episode-image">
+		<div class="row">
+			<div class="col-lg-10 offset-lg-1">
+				<section class="page-header">
+					<h1>Episodes</h1>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb foi-breadcrumb">
+							<li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page"><a href="/episodes.html">Episodes</a></li>
+						</ol>
+					</nav>
+				</section>
+				<section class="foi-page-section pt-0">
+					<div class="row">
+						{% for episode in site.episodes %}
+						<div class="col-12">
+							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
+								<article class="blog-post media">
+									<div class="blog-post-thumbnail-wrapper">
+										<img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px"
+											class="blog-post-thumbnail mr-md-3">
+										<span class="blog-post-badge">Episode</span>
+									</div>
+									<div class="media-body">
+										<p class="blog-post-date">{{ episode.date | date: "%B %-d, %Y" }}</p>
+										<h5 class="blog-post-title">{{ episode.title }}</h5>
+										<p class="blog-post-excerpt">All the basics for businesses that are just getting
+											started.</p>
+									</div>
+								</article>
+							</a>
+						</div>
+						{% endfor %}
 					</div>
-					<div class="entry-meta-content">
-						<h2 class="entry-title"><a href="{{ site.url }}{{ episode.url }}">{{ episode.title }}</a></h2>
-						<span class="entry-meta">Food, Lifestyle <span>- </span>August 4, 2017</span>
-						<div class="entry-content-bottom">
-							<a href="{{ site.url }}{{ episode.url }}" class="entry-read-more"><span></span>Read More</a>
-							<ul class="social-share list-inline">
-								<li class="list-inline-item"><a href="#"><i class="ri-facebook-line"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="ri-twitter-line"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="ri-linkedin-line"></i></a></li>
-							</ul>
-							<span class="entry-share">Share</span>
+					<div class="row">
+						<div class="col-12">
+							<p class="text-center">
+								<a href="#!" class="load-more-link">Load More</a>
+							</p>
 						</div>
 					</div>
-				</article>
-				{% endfor %}
+				</section>
 			</div>
 		</div>
 	</div>
