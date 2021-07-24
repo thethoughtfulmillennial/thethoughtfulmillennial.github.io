@@ -18,7 +18,7 @@ layout: default
 				</section>
 				<section class="foi-page-section pt-0">
 					<div class="row">
-						{% for episode in site.episodes %}
+						{% for episode in site.episodes | sort:"order" | reverse %}
 						<div class="col-12">
 							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
 								<article class="blog-post media">
@@ -37,13 +37,6 @@ layout: default
 							</a>
 						</div>
 						{% endfor %}
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<p class="text-center">
-								<a href="#!" class="load-more-link">Load More</a>
-							</p>
-						</div>
 					</div>
 				</section>
 			</div>
