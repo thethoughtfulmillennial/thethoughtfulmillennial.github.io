@@ -64,7 +64,7 @@ layout: default
 			<div class="col-lg-10 offset-lg-1">
 				<section class="foi-page-section pt-0">
 					<div class="row">
-						{% for episode in site.episodes  limit:3 | sort:"order" | reverse %}
+						{% for episode in site.episodes  limit:3 | sort:"order" %}
 						<div class="col-12">
 							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
 								<article class="blog-post media">
