@@ -19,7 +19,7 @@ layout: default
 				<section class="foi-page-section pt-0">
 					<div class="row">
 						{% assign ordered_episodes = site.episodes | sort:"order" | reverse %}
-						{% for episode in ordered_episodes limit:3 %}
+						{% for episode in ordered_episodes %}
 						<div class="col-12">
 							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
 								<article class="blog-post media">
