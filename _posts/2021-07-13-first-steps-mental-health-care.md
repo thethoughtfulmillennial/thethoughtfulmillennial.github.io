@@ -5,7 +5,7 @@ description: "Asking our reasons to keep going"
 date: 2021-07-13
 banner_image: episodes/20210719_first_steps_mental_health_care.jpg
 thumbnail: 20210719_first_steps_mental_health_care.jpg
-category: Software
+category: episodes
 order: 5
 ---
 

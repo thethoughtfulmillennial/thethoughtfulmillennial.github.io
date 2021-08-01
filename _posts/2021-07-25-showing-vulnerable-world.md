@@ -5,7 +5,7 @@ description: "Asking our reasons to keep going"
 date: 2021-07-25
 banner_image: episodes/20210725_show_vulnerable_world.jpg
 thumbnail: 20210725_show_vulnerable_world.jpg
-category: Software
+category: episodes
 order: 5
 ---
 

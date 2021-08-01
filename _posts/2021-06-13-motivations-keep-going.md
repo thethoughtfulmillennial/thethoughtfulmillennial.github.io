@@ -5,7 +5,7 @@ description: "Asking our reasons to keep going"
 date: 2021-06-13
 banner_image: episodes/20210613_001_motivation.jpg
 thumbnail: 20210613_001_motivation.jpg
-category: Software
+category: episodes
 order: 1
 ---
 

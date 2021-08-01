@@ -5,7 +5,7 @@ description: "Asking our reasons to keep going"
 date: 2021-06-21
 banner_image: episodes/20210621_002_courage_accepting_yourself.jpg
 thumbnail: 20210621_002_courage_accepting_yourself.jpg
-category: Software
+category: episodes
 order: 2
 ---
 

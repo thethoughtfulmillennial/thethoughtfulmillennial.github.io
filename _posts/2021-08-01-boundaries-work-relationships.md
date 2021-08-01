@@ -5,7 +5,7 @@ description: "Asking our reasons to keep going"
 date: 2021-08-01
 banner_image: episodes/20210801_boundaries_work_relationships.jpg
 thumbnail: 20210801_boundaries_work_relationships.jpg
-category: Software
+category: episodes
 order: 7
 ---
 

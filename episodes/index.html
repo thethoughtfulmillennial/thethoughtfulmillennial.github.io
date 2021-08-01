@@ -1,0 +1,82 @@
+---
+layout: default
+---
+{% include navigation.html %}
+
+<section class="page-blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 offset-lg-1">
+				<section class="page-header">
+					<h1>Episodes</h1>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb foi-breadcrumb">
+							<li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+							<li class="breadcrumb-item active" aria-current="page"><a href="/episodes/">Episodes</a></li>
+						</ol>
+					</nav>
+				</section>
+				<section class="foi-page-section pt-0">
+					<div class="row">
+						{% for episode in paginator.posts %}
+						<div class="col-12">
+							<a href="{{ site.url }}{{ episode.url }}" class="text-decoration-none">
+								<article class="blog-post media">
+									<div class="blog-post-thumbnail-wrapper">
+										<img src="/assets/images/{{ episode.banner_image }}" alt="blog" width="155px"
+											class="blog-post-thumbnail mr-md-3">
+										<span class="blog-post-badge">Episode</span>
+									</div>
+									<div class="media-body">
+										<p class="blog-post-date">{{ episode.date | date: "%B %-d, %Y" }}</p>
+										<h5 class="blog-post-title">{{ episode.title }}</h5>
+										<p class="blog-post-excerpt">All the basics for businesses that are just getting
+											started.</p>
+									</div>
+								</article>
+							</a>
+						</div>
+						{% endfor %}
+					</div>
+				</section>
+                <div class="section-pagination text-center">
+                    <nav class="d-table mx-auto">
+                        <ul class="pagination">
+                            {% if paginator.previous_page %}
+                                {% if paginator.previous_page == 1 %}
+                                    <li class="page-item"><a class="page-link" href="/episodes">&laquo;</a></a>
+                                {% else %}
+                                    <li class="page-item"><a class="page-link" href="/episodes/{{ paginator.previous_page }}">&laquo;</a></li>
+                                {% endif %}
+                            {% else %}
+                                <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+                            {% endif %}
+                
+                            {% for i in (1..paginator.total_pages) %}
+                                {% if i == 1 %}
+                                    {% if paginator.page == i %}
+                                        <li class="page-item active"><a class="page-link" href="/episodes/">{{ i }}</a></li>
+                                    {% else %}
+                                        <li class="page-item"><a class="page-link" href="/episodes/">{{ i }}</a></li>
+                                    {% endif %}
+                                {% else %}
+                                    {% if paginator.page == i %}
+                                        <li class="page-item active"><a class="page-link" href="#">{{ i }}</a></li>
+                                    {% else %}
+                                        <li class="page-item"><a class="page-link" href="/episodes/{{ i }}">{{ i }}</a></li>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                
+                            {% if paginator.next_page %}
+                                <li class="page-item"><a class="page-link" href="/episodes/{{ paginator.next_page }}">&raquo;</a></li>
+                            {% else %}
+                                <li class="page-item disabled"><a class="page-link" href="#">&raquo;</a></li>
+                            {% endif %}
+                        </ul>
+                    </nav>
+                </div>
+			</div>
+		</div>
+	</div>
+</section>
