@@ -3,8 +3,8 @@ layout: episode
 title: "Ep. 008 - Fear - motivator or demotivator?"
 description: "Asking our reasons to keep going"
 date: 2021-08-09
-banner_image: episodes/20210808_fear_motivator_demotivator.jpg
-thumbnail: 20210808_fear_motivator_demotivator.jpg
+banner_image: episodes/20210809_fear_motivator_demotivator.jpg
+thumbnail: 20210809_fear_motivator_demotivator.jpg
 category: episodes
 order: 8
 ---
